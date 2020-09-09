@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+SYMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SYMP_0000461 #abdominal symptom
+http://purl.obolibrary.org/obo/SYMP_0019182 #behavioral symptom
+http://purl.obolibrary.org/obo/SYMP_0000459 #digestive system symptom
+http://purl.obolibrary.org/obo/SYMP_0000567 #general symptom
+http://purl.obolibrary.org/obo/SYMP_0000387 #head symptom
+http://purl.obolibrary.org/obo/SYMP_0000480 #nervous system symptom
+http://purl.obolibrary.org/obo/SYMP_0000410 #neurological and physiological symptom
+http://purl.obolibrary.org/obo/SYMP_0000473 #nutrition, metabolism, and development symptom
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SYMP_0000462 #symptom
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

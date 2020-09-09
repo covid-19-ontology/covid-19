@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/CMO_import2.owl#"
+     xml:base="http://purl.obolibrary.org/obo/CMO_import2.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/CMO_import2.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/creation_date"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/def -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/def"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOWL#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOWL#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOWL#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOWL#hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000036"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of white blood cells in a specified volume of blood.</obo:def>
+        <oboInOWL:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte count</oboInOWL:hasRelatedSynonym>
+        <oboInOWL:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white corpuscle count</oboInOWL:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000027"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of lymphocytes in a specified volume of blood.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood lymphocyte count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000035">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the blood, it&apos;s contents, cells or other factors contained within the blood.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000035"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A value resulting from the quantification of a morphological or physiological parameter of blood cells, i.e. cells native to the circulation, including those of erythroid, lymphoid, myeloid and monocytic lineages. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cell measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000035"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JSmith</obo:created_by>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-01-09T16:37:31Z</obo:creation_date>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of oxygen bound to hemoglobin in the blood expressed as a percentage of the maximal binding capacity.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen saturation</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

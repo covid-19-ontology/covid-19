@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/GO_module2_import.owl.
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0019016 #obsolete non-segmented viral genome
+http://purl.obolibrary.org/obo/GO_0019018 #obsolete bipartite viral genome
+http://purl.obolibrary.org/obo/GO_0019022 #obsolete RNA viral genome
+http://purl.obolibrary.org/obo/GO_0019024 #obsolete ssRNA viral genome
+http://purl.obolibrary.org/obo/GO_0019025 #obsolete positive sense viral genome
+http://purl.obolibrary.org/obo/GO_0019089 #obsolete transmission of virus
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0016032 #viral process
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

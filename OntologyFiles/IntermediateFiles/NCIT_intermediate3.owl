@@ -1,0 +1,921 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/NCIT_module3.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/NCIT_module3.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:"
+     xmlns:oboInOwl1="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/NCIT_module3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#readOnly -->
+
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl1:hasExactSynonym>DEFINITION</oboInOwl1:hasExactSynonym>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A10 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A10">
+        <obo:IAO_0000115>An association created to allow the source CDRH to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are the contributing source.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A10</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Has CDRH Parent</obo:NCIT_P107>
+        <obo:NCIT_P108>Has_CDRH_Parent</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Has_CDRH_Parent</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Has_CDRH_Parent</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A11 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A11">
+        <obo:IAO_0000115>An association created to allow the source NICHD to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are a contributing source.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A11</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_NICHD_Parent</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Has_NICHD_Parent</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Has_NICHD_Parent</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>code</oboInOwl1:hasExactSynonym>
+        <rdfs:label>code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <oboInOwl1:hasExactSynonym>Semantic_Type</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Semantic_Type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Display Name</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Display_Name</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Display_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Preferred Name</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Preferred Term</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Preferred_Name</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Preferred_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>UMLS_CUI</oboInOwl1:hasExactSynonym>
+        <rdfs:label>UMLS_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>NCI_META_CUI</oboInOwl1:hasExactSynonym>
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P317 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P317">
+        <obo:IAO_0000115>A property used to flag terms that are part of an FDA data standard manual, including Route of Administration, Dosage Form, Package Type and Potency.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P317</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>FDA Table</obo:NCIT_P107>
+        <obo:NCIT_P108>FDA_Table</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>FDA_Table</oboInOwl1:hasExactSynonym>
+        <rdfs:label>FDA_Table</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Contributing_Source</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Contributing_Source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>ALT_DEFINITION</oboInOwl1:hasExactSynonym>
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Legacy Concept Name</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P371 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P371">
+        <obo:IAO_0000115>A property representing a term chosen by NICHD to be used in the representation of the NICHD hierarchy.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P371</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>NICHD_Hierarchy_Term</obo:NCIT_P108>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <oboInOwl1:hasExactSynonym>NICHD_Hierarchy_Term</oboInOwl1:hasExactSynonym>
+        <rdfs:label>NICHD_Hierarchy_Term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P375 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <obo:IAO_0000115>A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P375</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Maps_To</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>Maps_To</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Maps_To</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <oboInOwl1:hasExactSynonym>DesignNote</oboInOwl1:hasExactSynonym>
+        <rdfs:label>DesignNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl1:hasExactSynonym>FULL_SYN</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Synonym with Source Data</oboInOwl1:hasExactSynonym>
+        <rdfs:label>has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl1:hasExactSynonym>Concept_In_Subset</oboInOwl1:hasExactSynonym>
+        <rdfs:label>in subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromBEL -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromBEL"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C116537 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C116537">
+        <obo:IAO_0000115>The administration of fluids, most commonly via an intravenous route, to restore intravascular volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C116537</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Fluid Therapy</obo:NCIT_P107>
+        <obo:NCIT_P108>Fluid Therapy</obo:NCIT_P108>
+        <obo:NCIT_P207>C0016286</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl1:hasExactSynonym>Fluid Therapy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <rdfs:label>Fluid Therapy</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32186952/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12486 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12486">
+        <obo:IAO_0000115>A fully mature B-Cell that produces a specific antibody.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C12486</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P107>Plasma Cell</obo:NCIT_P107>
+        <obo:NCIT_P108>Plasma Cell</obo:NCIT_P108>
+        <obo:NCIT_P207>C0032112</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of immune cell that makes large amounts of a specific antibody. Plasmacytes develop from B cells that have been activated.  A plasmacyte is a type of white blood cell.</obo:NCIT_P325>
+        <obo:NCIT_P366>Plasma_Cell</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Plasma Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Plasma Cells</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Plasmacytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Plasmocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>plasma cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>plasmacyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>plasmacytic</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <rdfs:label>Plasma Cell</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32142773"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12535 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12535">
+        <obo:IAO_0000115>White blood cells formed in the body&apos;s lymphoid tissue. The nucleus is round or ovoid with coarse, irregularly clumped chromatin while the cytoplasm is typically pale blue with azurophilic (if any) granules. Most lymphocytes can be classified as either T or B (with subpopulations of each); those with characteristics of neither major class are called null cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C12535</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P107>Lymphocyte</obo:NCIT_P107>
+        <obo:NCIT_P108>Lymphocyte</obo:NCIT_P108>
+        <obo:NCIT_P207>C0024264</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of immune cell that is made in the bone marrow and is found in the blood and in lymph tissue. The two main types of lymphocytes are B lymphocytes and T lymphocytes. B lymphocytes make antibodies, and T lymphocytes help kill tumor cells and help control immune responses. A lymphocyte is a type of white blood cell.</obo:NCIT_P325>
+        <obo:NCIT_P366>Lymphocyte</obo:NCIT_P366>
+        <obo:NCIT_P375>Lymphocytes</obo:NCIT_P375>
+        <oboInOwl1:hasExactSynonym>Lymph Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Lymphocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <rdfs:label>Lymphocyte</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32142773"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12542 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12542">
+        <obo:IAO_0000115>A subset of T-lymphocytes that express the CD8 surface glycoprotein and bind epitopes that are part of class I histocompatibility molecules. CD8-positive T-lymphocytes include cytotoxic T-lymphocytes and CD8+ suppressor T-lymphocytes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C12542</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P107>CD8-Positive T-Lymphocyte</obo:NCIT_P107>
+        <obo:NCIT_P108>CD8-Positive T-Lymphocyte</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242629</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>CD8_Plus_T-Lymphocyte</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>CD8 Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8 Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8 Lymphocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8+ T Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8+ T Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8+ T Lymphocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8+ T-Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8-Positive Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8-Positive Lymphocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8-Positive T-Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>CD8-Positive T-Lymphocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>T8 Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>T8 Cells</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>T8 Lymphocyte</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>T8 Lymphocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800"/>
+        <rdfs:label>CD8-Positive T-Lymphocyte</rdfs:label>
+        <rdfs:seeAlso>https://www.medrxiv.org/content/10.1101/2020.02.23.20026690v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32167524"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12611 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12611">
+        <obo:IAO_0000115>A type of B lymphocyte that reacts with antigens to produce immune proteins called antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C12611</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P107>Antibody-Producing Cell</obo:NCIT_P107>
+        <obo:NCIT_P108>Antibody-Producing Cell</obo:NCIT_P108>
+        <obo:NCIT_P207>C0003273</obo:NCIT_P207>
+        <obo:NCIT_P366>Antibody_Producing_Cell</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Antibody Producing Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Antibody-Producing Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Antibody-Producing Cells</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Immunoglobulin-Producing Cell</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Immunoglobulin-Producing Cells</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Antibody-Producing Cell</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32284614"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16357 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16357">
+        <obo:IAO_0000115>A laboratory procedure for the detection or identification of proteins or peptides that have been separated by gel electrophoresis and transferred onto nitrocellulose or other type of paper or nylon membrane. The proteins are then detected by reaction with enzymatically labeled or radiolabeled antibody probes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16357</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Western Blotting</obo:NCIT_P107>
+        <obo:NCIT_P108>Western Blotting</obo:NCIT_P108>
+        <obo:NCIT_P207>C0949466</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A method for the detection or identification of proteins or peptides that have been separated by gel electrophoresis and transferred onto nitrocellulose or other type of paper or nylon membrane. The proteins are then detected by reaction with enzymatically labeled or radiolabeled antibody probes.</obo:NCIT_P325>
+        <obo:NCIT_P366>Blotting_Western</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Blotting, Western</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>WESTERN BLOT</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Western Blot</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Western Blotting</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <rdfs:label>Western Blotting</rdfs:label>
+        <rdfs:seeAlso>http://biorxiv.org/lookup/doi/10.1101/2020.03.07.982264</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16748 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16748">
+        <obo:IAO_0000115>Integrins are transmembrane glycoprotein receptors that mediate cell-matrix or cell-cell adhesion, and transduce signals that regulate gene expression and cell growth.  They are heterodimeric molecules consisting of noncovalently linked alpha and beta subunits. Different combinations of alpha and beta polypeptides form complexes that vary in their ligand-binding specificities. Both alpha and beta subunits display a cytoplasmic domain that interacts with the cytoskeleton (and possibly signaling molecules), a transmembrane region, and a large extracellular domain that interacts with the extracellular matrix. (from OMIM 147557)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16748</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Receptor</obo:NCIT_P106>
+        <obo:NCIT_P107>Integrin</obo:NCIT_P107>
+        <obo:NCIT_P108>Integrin</obo:NCIT_P108>
+        <obo:NCIT_P207>C0021701</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>Integrin</obo:NCIT_P366>
+        <obo:NCIT_P366>RGD_Receptor</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Extracellular Matrix, Integrins</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Integrin</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Integrin Receptor</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>RGD Receptor</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800"/>
+        <rdfs:label>Integrin</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32130973"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17741 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17741">
+        <obo:IAO_0000115>A disturbance in the prooxidant-antioxidant balance in favor of the former, leading to potential damage. Indicators of oxidative stress include damaged DNA bases, protein oxidation products, and lipid peroxidation products.  The damage to biological tissues is caused by superoxide and other free radicals generated by many factors, including exposure to alcohol, medications, trauma, cold, toxins, and radiation or by antimicrobial cellular immunity, metabolic abnormality, or &quot;normal&quot; aging; not synonymous with hypoxia or hyperoxia.  Oxidative stress promotes a range of degenerative disorders, including cancer, diabetes, premature aging, Alzheimer&apos;s, and many others.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C17741</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Phenomenon or Process</obo:NCIT_P106>
+        <obo:NCIT_P108>Oxidative Stress</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242606</obo:NCIT_P207>
+        <obo:NCIT_P325>A condition in which antioxidant levels are lower than normal. Antioxidant levels are usually measured in blood plasma.</obo:NCIT_P325>
+        <obo:NCIT_P366>Oxidative_Stress</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Oxidative Stress</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>oxidative stress</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Oxidative Stress</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32221983"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18117 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18117">
+        <obo:IAO_0000115>A quantum optical-electrical phenomena consisting of an alteration in light reflectance as a result of binding of molecules to a surface from which total internal reflection is occurring. Used to detect macromolecular interactions, SPR can be used as the basis for a sensor which is capable of sensitive and quantitative measurement of a broad spectrum of chemical and biological entities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C18117</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Molecular Biology Research Technique</obo:NCIT_P106>
+        <obo:NCIT_P108>Surface Plasmon Resonance</obo:NCIT_P108>
+        <obo:NCIT_P208>CL448910</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A quantum optical-electrical phenomena consisting of an alteration in light reflectance as a result of binding of molecules to a surface from which total internal reflection is occurring.</obo:NCIT_P325>
+        <obo:NCIT_P366>Surface_Plasmon_Resonance</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>SURFACE PLASMON RESONANCE</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Surface Plasmon Resonance</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <rdfs:label>Surface Plasmon Resonance</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.14.988345v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19830 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19830">
+        <obo:IAO_0000115>Co-immunoprecipitation (Co-IP) is a popular technique for protein interaction discovery. In a co-IP the target antigen precipitated by the antibody &quot;co-precipitates&quot; a binding partner/protein complex from a lysate. It is assumed that these proteins are related to the function of the target antigen at the cellular level.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C19830</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Co-Immunoprecipitation</obo:NCIT_P108>
+        <obo:NCIT_P207>C1449705</obo:NCIT_P207>
+        <obo:NCIT_P366>Co-Immunoprecipitation</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Co-Immunoprecipitation</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Co-Immunoprecipitation</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.14.988345v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20493 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20493">
+        <obo:IAO_0000115>Human interferons have been classified into 3 groups: alpha, beta, and gamma. Both alpha- and beta-IFNs, previously designated type I, are acid-stable, but they differ immunologically and in regard to some biologic and physiochemical properties. The IFNs produced by virus-stimulated leukocytes (leukocyte IFNs) are predominantly of the alpha type. Those produced by lymphoblastoid cells are about 90% alpha and 10% beta. Induced fibroblasts produce mainly or exclusively the beta type. The alpha- and beta-IFNs differ widely in amino acid sequence. The gamma or immune IFNs, which are produced by T lymphocytes in response to mitogens or to antigens to which they are sensitized, are acid-labile and serologically distinct from alpha- and beta-IFNs. (from OMIM 147570)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C20493</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <obo:NCIT_P107>Interferon</obo:NCIT_P107>
+        <obo:NCIT_P108>Interferon</obo:NCIT_P108>
+        <obo:NCIT_P207>C0021747</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A biological response modifier (a substance that can improve the body&apos;s natural response to infection and disease). Interferons interfere with the division of cancer cells and can slow tumor growth. There are several types of interferons, including interferon-alpha, -beta, and -gamma. These substances are normally produced by the body. They are also made in the laboratory for use in treating cancer and other diseases.</obo:NCIT_P325>
+        <obo:NCIT_P366>Interferon</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Human Fibroblast Interferon</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Human Leukocyte Interferon</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Human Lymphoblastoid Interferon</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>IFN</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Interferon</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>interferon</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800"/>
+        <rdfs:label>Interferon</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32142938"/>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32196678"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C32055 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C32055">
+        <obo:IAO_0000115>A pleomorphic cell of the pulmonary alveolar epithelium that secretes surfactant and is distinguished by abundant cytoplasm containing numerous lipid-rich multilamellar bodies.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C32055</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P108>Alveolar Cell Type II</obo:NCIT_P108>
+        <obo:NCIT_P207>C0225700</obo:NCIT_P207>
+        <obo:NCIT_P366>Alveolar_Cell_Type_II</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Alveolar Cell Type II</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Type II Pneumocyte</oboInOwl1:hasExactSynonym>
+        <rdfs:label>Alveolar Cell Type II</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32125455"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C35549 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C35549">
+        <obo:IAO_0000115>Ischemic brain damage in which the entire brain is deprived of oxygen. It may be fatal or lead to long term disabilities including developmental delays, intellectual disability, and seizures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26920"/>
+        <obo:NCIT_NHC0>C35549</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Hypoxic Ischemic Encephalopathy</obo:NCIT_P108>
+        <obo:NCIT_P207>C0752304</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>Injury to the central nervous system that occurs when there is insufficient delivery of oxygen to all or part of the brain.</obo:NCIT_P325>
+        <obo:NCIT_P366>Hypoxic_Encephalopathy</obo:NCIT_P366>
+        <obo:NCIT_P371>Hypoxic Ischemic Encephalopathy</obo:NCIT_P371>
+        <oboInOwl1:hasExactSynonym>Anoxic encephalopathy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>HIE</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Hypoxic Ischemic Encephalopathy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118466"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147"/>
+        <rdfs:label>Hypoxic Ischemic Encephalopathy</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32217556"/>
+        <oboInOwl:hasExactSynonym>hypoxic encephalopathy</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C3890 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3890">
+        <obo:IAO_0000115>A decrease in the amount of oxygen in the body. Symptoms range from mild (impaired judgment, memory loss, impaired motor coordination) to severe (seizures and coma).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A10 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54450"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45233"/>
+        <obo:NCIT_NHC0>C3890</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Hypoxia</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242184</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A condition in which there is a decrease in the oxygen supply to a tissue. In cancer treatment, the level of hypoxia in a tumor may help predict the response of the tumor to the treatment.</obo:NCIT_P325>
+        <obo:NCIT_P325>A condition in which there is low oxygen in the tissues.</obo:NCIT_P325>
+        <obo:NCIT_P325>A disorder characterized by a decrease in the level of oxygen in the body.</obo:NCIT_P325>
+        <obo:NCIT_P366>Hypoxia</obo:NCIT_P366>
+        <obo:NCIT_P371>Hypoxia</obo:NCIT_P371>
+        <obo:NCIT_P375>Hypoxia</obo:NCIT_P375>
+        <oboInOwl1:hasExactSynonym>Hypoxia</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Hypoxic</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>hypoxia</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>hypoxic</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147"/>
+        <rdfs:label>Hypoxia</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32203186"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49678 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49678">
+        <obo:IAO_0000115>The rate of breathing (inhalation and exhalation) measured within in a unit time, usually expressed as breaths per minute.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45233"/>
+        <obo:NCIT_NHC0>C49678</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Respiratory Rate</obo:NCIT_P108>
+        <obo:NCIT_P207>C0231832</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>NCPDP</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>The rate of breathing (inhalation and exhalation) measured within in a unit time, usually expressed as breaths per minute. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P366>Respiratory_Rate</obo:NCIT_P366>
+        <obo:NCIT_P371>Respiratory Rate</obo:NCIT_P371>
+        <oboInOwl1:hasExactSynonym>RESP</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>RESPRATE</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Respiratory Rate</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120534"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120535"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66741"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67153"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89415"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C91101"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147"/>
+        <rdfs:label>Respiratory Rate</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32189136/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C50678 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C50678">
+        <obo:IAO_0000115>Obstruction or a closure of hollow organ, passageway or vessel; also the transient approximation of the edges of a natural opening; imperforation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A10 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3284"/>
+        <obo:NCIT_NHC0>C50678</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Occlusion</obo:NCIT_P108>
+        <obo:NCIT_P207>C1947917</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>The act of closure or the state of being closed; an obstruction; the relationship between all of the components of the masticatory system in normal function, dysfunction, and parafunction; momentary complete closure of some area in the vocal tract, causing stoppage of the breath and accumulation of pressure.</obo:NCIT_P325>
+        <obo:NCIT_P366>Occlusion</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Occlusal</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Occlusion</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Occlusive</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596"/>
+        <rdfs:label>Occlusion</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C51946 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C51946">
+        <obo:IAO_0000115>The determination of the number of erythrocytes in a blood sample.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C51946</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Erythrocyte Count</obo:NCIT_P108>
+        <obo:NCIT_P207>C0014772</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the total erythrocytes in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Erythrocyte_Count</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>Erythrocyte Count</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Erythrocytes</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>RBC</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Red Blood Cell Count</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Red Blood Cells</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Red Cell Count</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C65047"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67154"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <rdfs:label>Erythrocyte Count</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32196678"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C79748 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C79748">
+        <obo:IAO_0000115>Any weakening or degeneration, especially through lack of use.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C79748</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pathologic Function</obo:NCIT_P106>
+        <obo:NCIT_P108>Atrophy</obo:NCIT_P108>
+        <obo:NCIT_P207>C0333641</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A decrease in size of organ, tissue or cell. (INHAND)</obo:NCIT_P325>
+        <obo:NCIT_P366>Atrophy</obo:NCIT_P366>
+        <oboInOwl1:hasExactSynonym>ATROPHY</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Atrophy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120531"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <rdfs:label>Atrophy</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85859 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85859">
+        <obo:IAO_0000115>To clear material from the throat or lungs by coughing it up and spitting it out.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C85859</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Expectorate</obo:NCIT_P108>
+        <obo:NCIT_P207>C0566528</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A technique in which material is cleared from the throat or lungs by coughing it up and spitting it out.</obo:NCIT_P325>
+        <oboInOwl1:hasExactSynonym>EXPECTORATION</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>Expectorate</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132314"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl1:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Expectorate</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32186952/"/>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32193831/"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000661 #enzyme-linked immunosorbent assay
+http://purl.obolibrary.org/obo/OBI_0000917 #nasal swab specimen
+http://purl.obolibrary.org/obo/OBI_0000435 #genotyping assay
+http://purl.obolibrary.org/obo/OBI_0001170 #reverse transcription polymerase chain reaction assay
+http://purl.obolibrary.org/obo/OBI_1110054 #autoimmune disease
+http://purl.obolibrary.org/obo/OBI_0000097 #participant under investigation role
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000070 #assay
+subClassOf
+http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

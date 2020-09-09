@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+MP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MP_0003141 #cardiac fibrosis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MP_0002127 #abnormal cardiovascular system morphology
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

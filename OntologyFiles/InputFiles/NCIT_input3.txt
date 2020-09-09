@@ -1,0 +1,42 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/NCIT_module3.owl
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C32055 #Alveolar Cell Type II
+http://purl.obolibrary.org/obo/NCIT_C12535 #Lymphocyte
+http://purl.obolibrary.org/obo/NCIT_C12486 #Plasma Cell
+http://purl.obolibrary.org/obo/NCIT_C20493 #Interferon
+http://purl.obolibrary.org/obo/NCIT_C51949 #Lymphocyte Count
+http://purl.obolibrary.org/obo/NCIT_C51946 #Erythrocyte Count
+http://purl.obolibrary.org/obo/NCIT_C51951 #Platelet Count
+http://purl.obolibrary.org/obo/NCIT_C3890 #Hypoxia
+http://purl.obolibrary.org/obo/NCIT_C567 #IgE
+http://purl.obolibrary.org/obo/NCIT_C129387 #Janus Kinase Family
+http://purl.obolibrary.org/obo/NCIT_C17741 #Oxidative Stress
+http://purl.obolibrary.org/obo/NCIT_C16357 #Western Blotting
+http://purl.obolibrary.org/obo/NCIT_C18117 #Surface Plasmon Resonance
+http://purl.obolibrary.org/obo/NCIT_C19830 #Co-Immunoprecipitation
+http://purl.obolibrary.org/obo/NCIT_C16748 #Integrin
+http://purl.obolibrary.org/obo/NCIT_C12542 #CD8-Positive T-Lymphocyte
+http://purl.obolibrary.org/obo/NCIT_C85859 #Expectorate
+http://purl.obolibrary.org/obo/NCIT_C49678 #Respiratory Rate
+http://purl.obolibrary.org/obo/NCIT_C116537 #Fluid Therapy
+http://purl.obolibrary.org/obo/NCIT_C79748 #Atrophy
+http://purl.obolibrary.org/obo/NCIT_C20426 #Fibroblast Growth Factor
+http://purl.obolibrary.org/obo/NCIT_C50678 #Occlusion
+http://purl.obolibrary.org/obo/NCIT_C35549 #Hypoxic Ischemic Encephalopathy
+http://purl.obolibrary.org/obo/NCIT_C12611 #Antibody-Producing Cell
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

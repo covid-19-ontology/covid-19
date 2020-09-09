@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+MP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MP_0010209 #abnormal circulating chemokine level
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

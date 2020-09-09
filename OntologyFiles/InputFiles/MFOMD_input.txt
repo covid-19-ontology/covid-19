@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+MFOMD
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000083 #physical examination finding
+http://purl.obolibrary.org/obo/OGMS_0000018 #laboratory finding
+http://purl.obolibrary.org/obo/MFOMD_0000024 #pathological mental process
+http://purl.obolibrary.org/obo/MF_0000008 #cognitive process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+subClassOf
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,24 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0000036 #blood cell measurement
+http://purl.obolibrary.org/obo/CMO_0000023 #blood chemistry measurement
+http://purl.obolibrary.org/obo/CMO_0000035 #blood measurement
+http://purl.obolibrary.org/obo/CMO_0000001 #cardiovascular measurement
+http://purl.obolibrary.org/obo/CMO_0000227 #cell measurement
+http://purl.obolibrary.org/obo/CMO_0000294 #pulse
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000000 #clinical measurement
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

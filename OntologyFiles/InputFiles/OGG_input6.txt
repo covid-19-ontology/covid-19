@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_3000005644 #PRSS1
+http://purl.obolibrary.org/obo/OGG_3000006288 #SAA1
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGG_2060009606 #protein-coding gene of Homo sapiens
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

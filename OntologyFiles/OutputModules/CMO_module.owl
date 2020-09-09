@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/CMO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/CMO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/CMO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/creation_date"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/def -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/def"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOWL#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOWL#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000000">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quantitative or qualitative value which is the result of an act of assessing a morphological or physiological state or property in a single individual or sample or a group of individuals or samples, based on direct observation or experimental manipulation.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of contractions of the cardiac ventricles per unit of time.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The average blood pressure within an artery over a specified period of time. It is often calculated using the formula of one third systolic pressure plus two thirds diastolic pressure, or alternatively, using the formula diastolic pressure plus 1/3 of the difference between systolic pressure and  diastolic pressure (i.e. 1/3 pulse pressure).</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean arterial blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000035"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of platelets (thrombocytes) in a specified volume of blood, usually expressed as platelets per cubic millimeter of whole blood.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platelet count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000035">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the blood, it&apos;s contents, cells or other factors contained within the blood.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000035"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mshimoyama</obo:created_by>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-06-10T11:21:04Z</obo:creation_date>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measurement of the clotting ability of fibrinogen, prothrombin, proaccelerin, proconvertin and Stuart factor, usually given in seconds to formation of clot after the addition of a tissue factor or thromboplastin.</obo:def>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prothrombin time</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

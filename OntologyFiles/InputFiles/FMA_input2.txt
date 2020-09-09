@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/FMA_module2.owl
+
+[Source ontology]
+FMA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FMA_62873 #Immunoglobulin M
+http://purl.obolibrary.org/obo/FMA_62872 #Immunoglobulin G
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FMA_62871 #Immunoglobulin
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

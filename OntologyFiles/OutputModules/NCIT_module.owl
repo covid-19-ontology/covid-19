@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/Chemical_NCIT.owl.#"
+     xml:base="http://purl.obolibrary.org/obo/Chemical_NCIT.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/Chemical_NCIT.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#readOnly -->
+
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <rdfs:label>code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <rdfs:label>Semantic_Type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Display_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Preferred_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P175 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P175">
+        <obo:IAO_0000115>A property representing a numeric identifier for substances submitted to the National Cancer Institute (NCI) for testing and evaluation. It is named after the Cancer Chemotherapy National Service Center (CCNSC), created in 1955, which originally ran the testing program and assigned these numbers. The testing program and repository is now run by the NCI Developmental Therapeutics Program (DTP). Assignment of NSC numbers was never done in a way that would guarantee one and only one NSC number would be assigned to a particular substance.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P175</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NSC Number</obo:NCIT_P107>
+        <obo:NCIT_P108>NSC_Number</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NSC_Code</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NSC_Number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NSC_Number_Property</oboInOwl:hasExactSynonym>
+        <rdfs:label>NSC_Code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <rdfs:label>UMLS_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P210 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P210">
+        <obo:IAO_0000115>A property representing the Chemical Abstracts Service number for a Chemical or Drug.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P210</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>CAS Registry Number</obo:NCIT_P107>
+        <obo:NCIT_P108>CAS_Registry</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CAS_Registry</oboInOwl:hasExactSynonym>
+        <rdfs:label>CAS_Registry</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P319 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P319">
+        <obo:IAO_0000115>A property representing the FDA Unique Ingredient Identifier, a key component of the federal drug information model.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P319</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>FDA UNII Code</obo:NCIT_P107>
+        <obo:NCIT_P108>FDA_UNII_Code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>FDA_UNII_Code</oboInOwl:hasExactSynonym>
+        <rdfs:label>FDA_UNII_Code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <rdfs:label>Contributing_Source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P329 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P329">
+        <obo:IAO_0000115>A property representing the identifier used by NCI&apos;s Cancer.gov Web site to retrieve PDQ Clinical Trials data for open trials involving specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only open trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P329</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PDQ Open Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Open_Trial_Search_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PDQ_Open_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>PDQ_Open_Trial_Search_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P330 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P330">
+        <obo:IAO_0000115>A property representing the identifier used by NCI&apos;s Cancer.gov web site to retrieve PDQ Clinical Trials data for closed trials that involved specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only closed trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P330</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PDQ Closed Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Closed_Trial_Search_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PDQ_Closed_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>PDQ_Closed_Trial_Search_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P350 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P350">
+        <obo:IAO_0000115>A property representing a concise expression about the atoms that constitute a particular chemical compound.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P350</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Chemical Formula</obo:NCIT_P107>
+        <obo:NCIT_P108>Chemical_Formula</obo:NCIT_P108>
+        <obo:NCIT_P322>CRCH</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Chemical Formula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chemical_Formula</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chemical_Formula</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P368 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P368">
+        <obo:IAO_0000115>A property representing that a concept in the &apos;Drug, Food, Chemical or Biomedical Material&apos; branch of the NCI thesaurus maps to a specific concept in the EBI Chemical Entities of Biological Interest (CHEBI) database.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P368</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>CHEBI_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CHEBI_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>CHEBI_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <rdfs:label>DesignNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label>has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <rdfs:label>in subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1452 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1452">
+        <obo:IAO_0000115>A low molecular weight, synthetic heparin. As an anticoagulant/antithrombotic agent, enoxaprin&apos;s mechanism of action is similar to that of heparin, although it exhibits a higher ratio of anti-Factor Xa to anti-Factor IIa activity. This agent also has anti-inflammatory properties, inhibiting monocyte adhesion to tumor necrosis factor alpha- or lipopolysaccharide-activated endothelial cells.  Compared to unfractionated heparins, the use of enoxaparin is associated with lower incidences of osteoporosis and heparin-induced thrombocytopenia. (NCI04)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C1452</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Enoxaparin</obo:NCIT_P107>
+        <obo:NCIT_P108>Enoxaparin</obo:NCIT_P108>
+        <obo:NCIT_P175>728167</obo:NCIT_P175>
+        <obo:NCIT_P207>C0206460</obo:NCIT_P207>
+        <obo:NCIT_P210>9005-49-6</obo:NCIT_P210>
+        <obo:NCIT_P319>E47C0NF7LV</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A drug used to prevent blood clots.  It belongs to the family of drugs called anticoagulants.</obo:NCIT_P325>
+        <obo:NCIT_P329>37880</obo:NCIT_P329>
+        <obo:NCIT_P330>37880</obo:NCIT_P330>
+        <obo:NCIT_P350>(C14H18NO11)n.C14H18NO11.C12H17NO12S.(C12H16NO13S)n.C12H15NO13S.Na.H.5HO3S</obo:NCIT_P350>
+        <obo:NCIT_P366>Enoxaparin</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:28304</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>ENOXAPARIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Enoxaparin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>enoxaparin</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Enoxaparin</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,106 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/GO_import5.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0039648 #modulation by virus of host protein ubiquitination
+http://purl.obolibrary.org/obo/GO_0039649 #modulation by virus of host ubiquitin-protein ligase activity
+http://purl.obolibrary.org/obo/GO_0039652 #activation by virus of host NF-kappaB transcription factor activity
+http://purl.obolibrary.org/obo/GO_0039653 #suppression by virus of host transcription
+http://purl.obolibrary.org/obo/GO_0039654 #fusion of virus membrane with host endosome membrane
+http://purl.obolibrary.org/obo/GO_0039656 #modulation by virus of host gene expression
+http://purl.obolibrary.org/obo/GO_0039657 #suppression by virus of host gene expression
+http://purl.obolibrary.org/obo/GO_0039663 #membrane fusion involved in viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0039664 #lysis of host organelle involved in viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0039665 #permeabilization of host organelle membrane involved in viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0039671 #evasion by virus of host natural killer cell activity
+http://purl.obolibrary.org/obo/GO_0039672 #suppression by virus of host natural killer cell activation
+http://purl.obolibrary.org/obo/GO_0039673 #evasion by virus of host dendritic cell activity
+http://purl.obolibrary.org/obo/GO_0039678 #viral genome ejection through host cell envelope
+http://purl.obolibrary.org/obo/GO_0039690 #positive stranded viral RNA replication
+http://purl.obolibrary.org/obo/GO_0039694 #viral RNA genome replication
+http://purl.obolibrary.org/obo/GO_0039696 #RNA-templated viral transcription
+http://purl.obolibrary.org/obo/GO_0039699 #viral mRNA cap methylation
+http://purl.obolibrary.org/obo/GO_0039700 #fusion of viral membrane with host outer nuclear membrane
+http://purl.obolibrary.org/obo/GO_0039701 #microtubule-dependent intracellular transport of viral material towards cell periphery
+http://purl.obolibrary.org/obo/GO_0039708 #nuclear capsid assembly
+http://purl.obolibrary.org/obo/GO_0039709 #cytoplasmic capsid assembly
+http://purl.obolibrary.org/obo/GO_0039722 #suppression by virus of host toll-like receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0039723 #suppression by virus of host TBK1 activity
+http://purl.obolibrary.org/obo/GO_0044009 #viral transmission by vector
+http://purl.obolibrary.org/obo/GO_0044423 #virion part
+http://purl.obolibrary.org/obo/GO_0044659 #cytolysis by virus of host cell
+http://purl.obolibrary.org/obo/GO_0044831 #modulation by virus of host cytokine production
+http://purl.obolibrary.org/obo/GO_0044832 #positive regulation by virus of host cytokine production
+http://purl.obolibrary.org/obo/GO_0046718 #viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0046730 #induction of host immune response by virus
+http://purl.obolibrary.org/obo/GO_0046738 #active induction of innate immune response in host by virus
+http://purl.obolibrary.org/obo/GO_0046740 #transport of virus in host, cell to cell
+http://purl.obolibrary.org/obo/GO_0046741 #transport of virus in host, tissue to tissue
+http://purl.obolibrary.org/obo/GO_0046745 #viral capsid secondary envelopment
+http://purl.obolibrary.org/obo/GO_0046752 #viral capsid precursor transport to host cell nucleus
+http://purl.obolibrary.org/obo/GO_0046753 #non-lytic viral release
+http://purl.obolibrary.org/obo/GO_0046754 #viral exocytosis
+http://purl.obolibrary.org/obo/GO_0046755 #viral budding
+http://purl.obolibrary.org/obo/GO_0046760 #viral budding from Golgi membrane
+http://purl.obolibrary.org/obo/GO_0046761 #viral budding from plasma membrane
+http://purl.obolibrary.org/obo/GO_0046762 #viral budding from ER membrane
+http://purl.obolibrary.org/obo/GO_0046774 #suppression by virus of host intracellular interferon activity
+http://purl.obolibrary.org/obo/GO_0046775 #suppression by virus of host cytokine production
+http://purl.obolibrary.org/obo/GO_0046780 #suppression by virus of host mRNA splicing
+http://purl.obolibrary.org/obo/GO_0046783 #modification by virus of host polysomes
+http://purl.obolibrary.org/obo/GO_0046786 #viral replication complex formation and maintenance
+http://purl.obolibrary.org/obo/GO_0046794 #transport of virus
+http://purl.obolibrary.org/obo/GO_0046813 #receptor-mediated virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0055036 #virion membrane
+http://purl.obolibrary.org/obo/GO_0060139 #positive regulation of apoptotic process by virus
+http://purl.obolibrary.org/obo/GO_0060140 #modulation by virus of syncytium formation via plasma membrane fusion
+http://purl.obolibrary.org/obo/GO_0060141 #positive regulation of syncytium formation by virus
+http://purl.obolibrary.org/obo/GO_0061765 #modulation by virus of host NIK/NF-kappaB signaling
+http://purl.obolibrary.org/obo/GO_0075502 #endosome membrane permeabilization involved in viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0075509 #endocytosis involved in viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0075512 #clathrin-dependent endocytosis of virus by host cell
+http://purl.obolibrary.org/obo/GO_0075514 #endosome lysis involved in viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0075519 #microtubule-dependent intracellular transport of viral material
+http://purl.obolibrary.org/obo/GO_0075520 #actin-dependent intracellular transport of virus
+http://purl.obolibrary.org/obo/GO_0075522 #IRES-dependent viral translational initiation
+http://purl.obolibrary.org/obo/GO_0075523 #viral translational frameshifting
+http://purl.obolibrary.org/obo/GO_0075524 #ribosomal skipping
+http://purl.obolibrary.org/obo/GO_0075525 #viral translational termination-reinitiation
+http://purl.obolibrary.org/obo/GO_0075526 #cap snatching
+http://purl.obolibrary.org/obo/GO_0075527 #viral RNA editing
+http://purl.obolibrary.org/obo/GO_0075528 #modulation by virus of host immune response
+http://purl.obolibrary.org/obo/GO_0075606 #transport of viral material towards nucleus
+http://purl.obolibrary.org/obo/GO_0075732 #viral penetration into host nucleus
+http://purl.obolibrary.org/obo/GO_0075733 #intracellular transport of virus
+http://purl.obolibrary.org/obo/GO_0098670 #entry receptor-mediated virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0098671 #adhesion receptor-mediated virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0098672 #evasion by virus of CRISPR-cas system
+http://purl.obolibrary.org/obo/GO_0098673 #inhibition of host DNA replication by virus
+http://purl.obolibrary.org/obo/GO_0098676 #modulation of host virulence by virus
+http://purl.obolibrary.org/obo/GO_0098677 #virion maturation
+http://purl.obolibrary.org/obo/GO_0098994 #disruption of host cell envelope during viral entry
+http://purl.obolibrary.org/obo/GO_0098995 #disruption by virus of host envelope lipopolysaccharide during virus entry
+http://purl.obolibrary.org/obo/GO_0098997 #fusion of virus membrane with host outer membrane
+http://purl.obolibrary.org/obo/GO_0099006 #viral entry via permeabilization of endosomal membrane
+http://purl.obolibrary.org/obo/GO_0099008 #viral entry via permeabilization of inner membrane
+http://purl.obolibrary.org/obo/GO_0099045 #viral extrusion
+http://purl.obolibrary.org/obo/GO_0140267 #viral entry via permeabilization of host membrane
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0016032 #viral process
+subClassOf
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+subClassOf
+http://purl.obolibrary.org/obo/GO_0009987 #cellular process
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

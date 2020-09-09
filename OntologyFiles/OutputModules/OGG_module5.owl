@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/fqezh00j.owl#"
+     xml:base="http://ontofox.hegroup.org/fqezh00j.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/fqezh00j.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000004 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000004">
+        <obo:IAO_0000115>the symbol assigned by the nomenclature authority</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">symbol from nomenclature authority</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000005 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000005">
+        <obo:IAO_0000115>the full name assigned by the nomenclature authority</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">full name from nomenclature authority</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000006 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
+        <obo:IAO_0000115>A GeneID in the NCBI Gene database </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">NCBI GeneID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000008 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000008">
+        <obo:IAO_0000115>the map location of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">gene map location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000009 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
+        <obo:IAO_0000115>a date of content modification</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modification date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000015 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
+        <obo:IAO_0000115>The NCBITaxon ontology ID of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">organism NCBITaxon ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000017 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
+        <obo:IAO_0000115>A chromosome ID where a gene is located.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chromosome ID of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000018 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
+        <obo:IAO_0000115>an annotation property that specifies the type of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">type of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000019 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
+        <obo:IAO_0000115>an annotation property that specifies a nomenclature status</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">nomenclature status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000029 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000029">
+        <obo:IAO_0000115>an annotation property that shows the GO information associated with a specific gene. </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has GO association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000030 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
+        <obo:IAO_0000115>An annotation property that represents a gene&apos;s association with PubMed publication(s). </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has PubMed association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000003454 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000003454">
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>AVP</obo:IAO_0000118>
+        <obo:IAO_0000118>IFN-alpha-REC</obo:IAO_0000118>
+        <obo:IAO_0000118>IFNAR</obo:IAO_0000118>
+        <obo:IAO_0000118>IFNBR</obo:IAO_0000118>
+        <obo:IAO_0000118>IFRC</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000004>IFNAR1</obo:OGG_0000000004>
+        <obo:OGG_0000000005>interferon (alpha, beta and omega) receptor 1</obo:OGG_0000000005>
+        <obo:OGG_0000000006>3454</obo:OGG_0000000006>
+        <obo:OGG_0000000008>21q22.11</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000015>9606</obo:OGG_0000000015>
+        <obo:OGG_0000000017>21</obo:OGG_0000000017>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0004905 (EC: TAS, PMID: 7665574); GO_0005515 (EC: IPI, PMID: 12220192); GO_0005886 (EC: TAS); GO_0005887 (EC: TAS, PMID: 8181059); GO_0007166 (EC: TAS, PMID: 7665574); GO_0007259 (EC: TAS, PMID: 7665574); GO_0009615 (EC: TAS, PMID: 2153461); GO_0019221 (EC: TAS); GO_0032729 (EC: IEA); GO_0042110 (EC: IEA); GO_0045351 (EC: IEA); GO_0051607 (EC: IEA); GO_0060337 (EC: TAS); GO_0060338 (EC: TAS)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 1350660; 1370833; 1834641; 2148760; 2153461; 7526154; 7559568; 7665574; 7932753; 8125298; 8181059; 8524272; 8605876; 8626489; 9029147; 9121453; 9174595; 9225992; 9403695; 9677371; 9733772; 10490982; 10542297; 10830953; 11167825; 11301323; 11694501; 11786546; 12220192; 12477932; 12554654; 12618863; 12620806; 12697242; 12761564; 14532120; 14647450; 14727154; 15063762; 15337770; 15356134; 15389589; 15449939; 15489334; 15589821; 15885318; 15946680; 15990456; 16171819; 16338279; 16624932; 17001036; 17027223; 17125879; 17310065; 17517919; 17667505; 17703412; 17823081; 17923090; 18056411; 18166147; 18250407; 18338947; 18362156; 18474601; 18535656; 18761606; 18801736; 18937499; 18953482; 19103527; 19124753; 19220955; 19258923; 19299650; 19434718; 19453261; 19501422; 19559055; 19561067; 19730683; 19773451; 19796549; 19805514; 19817957; 19879773; 19913121; 19948722; 19957332; 20020050; 20065083; 20237496; 20331378; 20378664; 20503287; 20565290; 20588308; 20628086; 20811626; 21139048; 21173164; 21540188; 21690295; 21695243; 21716316; 21756311; 21757742; 21821707; 21830897; 21832278; 21865166; 22036215; 22136495; 22156349; 22162633; 22218495; 22258259; 22786773; 22824466; 23128233; 23129613; 23201923; 23209811; 23663046; 24250222</obo:OGG_0000000030>
+        <dc:description>interferon (alpha, beta and omega) receptor 1</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000142166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:5432</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:00126</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:107450</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000065126</oboInOwl:hasDbXref>
+        <rdfs:label>IFNAR1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000007138 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000007138">
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>ANM</obo:IAO_0000118>
+        <obo:IAO_0000118>NEM5</obo:IAO_0000118>
+        <obo:IAO_0000118>STNT</obo:IAO_0000118>
+        <obo:IAO_0000118>TNT</obo:IAO_0000118>
+        <obo:IAO_0000118>TNTS</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000004>TNNT1</obo:OGG_0000000004>
+        <obo:OGG_0000000005>troponin T type 1 (skeletal, slow)</obo:OGG_0000000005>
+        <obo:OGG_0000000006>7138</obo:OGG_0000000006>
+        <obo:OGG_0000000008>19q13.4</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000015>9606</obo:OGG_0000000015>
+        <obo:OGG_0000000017>19</obo:OGG_0000000017>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0003009 (EC: IMP, PMID: 10952871); GO_0005523 (EC: IMP, PMID: 15665378); GO_0005829 (EC: TAS); GO_0005861 (EC: IDA, PMID: 18032382); GO_0005861 (EC: IMP, PMID: 15665378); GO_0030049 (EC: TAS); GO_0031014 (EC: IEA); GO_0031444 (EC: IEA); GO_0045932 (EC: IDA, PMID: 18032382)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 1473264; 1505979; 1551677; 1706783; 2687327; 2824479; 3611073; 6822572; 8135831; 8403232; 8681137; 8987992; 9448267; 9724539; 10191089; 10451243; 10529204; 10601315; 10952871; 11904166; 12477932; 15489334; 15495263; 15665378; 15761153; 15967462; 16169070; 16189514; 18032382; 18579801; 19326042; 19541721; 19690080; 19913121; 19916752; 20038417; 20301465; 20380359; 20628086; 20889975; 21111984; 21139048; 21448949; 21683708; 21729325; 21784424; 21900206; 22239123; 22448368; 22977240; 23244308</obo:OGG_0000000030>
+        <dc:description>troponin T type 1 (skeletal, slow)</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000105048</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:11948</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:01841</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:191041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000180542</oboInOwl:hasDbXref>
+        <rdfs:label>TNNT1</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

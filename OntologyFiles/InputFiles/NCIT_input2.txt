@@ -1,0 +1,86 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/NCIT_module1.owl.
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C128376 #Mode of Transmission
+http://purl.obolibrary.org/obo/NCIT_C115164 #Nosocomial Infection
+http://purl.obolibrary.org/obo/NCIT_C142470 #Data Capture
+http://purl.obolibrary.org/obo/NCIT_C25305 #Medical Examination
+http://purl.obolibrary.org/obo/NCIT_C38103 #Chest Radiography
+http://purl.obolibrary.org/obo/NCIT_C16751 #Interview
+http://purl.obolibrary.org/obo/NCIT_C155835 #Oropharyngeal Swab Specimen
+http://purl.obolibrary.org/obo/NCIT_C15747 #Supportive Care
+http://purl.obolibrary.org/obo/NCIT_C94624 #Oxygen Therapy
+http://purl.obolibrary.org/obo/NCIT_C126400 #Renal Replacement Therapy
+http://purl.obolibrary.org/obo/NCIT_C115149 #Adenovirus Infection
+http://purl.obolibrary.org/obo/NCIT_C143657 #Lung Infection, CTCAE
+http://purl.obolibrary.org/obo/NCIT_C126929 #Some Shortness of Breath
+http://purl.obolibrary.org/obo/NCIT_C50747 #Sore Throat
+http://purl.obolibrary.org/obo/NCIT_C26948 #Alanine Aminotransferase Increased
+http://purl.obolibrary.org/obo/NCIT_C26947 #Aspartate Aminotransferase Increased
+http://purl.obolibrary.org/obo/NCIT_C50640 #Low Blood Oxygen Saturation
+http://purl.obolibrary.org/obo/NCIT_C15760 #Drug Development
+http://purl.obolibrary.org/obo/NCIT_C16087 #Animal Testing
+http://purl.obolibrary.org/obo/NCIT_C14212 #Hamster
+http://purl.obolibrary.org/obo/NCIT_C15207 #Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C17103 #Risk Factor
+http://purl.obolibrary.org/obo/NCIT_C18908 #Older Population
+http://purl.obolibrary.org/obo/NCIT_C157816 #Chronic Respiratory Disease
+http://purl.obolibrary.org/obo/NCIT_C19291 #Epidemiological Factors
+http://purl.obolibrary.org/obo/NCIT_C15843 #Preventive Intervention
+http://purl.obolibrary.org/obo/NCIT_C25549 #Isolation
+http://purl.obolibrary.org/obo/NCIT_C71902 #Quarantine
+http://purl.obolibrary.org/obo/NCIT_C86570 #Mask
+http://purl.obolibrary.org/obo/NCIT_C102401 #High Risk
+http://purl.obolibrary.org/obo/NCIT_C15324 #Self Care
+http://purl.obolibrary.org/obo/NCIT_C25269 #Symptomatic
+http://purl.obolibrary.org/obo/NCIT_C14139 #Immunocompromised
+http://purl.obolibrary.org/obo/NCIT_C35682 #Positive Laboratory Test Result
+http://purl.obolibrary.org/obo/NCIT_C35681 #Negative Test Result
+http://purl.obolibrary.org/obo/NCIT_C78251 #Cytokine Release Syndrome
+http://purl.obolibrary.org/obo/NCIT_C137824 #Leronlimab
+http://purl.obolibrary.org/obo/NCIT_C2663 #Chinese Herbs
+http://purl.obolibrary.org/obo/NCIT_C47445 #Chloroquine Phosphate
+http://purl.obolibrary.org/obo/NCIT_C2096 #Lopinavir/Ritonavir
+http://purl.obolibrary.org/obo/NCIT_C20401 #Monoclonal Antibody
+http://purl.obolibrary.org/obo/NCIT_C133344 #Recovered Plasma
+http://purl.obolibrary.org/obo/NCIT_C71683 #Antibody Titer
+http://purl.obolibrary.org/obo/NCIT_C29490 #Tenofovir
+http://purl.obolibrary.org/obo/NCIT_C90548 #Sapanisertib
+http://purl.obolibrary.org/obo/NCIT_C1311 #Tacrolimus
+http://purl.obolibrary.org/obo/NCIT_C125062 #Tomivosertib
+http://purl.obolibrary.org/obo/NCIT_C152860 #Verdinexor
+http://purl.obolibrary.org/obo/NCIT_C66097 #Merimepodib
+http://purl.obolibrary.org/obo/NCIT_C647 #Methylprednisolone
+http://purl.obolibrary.org/obo/NCIT_C98054 #Silmitasertib
+http://purl.obolibrary.org/obo/NCIT_C412 #Dactinomycin
+http://purl.obolibrary.org/obo/NCIT_C258 #Antibiotic
+http://purl.obolibrary.org/obo/NCIT_C1661 #Nucleic Acid Synthesis Inhibitor
+http://purl.obolibrary.org/obo/NCIT_C123816 #Camrelizumab
+http://purl.obolibrary.org/obo/NCIT_C124946 #PD1 Inhibitor
+http://purl.obolibrary.org/obo/NCIT_C66930 #Angiotensin II Receptor Antagonist
+http://purl.obolibrary.org/obo/NCIT_C102865 #Diammonium Glycyrrhizinate
+http://purl.obolibrary.org/obo/NCIT_C148534 #Polyinosinic-polycytidylic Acid/Inactivated Rabies Virus Vaccine YS-ON-001
+http://purl.obolibrary.org/obo/NCIT_C1287 #Recombinant Granulocyte Colony-Stimulating Factor
+http://purl.obolibrary.org/obo/NCIT_C11364 #Cytarabine/Homoharringtonine/Interferon Alfa
+http://purl.obolibrary.org/obo/NCIT_C2284 #Thymosin
+http://purl.obolibrary.org/obo/NCIT_C17607 #Nucleocapsid Protein
+http://purl.obolibrary.org/obo/NCIT_C13292 #Open Reading Frame
+http://purl.obolibrary.org/obo/NCIT_C13457 #Cytoplasmic Domain
+http://purl.obolibrary.org/obo/NCIT_C13410 #Transmembrane Domain
+http://purl.obolibrary.org/obo/NCIT_C17254 #Viral Protein
+http://purl.obolibrary.org/obo/NCIT_C17253 #Viral Genome
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

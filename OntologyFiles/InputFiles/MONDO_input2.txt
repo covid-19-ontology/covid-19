@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MONDO_0001531 #blood coagulation disease
+http://purl.obolibrary.org/obo/MONDO_0008651 #vertebral hypoplasia with lumbar kyphosis
+http://purl.obolibrary.org/obo/MONDO_0019540 #diffuse alveolar hemorrhage (disease)
+http://purl.obolibrary.org/obo/MONDO_0005043 #hyperplasia
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MONDO_0000001 #disease or disorder
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

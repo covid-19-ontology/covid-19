@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/priya.s/ontologies/2020/3/untitled-ontology-48#"
+     xml:base="http://www.semanticweb.org/priya.s/ontologies/2020/3/untitled-ontology-48"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/priya.s/ontologies/2020/3/untitled-ontology-48"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy"/>
+
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000001 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000001">
+        <rdfs:label>nonstructural protein</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32265180"/>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000035 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000035">
+        <rdfs:label>heptad repeat 2 (SARS-CoV-2)</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:CommentonDefinition>modified definition</covid:CommentonDefinition>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32231345"/>
+        <oboInOwl:hasDefinition>Heptad repeat 2 (HR2) is a fragment of spike protien of SARS COV-2, forms a  six-helical bundle interacting with HR1 , plays a key role during the viral membrane fusion process.</oboInOwl:hasDefinition>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000051 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000051">
+        <rdfs:label>N-terminal domain (SARS-CoV-2)</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32231345"/>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000056 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000056">
+        <rdfs:label>fusion peptide (SARS-CoV-2)</rdfs:label>
+        <rdfs:seeAlso>https://www.ncbi.nlm.nih.gov/pubmed/32231345</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:CommentonDefinition>modified definition</covid:CommentonDefinition>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32231345"/>
+        <oboInOwl:hasDefinition>Fusion peptide is located within the N-terminal 14–685 amino acids of S protein.</oboInOwl:hasDefinition>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000071 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000071">
+        <rdfs:label>receptor-binding domain (SARS-CoV-2)</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32231345"/>
+        <oboInOwl:hasDefinition>The receptor binding domain (RBD) located on the head of S1 and bind with the cellular receptor angiotensin-converting enzyme 2 (ACE2), initiating the membrane fusion of the virus and host cell.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000071"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>The receptor binding domain (RBD) located on the head of S1 and bind with the cellular receptor angiotensin-converting enzyme 2 (ACE2), initiating the membrane fusion of the virus and host cell.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://arxiv.org/ftp/arxiv/papers/2003/2003.00163.pdf</rdfs:isDefinedBy>
+    </owl:Axiom>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000128 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000128">
+        <rdfs:label>heptad repeat 1 (SARS-CoV-2)</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:CommentonDefinition>modified definition</covid:CommentonDefinition>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32231345"/>
+        <oboInOwl:hasDefinition>Heptad repeat 1 (HR1) is a fragment of spike protien of SARS COV-2, forms a  six-helical bundle interacting with HR2 , plays a key role during the viral membrane fusion process.</oboInOwl:hasDefinition>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000133 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000133">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000001"/>
+        <rdfs:label>nsp7 and nsp8 primase complex</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/31138817"/>
+        <oboInOwl:hasExactSynonym>nsp7-nsp8 heterodimer</oboInOwl:hasExactSynonym>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000142 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000142">
+        <rdfs:label>signal peptide (SARS-CoV-2)</rdfs:label>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32075877"/>
+        <oboInOwl:hasDefinition>Signal peptide (amino acids 1–12) located at the N terminus of S protein.</oboInOwl:hasDefinition>
+        <oboInOwl:hasRelatedSynonym>signal sequence</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000142"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Signal peptide (amino acids 1–12) located at the N terminus of S protein.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/19198616</rdfs:isDefinedBy>
+    </owl:Axiom>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000143 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000143">
+        <rdfs:label>ORF7</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.12.988865v2</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000144 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000144">
+        <rdfs:label>ORF8b</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000145 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000145">
+        <rdfs:label>ORF8a</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000146 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000146">
+        <rdfs:label>ORF3b</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.12.988865v2</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000147 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000147">
+        <rdfs:label>ORF9c</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Since Proteins are classified under material entity, so as all the viral proteins.
+Refer : https://www.ebi.ac.uk/ols/ontologies/pr/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_000000001</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

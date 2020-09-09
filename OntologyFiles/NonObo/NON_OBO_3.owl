@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.semanticweb.org/appu/ontologies/2020/3/untitled-ontology-29#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+	xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+
+<rdf:Description rdf:about="http://www.semanticweb.org/appu/ontologies/2020/3/untitled-ontology-29">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Annotation properties -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefinition -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefinition">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Classes -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/ERO_0000605 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000605">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/ERO_0000722 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000722">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/ERO_0000833 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000833">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000002 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000002">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>virus excretion</rdfs:label>
+	<covid:CommentonHierarchy>viral process</covid:CommentonHierarchy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000006 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000006">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>touching eyes</rdfs:label>
+	<rdfs:seeAlso>https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25637115"/>
+	<oboInOwl:hasDefinition>A face-touching behavior involving eye touches.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000011 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000011">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>secondary bacterial infection</rdfs:label>
+	<rdfs:seeAlso>https://www.reactgroup.org/news-and-views/news-and-opinions/year-2020/covid-19-and-amr-what-do-we-know-so-far/</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Disease</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32292265"/>
+	<oboInOwl:hasDefinition>Secondary bacterial infection, as the name suggests, is a bacterial infection that occurs during or after an infection from another pathogen, commonly viruses.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000011"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Secondary bacterial infection, as the name suggests, is a bacterial infection that occurs during or after an infection from another pathogen, commonly viruses.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/28690590</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000012 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000012">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>posterior distribution</rdfs:label>
+	<rdfs:seeAlso>https://www.ajronline.org/doi/full/10.2214/AJR.20.22975</rdfs:seeAlso>
+	<covid:CommentonHierarchy>common CT patterns</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Ground-glass opacities with a posterior predominance.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000012"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Ground-glass opacities with a posterior predominance.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://radiologyassistant.nl/chest/lk-jg-1</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000022 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000022">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>Animal testing</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/17499378"/>
+	<oboInOwl:hasDefinition>Animal models manifesting  SARS-CoV infections.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000025 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000025">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>coughing by symptomatic patient</rdfs:label>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource=" https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32166607"/>
+	<oboInOwl:hasDefinition>Coughing by symptomatic patients.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000026 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000026">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>touching nose</rdfs:label>
+	<rdfs:seeAlso>https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25637115"/>
+	<oboInOwl:hasDefinition>A face-touching behavior involving nose touches.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000028 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000028">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>touching mouth</rdfs:label>
+	<rdfs:seeAlso>https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25637115"/>
+	<oboInOwl:hasDefinition>A face-touching behavior involving mouth touches.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000029 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000029">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>local transmission</rdfs:label>
+	<rdfs:seeAlso>https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200402-sitrep-73-covid-19.pdf?sfvrsn=5ae25bc7_2</rdfs:seeAlso>
+	<covid:CommentonHierarchy>transmission of infection(biological process)</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Limited local confirmed transmission is defined as a single, locally acquired case, or cases clustered in a single household or nearby houses.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid3">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000029"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Limited local confirmed transmission is defined as a single, locally acquired case, or cases clustered in a single household or nearby houses.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.dph.illinois.gov/topics-services/diseases-and-conditions/zika/localTrans</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000031 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000031">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>self-assessment application</rdfs:label>
+	<rdfs:seeAlso>https://www.cma.ca/covid-19-self-assessment-tool-and-app</rdfs:seeAlso>
+	<covid:CommentonHierarchy>medical device</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Self Evaluation mobile apps.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000031"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Self Evaluation mobile apps.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.gocanvas.com/mobile-forms-apps/634-Simple-Performance-Self-Evaluation</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000032 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000032">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>mild symptom</rdfs:label>
+	<rdfs:seeAlso>https://www.healthline.com/health-news/mild-covid-19-symptoms-can-quickly-turn-serious</rdfs:seeAlso>
+	<covid:CommentonHierarchy>symptom</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Mild or moderate cases were generally defined based on less severe clinical symptoms.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid5">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000032"/>
+	<owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+	<owl:annotatedTarget>https://www.healthline.com/health-news/mild-covid-19-symptoms-can-quickly-turn-serious</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.cebm.net/covid-19/in-patients-of-covid-19-what-are-the-symptoms-and-clinical-features-of-mild-and-moderate-case/</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000034 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000034">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>end-organ dysfunction</rdfs:label>
+	<rdfs:seeAlso>https://clinicaltrials.gov/ct2/show/NCT04316884</rdfs:seeAlso>
+	<covid:CommentonHierarchy>disease</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>End organ damage is defined as presence of any one or more of the following features: hypercalcemia, renal failure, anemia, and lytic bone lesions (which can be diagnosed on bone radiographs).</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>End Organ Damage</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid6">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000034"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>End organ damage is defined as presence of any one or more of the following features: hypercalcemia, renal failure, anemia, and lytic bone lesions (which can be diagnosed on bone radiographs).</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.sciencedirect.com/topics/medicine-and-dentistry/end-organ-damage</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000036 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000036">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>sneezing by symptomatic patient</rdfs:label>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource=" https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
+	<oboInOwl:hasDefinition>Sneezing by symptomatic patients.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000036"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Sneezing by symptomatic patients.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/32166607</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000038 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000038">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000605"/>
+	<rdfs:label>travel restriction</rdfs:label>
+	<rdfs:seeAlso>https://wwwnc.cdc.gov/travel/notices/warning/coronavirus-global</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Intervention</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>A law preventing people from travelling somewhere, especially preventing a particular person or group from entering a particular country:</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>Travel ban</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid8">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000038"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>A law preventing people from travelling somewhere, especially preventing a particular person or group from entering a particular country:</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/travel-ban</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000039 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000039">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>post natal transmission</rdfs:label>
+	<rdfs:seeAlso>https://sti.bmj.com/content/88/Suppl_2/i44</rdfs:seeAlso>
+	<rdfs:seeAlso>https://www.frontiersin.org/articles/10.3389/fped.2020.00104/full</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>transmission of infection(biological process)</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Postnata transmission reflects infections in infants or children who were uninfected through pregnancy and deliveryand who subsequently become HIV-infected while breast feeding.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000041 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000041">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000833"/>
+	<rdfs:label>analysis of SARS-CoV-2 host interacting proteins</rdfs:label>
+	<rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1.full.pdf</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Assay</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Global analysis of SARS-CoV-2 host interacting proteins.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid9">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000041"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Global analysis of SARS-CoV-2 host interacting proteins.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1.full.pdf</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000042 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000042">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>transmission to healthcare workers</rdfs:label>
+	<rdfs:seeAlso>https://www.medscape.com/viewarticle/530539</rdfs:seeAlso>
+	<rdfs:seeAlso>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30644-9/fulltext</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>transmission of infection</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDefinition>Transmission of infection to healthcare workers</oboInOwl:hasDefinition>
+	<oboInOwl:hasDefinition>Transmission of infection to healthcare workers i</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000045 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000045">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000605"/>
+	<rdfs:label>sneeze etiquette</rdfs:label>
+	<rdfs:seeAlso>https://www.cdc.gov/healthywater/hygiene/etiquette/coughing_sneezing.html</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Intervention</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Sneeze etiquette refers to simple hygiene practices everybody can take to prevent passing on respiratory infections like cold and flu to other people.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid10">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000045"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Sneeze etiquette refers to simple hygiene practices everybody can take to prevent passing on respiratory infections like cold and flu to other people.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://healthengine.com.au/info/cough-and-sneeze-etiquette</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000054 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000054">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>fluid management</rdfs:label>
+	<rdfs:seeAlso>https://www.mohfw.gov.in/pdf/GuidelinesonClinicalManagementofCOVID1912020.pdf</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Medical intervention</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Fluid management is a critical aspect of patient care, especially in the inpatient medical setting. What makes fluid management both challenging and interesting is that each patient demands careful consideration of their individual fluid needs</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid11">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000054"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Fluid management is a critical aspect of patient care, especially in the inpatient medical setting. What makes fluid management both challenging and interesting is that each patient demands careful consideration of their individual fluid needs</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/books/NBK532305/</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000059 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000059">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>severe symptom</rdfs:label>
+	<rdfs:seeAlso>https://www.health.harvard.edu/diseases-and-conditions/covid-19-basics</rdfs:seeAlso>
+	<rdfs:seeAlso>https://www.webmd.com/lung/covid-19-symptoms#2-3</rdfs:seeAlso>
+	<covid:CommentonHierarchy>symptom</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000064 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000064">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>peripheral distribution</rdfs:label>
+	<rdfs:seeAlso>https://www.ajronline.org/doi/full/10.2214/AJR.20.23034</rdfs:seeAlso>
+	<covid:CommentonHierarchy>common CT patterns</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Peripheral ground-glass and consolidative pulmonary opacities.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid12">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000064"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Peripheral ground-glass and consolidative pulmonary opacities.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://pubs.rsna.org/doi/10.1148/radiol.2020200463</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000065 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000065">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>online-interview</rdfs:label>
+	<rdfs:seeAlso>https://www.mdmag.com/medical-news/survey-reveals-knowledge-misperceptions-covid-19</rdfs:seeAlso>
+	<covid:CommentonHierarchy>interview</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>An online interview is an online research method conducted using computer-mediated communication (CMC), such as instant messaging, email, or video.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>Online Survey</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid13">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000065"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>An online interview is an online research method conducted using computer-mediated communication (CMC), such as instant messaging, email, or video.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Online_interview</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000069 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000069">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>low-flow nasal cannula oxygenation</rdfs:label>
+	<rdfs:seeAlso>https://www.uptodate.com/contents/coronavirus-disease-2019-covid-19-critical-care-issues</rdfs:seeAlso>
+	<covid:CommentonHierarchy>oxygen therapy</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>The low-flow nasal cannula is an open system of supplementation with high levels of leaking air around the oxygen source.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid14">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000069"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>The low-flow nasal cannula is an open system of supplementation with high levels of leaking air around the oxygen source.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/books/NBK526071/</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000072 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000072">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>BEL based model</rdfs:label>
+	<rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.04.14.040667v1</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Model</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Biological expression language (BEL) has been developed to allow the representation of the huge variety of causal relationships expressed in the literature.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>BEL-based approach</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid15">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000072"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Biological expression language (BEL) has been developed to allow the representation of the huge variety of causal relationships expressed in the literature.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/31603193</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000073 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000073">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>lack of personnel</rdfs:label>
+	<covid:CommentonHierarchy>risk</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32242830         "/>
+	<oboInOwl:hasDefinition>Insufficient personnel mean there are not enough personnel in an organization and this may lead to the
+fall of the organizational performance.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid16">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000073"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Insufficient personnel mean there are not enough personnel in an organization and this may lead to the
+fall of the organizational performance.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.theseus.fi/bitstream/handle/10024/141344/Marok%20Engetou%20Thesis.pdf?sequence=1</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000077 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000077">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>virus contact</rdfs:label>
+	<rdfs:seeAlso>https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Contact with someone who has the same infection.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000077"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Contact with someone who has the same infection.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000079 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000079">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>cough etiquette</rdfs:label>
+	<rdfs:seeAlso>https://www.who.int/docs/default-source/searo/thailand/20200318-tha-sitrep-25-covid19-final.pdf?sfvrsn=e7813cf4_0</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Intervention</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Cough etiquette is a series of actions to take if you are coughing or sneezing, which are designed
+to reduce the spread of respiratory illness to others.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid18">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000079"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Cough etiquette is a series of actions to take if you are coughing or sneezing, which are designed
+to reduce the spread of respiratory illness to others.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.sahealth.sa.gov.au/wps/wcm/connect/440ce9004ff8e4298458bf4826472d56/wwc-QA-cough-etiquette-phcs-ics-20071210.pdf?MOD=AJPERES&amp;CACHEID=440ce9004ff8e4298458bf4826472d56</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000081 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000081">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>clinical sign</rdfs:label>
+	<rdfs:label>clinical signs</rdfs:label>
+	<rdfs:seeAlso>https://oxfordmedicine.com/view/10.1093/med/9780199898152.001.0001/med-9780199898152-chapter-26</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>Symptoms</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32133578"/>
+	<oboInOwl:hasDefinition>A clinical finding as opposed to a symptoms which is what the patient report.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000087 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000087">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>mobile application</rdfs:label>
+	<rdfs:seeAlso>https://www.geospatialworld.net/blogs/popular-apps-covid-19/</rdfs:seeAlso>
+	<covid:CommentonHierarchy>diagnostics</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>A mobile app is a software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets, rather than desktop or laptop computers.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid19">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000087"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>A mobile app is a software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets, rather than desktop or laptop computers.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://whatis.techtarget.com/definition/mobile-app</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000090 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000090">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>virus elimination</rdfs:label>
+	<rdfs:seeAlso>https://www.cdc.gov/mmwr/preview/mmwrhtml/su48a7.htm</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Reduction to zero of the incidence of infection caused by a specific agent in a defined geographical area as a result of deliberate efforts; continued measures to prevent re-establishment of transmission are required.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid20">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000090"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Reduction to zero of the incidence of infection caused by a specific agent in a defined geographical area as a result of deliberate efforts; continued measures to prevent re-establishment of transmission are required.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.cdc.gov/mmwr/preview/mmwrhtml/su48a7.htm</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000091 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000091">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>SARS-CoV genome</rdfs:label>
+	<rdfs:seeAlso>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)13444-7/fulltext</rdfs:seeAlso>
+	<covid:CommentonHierarchy>material entity</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Genome of the SARS-associated coronavirus (SARS-CoV).</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid21">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000091"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Genome of the SARS-associated coronavirus (SARS-CoV).</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.cdc.gov/sars/lab/sequence.html</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000098 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000098">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>patchy consolidation</rdfs:label>
+	<rdfs:seeAlso>https://www.ajronline.org/doi/full/10.2214/AJR.20.22975</rdfs:seeAlso>
+	<covid:CommentonHierarchy>common CT patterns</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Patchy pulmonary opacity.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid22">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000098"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Patchy pulmonary opacity.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://radiologyassistant.nl/chest/chest-x-ray-lung-disease</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000102 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000102">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>touching contaminated surfaces</rdfs:label>
+	<rdfs:seeAlso>https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</rdfs:seeAlso>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Touch contaminated objects or surfaces.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid23">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000102"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Touch contaminated objects or surfaces.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ccohs.ca/oshanswers/diseases/washing_hands.html</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000103 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000103">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>medical aspect</rdfs:label>
+	<covid:CommentonHierarchy>quality</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32259130"/>
+	<oboInOwl:hasDefinition>The medical aspects of environmental health problems in emergencies involve taking care of the affected people.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>Clinical Aspects</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>clinical aspect</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid24">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000103"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>The medical aspects of environmental health problems in emergencies involve taking care of the affected people.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.who.int/environmental_health_emergencies/medical_aspects/en/</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000104 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000104">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>gene ontology enrichment analysis</rdfs:label>
+	<rdfs:seeAlso>http://geneontology.org/covid-19.html</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Assay</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>A ranked list of Gene Ontology concepts, each associated with a p-value, concerning or derived from the analysis of e.g. a set of genes or proteins.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid25">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000104"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>A ranked list of Gene Ontology concepts, each associated with a p-value, concerning or derived from the analysis of e.g. a set of genes or proteins.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>http://edamontology.org/data_3754</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000108 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000108">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>alveolar exudate</rdfs:label>
+	<covid:CommentonHierarchy>phenotypic abnormailty</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32114094"/>
+	<oboInOwl:hasDefinition>Pathological process the alveoli, diffusely in both lungs are filled with either water (pulmonary edema), blood or inflammatory exudate.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid26">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000108"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Pathological process the alveoli, diffusely in both lungs are filled with either water (pulmonary edema), blood or inflammatory exudate.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>http://www.meddean.luc.edu/lumen/MedEd/medicine/pulmonar/apd/pap1.htm</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000109 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000109">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>quick test</rdfs:label>
+	<rdfs:seeAlso>https://www.bosch.com/stories/vivalytic-rapid-test-for-covid-19/</rdfs:seeAlso>
+	<covid:CommentonHierarchy>diagnosis</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>A rapid diagnostic test (RDT) is a medical diagnostic test that is quick and easy to perform.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>RDT</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>Rapid diagnostic test</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>Rapid test</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid27">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000109"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>A rapid diagnostic test (RDT) is a medical diagnostic test that is quick and easy to perform.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Rapid_diagnostic_test</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000112 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000112">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>early symptom</rdfs:label>
+	<rdfs:seeAlso>https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-symptoms-frequently-asked-questions</rdfs:seeAlso>
+	<covid:fromArticle>true</covid:fromArticle>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000113 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000113">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>transmission from asymptomatic people</rdfs:label>
+	<rdfs:seeAlso>https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200402-sitrep-73-covid-19.pdf?sfvrsn=5ae25bc7_2</rdfs:seeAlso>
+	<covid:CommentonHierarchy>transmission of infection(biological process)</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Asymptomatic transmission refers to transmission of the virus from a person, who does not develop symptoms.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>Asymptomatic transmission</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid28">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000113"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Asymptomatic transmission refers to transmission of the virus from a person, who does not develop symptoms.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200402-sitrep-73-covid-19.pdf?sfvrsn=5ae25bc7_2</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000118 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000118">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000605"/>
+	<rdfs:label>not touching face</rdfs:label>
+	<rdfs:seeAlso>https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Intervention</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Not touch your face.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid29">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000118"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Not touch your face.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.healthline.com/health-news/how-to-not-touch-your-face#We-touch-our-faces-all-the-time</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000122 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000122">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>enrichment  for domain families within the interacting proteins</rdfs:label>
+	<rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1.full.pdf</rdfs:seeAlso>
+	<covid:CommentonHierarchy>Assay</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Enrichment analysis by employing structural and functional information on families of protein domains as annotation terms.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid30">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000122"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Enrichment analysis by employing structural and functional information on families of protein domains as annotation terms.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/20478033</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000126 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000126">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>SARS-CoV-2 model</rdfs:label>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>Animal testing</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32269068"/>
+	<oboInOwl:hasDefinition>Animal models manifesting  SARS-CoV infections.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000129 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000129">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>high-flow nasal cannula oxygenation</rdfs:label>
+	<covid:CommentonHierarchy>oxygen therapy</covid:CommentonHierarchy>
+	<covid:fromPubMed>true</covid:fromPubMed>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32268019"/>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32295710"/>
+	<oboInOwl:hasDefinition>High-flow nasal cannula (HFNC) oxygen therapy comprises an air/oxygen blender, an active humidifier, a single heated circuit, and a nasal cannula. It delivers adequately heated and humidified medical gas at up to 60 L/min of flow and is considered to have a number of physiological effects: reduction of anatomical dead space, PEEP effect, constant fraction of inspired oxygen, and good humidification.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid31">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000129"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>High-flow nasal cannula (HFNC) oxygen therapy comprises an air/oxygen blender, an active humidifier, a single heated circuit, and a nasal cannula. It delivers adequately heated and humidified medical gas at up to 60 L/min of flow and is considered to have a number of physiological effects: reduction of anatomical dead space, PEEP effect, constant fraction of inspired oxygen, and good humidification.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://jintensivecare.biomedcentral.com/articles/10.1186/s40560-015-0084-5</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000130 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000130">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>common computed tomography pattern</rdfs:label>
+	<rdfs:seeAlso>https://pubs.rsna.org/doi/10.1148/radiol.2020200463</rdfs:seeAlso>
+	<covid:CommentonHierarchy>information content entity</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>A CT "pattern" refers to a nonspecific finding or collection of findings suggesting one or more
+specific disease processes.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>common CT pattern</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid32">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000130"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>A CT "pattern" refers to a nonspecific finding or collection of findings suggesting one or more
+specific disease processes.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/11699664</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000131 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000131">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>inhalation of droplets</rdfs:label>
+	<rdfs:seeAlso>https://www.sciencealert.com/is-coronavirus-spread-by-talking-and-breathing</rdfs:seeAlso>
+	<covid:CommentonHierarchy>behavior process</covid:CommentonHierarchy>
+	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Inhalation of small respiratory droplets.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid33">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000131"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Inhalation of small respiratory droplets.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2894888/</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000132 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000132">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>higher sequential organ failure assessment score</rdfs:label>
+	<rdfs:seeAlso>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>Risk</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19325482"/>
+	<oboInOwl:hasDefinition>Higher sequential organ failure assessment score</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000135 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000135">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000722"/>
+	<rdfs:label>openEHR-Suspected Covid-19 assessment.v0</rdfs:label>
+	<rdfs:seeAlso>https://openehr.org/ckm/templates/1013.26.267</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>Medical device</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>openEHR-Suspected Covid-19 assessment.v0 is to record the information required to evaluate the potential risk of Covid-19 infection, as part of professional screening or self-assessment.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000136 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000136">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000605"/>
+	<rdfs:label>social distancing</rdfs:label>
+	<rdfs:seeAlso>https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html</rdfs:seeAlso>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Social distancing, also called “physical distancing,” means keeping space between yourself and other people outside of your home.</oboInOwl:hasDefinition>
+	<oboInOwl:hasExactSynonym>Physical Distancing</oboInOwl:hasExactSynonym>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid34">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000136"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Social distancing, also called “physical distancing,” means keeping space between yourself and other people outside of your home.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000137 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000137">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>C-19 COVID symptom tracker</rdfs:label>
+	<rdfs:seeAlso>https://covid.joinzoe.com/?ref=producthunt</rdfs:seeAlso>
+	<rdfs:seeAlso>https://www.massgeneral.org/cancer-center/news/covid-symptom-tracker-app</rdfs:seeAlso>
+	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+	<covid:CommentonHierarchy>Mobile apps</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>A new COVID-19 symptom research app is recruiting millions of Americans, including healthcare professionals, cancer patients and survivors, to beat the disease.The app will help identify those at risk sooner, and help slow the outbreak of the disease. Information about those who remain symptom-free will also support better understanding of COVID-19.</oboInOwl:hasDefinition>
+</rdf:Description>
+<!--  -->
+<!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000141 -->
+
+<rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000141">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>bilateral involvement</rdfs:label>
+	<rdfs:seeAlso>https://pubs.rsna.org/doi/10.1148/radiol.2020200463</rdfs:seeAlso>
+	<covid:CommentonHierarchy>common CT pattern</covid:CommentonHierarchy>
+	<covid:fromArticle>true</covid:fromArticle>
+	<oboInOwl:hasDefinition>Bilateral, diffuse ground-glass opacities.</oboInOwl:hasDefinition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid35">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+	<owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000141"/>
+	<owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+	<owl:annotatedTarget>Bilateral, diffuse ground-glass opacities.</owl:annotatedTarget>
+	<rdfs:isDefinedBy>https://www.sciencedirect.com/topics/medicine-and-dentistry/ground-glass-opacity</rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
+</rdf:RDF>

@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pc/ontologies/2020/3/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/pc/ontologies/2020/3/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pc/ontologies/2020/3/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefinition -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromBEL -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromBEL"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000004 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000004">
+        <rdfs:label>enzyme level signalling struggling liver</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Increased levels of the liver enzymes that affect liver functioning.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000004"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Increased levels of the liver enzymes that affect liver functioning.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://britishlivertrust.org.uk/information-and-support/living-with-a-liver-condition/liver-conditions/cirrhosis/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000008 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000008">
+        <rdfs:label>fibrin fragment D</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32171076"/>
+        <oboInOwl:hasDefinition>D-dimers are protein products of cross-linked fibrin degradation that are present in the blood of most healthy individuals in only negligible amounts (of the order 100-200 ng/mL).</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>D-dimer</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000008"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>D-dimers are protein products of cross-linked fibrin degradation that are present in the blood of most healthy individuals in only negligible amounts (of the order 100-200 ng/mL).</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://acutecaretesting.org/en/journal-scans/causes-of-increased-d-dimer</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000009 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000009">
+        <rdfs:label>interstitial edema</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32142773"/>
+        <oboInOwl:hasDefinition>Edema caused by the accumulation of fluid in the extracellular spaces of a tissue.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>edema, interstitial</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000009"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Edema caused by the accumulation of fluid in the extracellular spaces of a tissue.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://medical-dictionary.thefreedictionary.com/interstitial+edema</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000014 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000014">
+        <rdfs:label>alveolar damage</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32198713"/>
+        <oboInOwl:hasDefinition>Damage to the walls of the air sacs (alveoli) of the lung</oboInOwl:hasDefinition>
+        <oboInOwl:hasRelatedSynonym>Emphysema</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000014"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Damage to the walls of the air sacs (alveoli) of the lung</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://my.clevelandclinic.org/health/diseases/9370-emphysema</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000015 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000015">
+        <rdfs:label>fulminant myocarditis</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32215613"/>
+        <oboInOwl:hasDefinition>Fulminant myocarditis (FM) is an uncommon syndrome characterized by sudden and severe diffuse cardiac inflammation often leading to death resulting from cardiogenic shock, ventricular arrhythmias, or multiorgan system failure.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000015"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Fulminant myocarditis (FM) is an uncommon syndrome characterized by sudden and severe diffuse cardiac inflammation often leading to death resulting from cardiogenic shock, ventricular arrhythmias, or multiorgan system failure.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ahajournals.org/doi/10.1161/CIR.0000000000000745</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000016 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000016">
+        <rdfs:label>exhaustion of CD8+ T cell</rdfs:label>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:CommentonHierarchy>biological process</covid:CommentonHierarchy>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32203186"/>
+        <oboInOwl:hasDefinition>Excessive amount of persistent antigen and/or inflammatory signals often leads CD8+ T cells to gradual deterioration of T cell function, a state called “exhaustion.” Exhausted T cells are characterized by progressive loss of effector functions (cytokine production and killing function), expression of multiple inhibitory receptors (such as PD-1 and LAG3), dysregulated metabolism, poor memory recall response, and homeostatic proliferation.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>CD8+ T cell exhaustion</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000016"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Excessive amount of persistent antigen and/or inflammatory signals often leads CD8+ T cells to gradual deterioration of T cell function, a state called “exhaustion.” Exhausted T cells are characterized by progressive loss of effector functions (cytokine production and killing function), expression of multiple inhibitory receptors (such as PD-1 and LAG3), dysregulated metabolism, poor memory recall response, and homeostatic proliferation.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://link.springer.com/article/10.1007/s00281-019-00744-5</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000027 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000027">
+        <rdfs:label>interstitial fibrosis</rdfs:label>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216698/"/>
+        <oboInOwl:hasDefinition>A build-up of scar tissue that affects interstitium (the network of tissue that supports the air sacs in lungs).</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>fibrosis, interstitial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Pulmonary fibrosis</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000027"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A build-up of scar tissue that affects interstitium (the network of tissue that supports the air sacs in lungs).</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.blf.org.uk/support-for-you/pulmonary-fibrosis/what-is-pulmonary-fibrosis</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000043 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000043">
+        <rdfs:label>acute brain injury</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216698/"/>
+        <oboInOwl:hasDefinition>Acute and chronic (see also BRAIN INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and BRAIN STEM. Clinical manifestations depend on the nature of injury. Diffuse trauma to the brain is frequently associated with DIFFUSE AXONAL INJURY or COMA, POST-TRAUMATIC. Localized injuries may be associated with NEUROBEHAVIORAL MANIFESTATIONS; HEMIPARESIS, or other focal neurologic deficits.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Brain Injuries</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000043"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Acute and chronic (see also BRAIN INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and BRAIN STEM. Clinical manifestations depend on the nature of injury. Diffuse trauma to the brain is frequently associated with DIFFUSE AXONAL INJURY or COMA, POST-TRAUMATIC. Localized injuries may be associated with NEUROBEHAVIORAL MANIFESTATIONS; HEMIPARESIS, or other focal neurologic deficits.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/mesh/?term=Brain+Injury%2C+Acute</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000048 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000048">
+        <rdfs:label>lumen stenosis</rdfs:label>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+        <oboInOwl:hasDefinition>Narrowing of the lumen, the inside diameter of a blood vessel or hollow organ.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000048"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Narrowing of the lumen, the inside diameter of a blood vessel or hollow organ.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://mayfieldclinic.com/pe-carotidstenosis.htm</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000049 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000049">
+        <rdfs:label>severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/NCBITaxon_2697049</rdfs:seeAlso>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073332/"/>
+        <oboInOwl:hasDefinition>The coronavirus (Severe acute respiratory syndrome coronavirus 2 of the genus Betacoronavirus) that is the causative agent of COVID-19</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>2019-nCoV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000049"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>The coronavirus (Severe acute respiratory syndrome coronavirus 2 of the genus Betacoronavirus) that is the causative agent of COVID-19</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/SARS-CoV-2</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000063 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000063">
+        <rdfs:label>gold immunochromatographic assay</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32221133"/>
+        <oboInOwl:hasDefinition>The gold immunochromatographic assay (GICA), a technique based on the specific antigen–antibody immunoreactions, is a highly useful tool in diagnostics that can be completed within 30 min, without specialized equipment or complicated handling procedures, providing convenience for rapid testing.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000063"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>The gold immunochromatographic assay (GICA), a technique based on the specific antigen–antibody immunoreactions, is a highly useful tool in diagnostics that can be completed within 30 min, without specialized equipment or complicated handling procedures, providing convenience for rapid testing.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.frontiersin.org/articles/10.3389/fmicb.2018.02069/full</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000067 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000067">
+        <rdfs:label>convalescent plasma</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32186952/"/>
+        <oboInOwl:hasDefinition>Convalescent plasma is the term used for plasma that is removed from the blood of a person who has recovered from a disease, then transfused into a patient still battling it.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000067"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Convalescent plasma is the term used for plasma that is removed from the blood of a person who has recovered from a disease, then transfused into a patient still battling it.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.nytimes.com/2020/04/24/smarter-living/coronavirus-convalescent-plasma-antibodies.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000085 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000085">
+        <rdfs:label>computational phylogenetic analysis</rdfs:label>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32167166"/>
+        <oboInOwl:hasDefinition>Application of computational strategies for phylogenetic analysis.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000085"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Application of computational strategies for phylogenetic analysis.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://academic.oup.com/sysbio/article/56/5/711/1694395</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000086 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000086">
+        <rdfs:label>vascular congestion</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+        <oboInOwl:hasDefinition>Obstruction of the normal flux of blood within the blood vessel network of the lung resulting in engorgement of pulmonary vessels; frequently precedes pulmonary edema</oboInOwl:hasDefinition>
+        <oboInOwl:hasRelatedSynonym>pulmonary vascular congestion</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000086"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Obstruction of the normal flux of blood within the blood vessel network of the lung resulting in engorgement of pulmonary vessels; frequently precedes pulmonary edema</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://www.informatics.jax.org/vocab/mp_ontology/MP:0010018</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000089 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000089">
+        <rdfs:label>chemiluminescence-linked immunosorbent assay</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32221133"/>
+        <oboInOwl:hasDefinition>Chemiluminescence immunoassay (CLIA) is an assay that combine chemiluminescence technique with immunochemical reactions.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Chemiluminescence immunoassay</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000089"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Chemiluminescence immunoassay (CLIA) is an assay that combine chemiluminescence technique with immunochemical reactions.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.creative-diagnostics.com/Chemiluminescence-Immunoassay-guide.htm</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000100 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000100">
+        <rdfs:label>thickened alveolar septum</rdfs:label>
+        <rdfs:seeAlso>http://biorxiv.org/lookup/doi/10.1101/2020.03.13.990226</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+        <oboInOwl:hasDefinition>Increased width of the tissue intervening between two adjacent pulmonary alveoli, which consists of the basement membranes of alveolar-lining epithelium (mostly type I pneumocytes) and capillary endothelium</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>thick pulmonary interalveolar septum</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000100"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Increased width of the tissue intervening between two adjacent pulmonary alveoli, which consists of the basement membranes of alveolar-lining epithelium (mostly type I pneumocytes) and capillary endothelium</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://www.informatics.jax.org/vocab/mp_ontology/MP:0001179</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000101 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000101">
+        <rdfs:label>air bronchogram</rdfs:label>
+        <covid:CommentonHierarchy>assay</covid:CommentonHierarchy>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216961/"/>
+        <oboInOwl:hasDefinition>Air bronchogram refers to the phenomenon of air-filled bronchi (dark) being made visible by the opacification of surrounding alveoli (grey/white).</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000101"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Air bronchogram refers to the phenomenon of air-filled bronchi (dark) being made visible by the opacification of surrounding alveoli (grey/white).</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://radiopaedia.org/articles/air-bronchogram</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000111 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000111">
+        <rdfs:label>CD16 positive CD56 positive lymphocyte</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32193831/"/>
+        <oboInOwl:hasDefinition>Lymphocyte subsets expressing phenotypic markers CD16 and CD56.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000111"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Lymphocyte subsets expressing phenotypic markers CD16 and CD56.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://springerplus.springeropen.com/articles/10.1186/s40064-016-1884-3</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000124 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000124">
+        <rdfs:label>degeneration of the alveolar epithelia</rdfs:label>
+        <rdfs:seeAlso>http://biorxiv.org/lookup/doi/10.1101/2020.03.13.990226</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+        <oboInOwl:hasDefinition>Reversible damage to an epithelial surface characterized by detachment of viable cells from the epithelial surface and nuclear condensation (pyknosis) and cellular shrinkage of scattered cells within the epithelium.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000124"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Reversible damage to an epithelial surface characterized by detachment of viable cells from the epithelial surface and nuclear condensation (pyknosis) and cellular shrinkage of scattered cells within the epithelium.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://ntp.niehs.nih.gov/nnl/respiratory/lung/epidegen/index.htm</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bscantology/COVID_0000107 -->
+
+
+    <owl:Class rdf:about="https://bscantology/COVID_0000107">
+        <rdfs:label>gamma-glutamyltransferase</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32217556"/>
+        <oboInOwl:hasDefinition>Gamma glutamyl transferases (GGT) are highly conserved enzymes that occur from bacteria to humans. They remove terminal γ-glutamyl residue from peptides and amides.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Gamma-glutamyltransferases</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bscantology/COVID_0000107"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Gamma glutamyl transferases (GGT) are highly conserved enzymes that occur from bacteria to humans. They remove terminal γ-glutamyl residue from peptides and amides.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://link.springer.com/article/10.1007/s11515-014-1288-0</rdfs:isDefinedBy>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

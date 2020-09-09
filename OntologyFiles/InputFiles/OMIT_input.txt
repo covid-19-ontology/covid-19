@@ -1,0 +1,31 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OMIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0028187 #Noninvasive Ventilation
+http://purl.obolibrary.org/obo/OMIT_0015990 #Extracorporeal Membrane Oxygenation
+http://purl.obolibrary.org/obo/OMIT_0005212 #Diagnosis, Differential
+http://purl.obolibrary.org/obo/OMIT_0027237 #Drug Repositioning
+http://purl.obolibrary.org/obo/OMIT_0010070 #Mortality
+http://purl.obolibrary.org/obo/OMIT_0028258 #Hand Hygiene
+http://purl.obolibrary.org/obo/OMIT_0028469 #Hand Sanitizers
+http://purl.obolibrary.org/obo/OMIT_0027404 #Pandemics
+http://purl.obolibrary.org/obo/OMIT_0001154 #Personal Protective Equipment
+http://purl.obolibrary.org/obo/OMIT_0008054 #Hygiene
+http://purl.obolibrary.org/obo/OMIT_0017203 #Immunoglobulins, Intravenous
+http://purl.obolibrary.org/obo/OMIT_0028428 #Spike Glycoprotein, Coronavirus
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000019 #quality
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

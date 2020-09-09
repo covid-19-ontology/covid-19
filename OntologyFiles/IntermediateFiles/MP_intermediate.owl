@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/MP_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/MP_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/MP_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0001847 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001847">
+        <obo:IAO_0000115>local accumulation of fluid, plasma proteins, and leukocytes in the brain</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
+        <oboInOwl:hasExactSynonym>encephalitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>MPheno.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MP:0001847</oboInOwl:id>
+        <rdfs:label>brain inflammation</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0001848 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001848">
+        <obo:IAO_0000115>local accumulation of fluid, plasma proteins, and leukocytes in the thin, highly vascularized membrane covering most of the posterior of the eye between the retina and the sclera</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
+        <oboInOwl:hasExactSynonym>choroiditis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>MPheno.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MP:0001848</oboInOwl:id>
+        <rdfs:label>choroid inflammation</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toeshttps://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl1:hasExactSynonym>inflammation of the eye membrane</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0001853 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001853">
+        <obo:IAO_0000115>local accumulation of fluid, plasma proteins, and leukocytes in the heart</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
+        <oboInOwl:hasExactSynonym>cardiac inflammation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>carditis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>MPheno.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MP:0001853</oboInOwl:id>
+        <rdfs:label>heart inflammation</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0010210 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0010210">
+        <obo:IAO_0000115>deviation from the normal levels in the blood of any of the non-antibody proteins made by inflammatory leukocytes and some non-leukocytic cells that affect the behavior of other cells</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
+        <oboInOwl:created_by>csmith</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-07-05T10:02:09Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>MPheno.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MP:0010210</oboInOwl:id>
+        <rdfs:label>abnormal circulating cytokine level</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32113714"/>
+        <oboInOwl1:hasExactSynonym>significantly high blood levels of chemokines</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

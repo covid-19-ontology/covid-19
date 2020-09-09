@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/MMO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/MMO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/MMO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MMO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MMO_0000128">
+        <obo:IAO_0000115>Tomography, that is, method that produces images of single tissue planes, in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section on a cathode ray tube.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mmo.owl"/>
+        <oboInOwl:created_by>mshimoyama</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-08-05T02:24:12Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>measurement_method_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CAT scan</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CT scan</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>X-ray computed tomography</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>computed axial tomography</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>computerized axial tomography (CAT)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MMO:0000128</oboInOwl:id>
+        <rdfs:label>computed tomography</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32294504"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

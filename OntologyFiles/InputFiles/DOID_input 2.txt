@@ -1,0 +1,37 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_2030 #anxiety disorder
+http://purl.obolibrary.org/obo/DOID_1561 #cognitive disorder
+http://purl.obolibrary.org/obo/DOID_0060037 #developmental disorder of mental health
+http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+http://purl.obolibrary.org/obo/DOID_7 #disease of anatomical entity
+http://purl.obolibrary.org/obo/DOID_150 #disease of mental health
+http://purl.obolibrary.org/obo/DOID_630 #genetic disease
+http://purl.obolibrary.org/obo/DOID_3324 #mood disorder
+http://purl.obolibrary.org/obo/DOID_10934 #multiple personality disorder
+http://purl.obolibrary.org/obo/DOID_17 #musculoskeletal system disease
+http://purl.obolibrary.org/obo/DOID_863 #nervous system disease
+http://purl.obolibrary.org/obo/DOID_1510 #personality disorder
+http://purl.obolibrary.org/obo/DOID_0060040 #pervasive developmental disorder
+http://purl.obolibrary.org/obo/DOID_2468 #psychotic disorder
+http://purl.obolibrary.org/obo/DOID_0060043 #sexual disorder
+http://purl.obolibrary.org/obo/DOID_535 #sleep disorder
+http://purl.obolibrary.org/obo/DOID_4737 #somatoform disorder
+http://purl.obolibrary.org/obo/DOID_0060038 #specific developmental disorder
+http://purl.obolibrary.org/obo/DOID_303 #substance-related disorder
+http://purl.obolibrary.org/obo/DOID_1307 #dementia
+http://purl.obolibrary.org/obo/DOID_225 #syndrome
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_4 #disease
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]

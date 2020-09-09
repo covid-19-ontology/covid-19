@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/priya.s/ontologies/2020/3/untitled-ontology-79#"
+     xml:base="http://www.semanticweb.org/priya.s/ontologies/2020/3/untitled-ontology-79"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/priya.s/ontologies/2020/3/untitled-ontology-79"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefintion -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefintion"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000018 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <rdfs:label>cytosolic part</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32228226/"/>
+        <oboInOwl:hasDefinition>Any constituent part of cytosol, that part of the cytoplasm that does not contain membranous or particulate subcellular components.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000018"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Any constituent part of cytosol, that part of the cytoplasm that does not contain membranous or particulate subcellular components.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.yeastgenome.org/go/GO:0044445</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000024 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000024">
+        <rdfs:label>bipartite viral genome</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.04.05.026450v1.full.pdf</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000033 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000033">
+        <rdfs:label>ssRNA viral genome</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/figure/article-52171.image.f5/"/>
+        <oboInOwl:hasDefinition>Single-stranded RNA viruses are classified as positive or negative strand according to the way in which coding information is stored in the viral genome.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000033"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Single-stranded RNA viruses are classified as positive or negative strand according to the way in which coding information is stored in the viral genome.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.sciencedirect.com/topics/medicine-and-dentistry/single-stranded-rna-virus</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000037 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000037">
+        <rdfs:label>non-segmented viral genome</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165108/"/>
+        <oboInOwl:hasDefinition>A viral genome that consists of one continuous nucleic acid molecule.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000037"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A viral genome that consists of one continuous nucleic acid molecule.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.yeastgenome.org/go/GO:0019016</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000084 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000084">
+        <owl:disjointWith rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000093"/>
+        <rdfs:label>transmission of virus</rdfs:label>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/"/>
+        <oboInOwl:hasDefinition>Viral transmission is the process by which viruses spread between hosts. It includes spread to members of the same host species or spread to different species in the case of viruses that can cross species barriers.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Transmission Cycle of SARS CoV 2</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000084"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Viral transmission is the process by which viruses spread between hosts. It includes spread to members of the same host species or spread to different species in the case of viruses that can cross species barriers.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.nature.com/subjects/viral-transmission</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000092 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <rdfs:label>cell-substrate adherens junction</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32228226/"/>
+        <oboInOwl:hasDefinition>An adherens junction which connects a cell to the extracellular matrix.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000092"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>An adherens junction which connects a cell to the extracellular matrix.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://amp.pharm.mssm.edu/Harmonizome/gene_set/cell-substrate+adherens+junction/COMPARTMENTS+Experimental+Protein+Localization+Evidence+Scores</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000093 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000093">
+        <rdfs:label>positive sense viral genome</rdfs:label>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/"/>
+        <oboInOwl:hasDefinition>Also known as a sense-strand RNA virus, a virus whose genetic information consists of a single strand of RNA that is the positive (or sense) strand which encodes mRNA (messenger RNA) and protein. Replication in positive-strand RNA viruses is via a negative-strand intermediate.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000093"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Also known as a sense-strand RNA virus, a virus whose genetic information consists of a single strand of RNA that is the positive (or sense) strand which encodes mRNA (messenger RNA) and protein. Replication in positive-strand RNA viruses is via a negative-strand intermediate.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.medicinenet.com/script/main/art.asp?articlekey=22952</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000115 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000115">
+        <rdfs:label>viral transmission by vector</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32234468"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000121 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000121">
+        <rdfs:label>RNA viral genome</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencedirect.com/topics/immunology-and-microbiology/virus-genome</rdfs:seeAlso>
+        <covid:CommentonDefintion>Modified definition</covid:CommentonDefintion>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/figure/article-52171.image.f5/"/>
+        <oboInOwl:hasDefinition>Viral genomes consisting of  ribonucleic acid  that can be either circular, linear, or fragmented.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000024"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000033"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000037"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000084"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000093"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000121"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,39 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+SYMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SYMP_0000292 #heart failure
+http://purl.obolibrary.org/obo/SYMP_0000451 #septic shock
+http://purl.obolibrary.org/obo/SYMP_0000634 #leukocytosis
+http://purl.obolibrary.org/obo/SYMP_0000025 #dry cough
+http://purl.obolibrary.org/obo/SYMP_0000299 #hyperemia
+http://purl.obolibrary.org/obo/SYMP_0000041 #hemorrhage
+http://purl.obolibrary.org/obo/SYMP_0000061 #inflammation
+http://purl.obolibrary.org/obo/SYMP_0000538 #edema
+http://purl.obolibrary.org/obo/SYMP_0000576 #chest pain
+http://purl.obolibrary.org/obo/SYMP_0000107 #pleural effusion
+http://purl.obolibrary.org/obo/SYMP_0019174 #chills
+http://purl.obolibrary.org/obo/SYMP_0000529 #tachycardia
+http://purl.obolibrary.org/obo/SYMP_0000827 #ventricular tachycardia
+http://purl.obolibrary.org/obo/SYMP_0000899 #ventricular fibrillation
+http://purl.obolibrary.org/obo/SYMP_0000178 #weight loss
+http://purl.obolibrary.org/obo/SYMP_0000153 #vasculitis
+http://purl.obolibrary.org/obo/SYMP_0000095 #myocarditis
+http://purl.obolibrary.org/obo/SYMP_0000075 #lethargy
+http://purl.obolibrary.org/obo/SYMP_0000114 #thrombocytopenia
+http://purl.obolibrary.org/obo/SYMP_0000603 #tachypnea
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SYMP_0000462 #symptom
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

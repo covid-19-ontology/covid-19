@@ -1,0 +1,52 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/CHEBI_5_import.owl.
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_39548 #atorvastatin
+http://purl.obolibrary.org/obo/CHEBI_16335 #adenosine
+http://purl.obolibrary.org/obo/CHEBI_50131 #5-aza-2'-deoxycytidine
+http://purl.obolibrary.org/obo/CHEBI_5001 #fenofibrate
+http://purl.obolibrary.org/obo/CHEBI_247956 #cinchocaine
+http://purl.obolibrary.org/obo/CHEBI_9398 #tamsulosin
+http://purl.obolibrary.org/obo/CHEBI_45081 #pentamidine
+http://purl.obolibrary.org/obo/CHEBI_9613 #tolazamide
+http://purl.obolibrary.org/obo/CHEBI_135626 #gemeprost
+http://purl.obolibrary.org/obo/CHEBI_94484 #1-phenyl-1-cyclopentanecarboxylic acid 2-[2-(diethylamino)ethoxy]ethyl ester
+http://purl.obolibrary.org/obo/CHEBI_68606 #rilpivirine
+http://purl.obolibrary.org/obo/CHEBI_28971 #ampicillin
+http://purl.obolibrary.org/obo/CHEBI_6827 #methicillin
+http://purl.obolibrary.org/obo/CHEBI_7772 #omeprazole
+http://purl.obolibrary.org/obo/CHEBI_68556 #icatibant
+http://purl.obolibrary.org/obo/CHEBI_37943 #colistin
+http://purl.obolibrary.org/obo/CHEBI_37924 #atazanavir
+http://purl.obolibrary.org/obo/CHEBI_28545 #valinomycin
+http://purl.obolibrary.org/obo/CHEBI_63628 #tipranavir
+http://purl.obolibrary.org/obo/CHEBI_44032 #indinavir
+http://purl.obolibrary.org/obo/CHEBI_134743 #simeprevir
+http://purl.obolibrary.org/obo/CHEBI_15939 #glycyrrhizinic acid
+http://purl.obolibrary.org/obo/CHEBI_4356 #desferrioxamine B
+http://purl.obolibrary.org/obo/CHEBI_114785 #erlotinib
+http://purl.obolibrary.org/obo/CHEBI_134719 #ceftolozane
+http://purl.obolibrary.org/obo/CHEBI_28775 #hesperidin
+http://purl.obolibrary.org/obo/CHEBI_65347 #carfilzomib
+http://purl.obolibrary.org/obo/CHEBI_63621 #saquinavir
+http://purl.obolibrary.org/obo/CHEBI_50868 #penicillamine
+http://purl.obolibrary.org/obo/CHEBI_68558 #ticagrelor
+http://purl.obolibrary.org/obo/CHEBI_10100 #zafirlukast
+http://purl.obolibrary.org/obo/CHEBI_82977 #daclatasvir
+http://purl.obolibrary.org/obo/CHEBI_50924 #sorafenib
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000037 #abnormal homeostasis
+http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+http://purl.obolibrary.org/obo/OGMS_0000123 #clinical data item
+http://purl.obolibrary.org/obo/OGMS_0000014 #clinical finding
+http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+http://purl.obolibrary.org/obo/OGMS_0000096 #health care process
+http://purl.obolibrary.org/obo/OGMS_0000083 #physical examination finding
+http://purl.obolibrary.org/obo/OGMS_0000112 #therapeutic procedure
+http://purl.obolibrary.org/obo/OGMS_0000029 #vital sign
+http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
+http://purl.obolibrary.org/obo/OGMS_0000032 #homeostasis
+http://purl.obolibrary.org/obo/OGMS_0000024 #sign
+http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

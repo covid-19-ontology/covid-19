@@ -1,0 +1,615 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/GO_import.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0009987 #cellular process
+http://purl.obolibrary.org/obo/GO_0050789 #regulation of biological process
+http://purl.obolibrary.org/obo/GO_0016032 #viral process
+http://purl.obolibrary.org/obo/GO_0002035 #brain renin-angiotensin system
+http://purl.obolibrary.org/obo/GO_0060337 #type I interferon signaling pathway
+http://purl.obolibrary.org/obo/GO_0033554 #cellular response to stress
+http://purl.obolibrary.org/obo/GO_0007568 #aging
+http://purl.obolibrary.org/obo/GO_0042110 #T cell activation
+http://purl.obolibrary.org/obo/GO_0046631 #alpha-beta T cell activation
+http://purl.obolibrary.org/obo/GO_0042310 #vasoconstriction
+http://purl.obolibrary.org/obo/GO_0035932 #aldosterone secretion
+http://purl.obolibrary.org/obo/GO_0006954 #inflammatory response
+http://purl.obolibrary.org/obo/GO_0007259 #receptor signaling pathway via JAK-STAT
+http://purl.obolibrary.org/obo/GO_0071754 #IgM immunoglobulin complex, circulating
+http://purl.obolibrary.org/obo/GO_0097084 #vascular smooth muscle cell development
+http://purl.obolibrary.org/obo/GO_0043116 #negative regulation of vascular permeability
+http://purl.obolibrary.org/obo/GO_0043542 #endothelial cell migration
+http://purl.obolibrary.org/obo/GO_1904738 #vascular associated smooth muscle cell migration
+http://purl.obolibrary.org/obo/GO_0009405 #pathogenesis
+http://purl.obolibrary.org/obo/GO_0016477 #cell migration
+http://purl.obolibrary.org/obo/GO_0007155 #cell adhesion
+http://purl.obolibrary.org/obo/GO_0007267 #cell-cell signaling
+http://purl.obolibrary.org/obo/GO_0034682 #integrin alphav-beta1 complex
+http://purl.obolibrary.org/obo/GO_0014065 #phosphatidylinositol 3-kinase signaling
+http://purl.obolibrary.org/obo/GO_0000165 #MAPK cascade
+http://purl.obolibrary.org/obo/GO_0002534 #cytokine production involved in inflammatory response
+http://purl.obolibrary.org/obo/GO_0046677 #response to antibiotic
+http://purl.obolibrary.org/obo/GO_0050658 #RNA transport
+http://purl.obolibrary.org/obo/GO_0038061 #NIK/NF-kappaB signaling
+http://purl.obolibrary.org/obo/GO_0006949 #syncytium formation
+http://purl.obolibrary.org/obo/GO_0051170 #import into nucleus
+http://purl.obolibrary.org/obo/GO_0005102 #signaling receptor binding
+http://purl.obolibrary.org/obo/GO_0006614 #SRP-dependent cotranslational protein targeting to membrane
+http://purl.obolibrary.org/obo/GO_0006613 #cotranslational protein targeting to membrane
+http://purl.obolibrary.org/obo/GO_0045047 #protein targeting to ER
+http://purl.obolibrary.org/obo/GO_0072599 #establishment of protein localization to endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0000184 #nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+http://purl.obolibrary.org/obo/GO_0070972 #protein localization to endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0019083 #viral transcription
+http://purl.obolibrary.org/obo/GO_0006612 #protein targeting to membrane
+http://purl.obolibrary.org/obo/GO_0019080 #viral gene expression
+http://purl.obolibrary.org/obo/GO_0006413 #translational initiation
+http://purl.obolibrary.org/obo/GO_0090150 #establishment of protein localization to membrane
+http://purl.obolibrary.org/obo/GO_0000956 #nuclear-transcribed mRNA catabolic process
+http://purl.obolibrary.org/obo/GO_0006402 #mRNA catabolic process
+http://purl.obolibrary.org/obo/GO_0006401 #RNA catabolic process
+http://purl.obolibrary.org/obo/GO_0006605 #protein targeting
+http://purl.obolibrary.org/obo/GO_0070268 #cornification
+http://purl.obolibrary.org/obo/GO_0002181 #cytoplasmic translation
+http://purl.obolibrary.org/obo/GO_0008544 #epidermis development
+http://purl.obolibrary.org/obo/GO_0001655 #urogenital system development
+http://purl.obolibrary.org/obo/GO_0072001 #renal system development
+http://purl.obolibrary.org/obo/GO_0001822 #kidney development
+http://purl.obolibrary.org/obo/GO_0043588 #skin development
+http://purl.obolibrary.org/obo/GO_0009913 #epidermal cell differentiation
+http://purl.obolibrary.org/obo/GO_0048732 #gland development
+http://purl.obolibrary.org/obo/GO_0071599 #otic vesicle development
+http://purl.obolibrary.org/obo/GO_0042255 #ribosome assembly
+http://purl.obolibrary.org/obo/GO_0048839 #inner ear development
+http://purl.obolibrary.org/obo/GO_0001657 #ureteric bud development
+http://purl.obolibrary.org/obo/GO_0030216 #keratinocyte differentiation
+http://purl.obolibrary.org/obo/GO_0072163 #mesonephric epithelium development
+http://purl.obolibrary.org/obo/GO_0072164 #mesonephric tubule development
+http://purl.obolibrary.org/obo/GO_0043583 #ear development
+http://purl.obolibrary.org/obo/GO_0042274 #ribosomal small subunit biogenesis
+http://purl.obolibrary.org/obo/GO_0001823 #mesonephros development
+http://purl.obolibrary.org/obo/GO_0072073 #kidney epithelium development
+http://purl.obolibrary.org/obo/GO_0031424 #keratinization
+http://purl.obolibrary.org/obo/GO_0019730 #antimicrobial humoral response
+http://purl.obolibrary.org/obo/GO_0042254 #ribosome biogenesis
+http://purl.obolibrary.org/obo/GO_0042273 #ribosomal large subunit biogenesis
+http://purl.obolibrary.org/obo/GO_0071600 #otic vesicle morphogenesis
+http://purl.obolibrary.org/obo/GO_0000028 #ribosomal small subunit assembly
+http://purl.obolibrary.org/obo/GO_0007596 #blood coagulation
+http://purl.obolibrary.org/obo/GO_0016266 #O-glycan processing
+http://purl.obolibrary.org/obo/GO_0010464 #regulation of mesenchymal cell proliferation
+http://purl.obolibrary.org/obo/GO_0042472 #inner ear morphogenesis
+http://purl.obolibrary.org/obo/GO_0007435 #salivary gland morphogenesis
+http://purl.obolibrary.org/obo/GO_1904666 #regulation of ubiquitin protein ligase activity
+http://purl.obolibrary.org/obo/GO_0097191 #extrinsic apoptotic signaling pathway
+http://purl.obolibrary.org/obo/GO_0042471 #ear morphogenesis
+http://purl.obolibrary.org/obo/GO_0006970 #response to osmotic stress
+http://purl.obolibrary.org/obo/GO_0060428 #lung epithelium development
+http://purl.obolibrary.org/obo/GO_0021545 #cranial nerve development
+http://purl.obolibrary.org/obo/GO_0090596 #sensory organ morphogenesis
+http://purl.obolibrary.org/obo/GO_0007431 #salivary gland development
+http://purl.obolibrary.org/obo/GO_0031069 #hair follicle morphogenesis
+http://purl.obolibrary.org/obo/GO_0071474 #cellular hyperosmotic response
+http://purl.obolibrary.org/obo/GO_0007015 #actin filament organization
+http://purl.obolibrary.org/obo/GO_0072080 #nephron tubule development
+http://purl.obolibrary.org/obo/GO_0048565 #digestive tract development
+http://purl.obolibrary.org/obo/GO_0021536 #diencephalon development
+http://purl.obolibrary.org/obo/GO_0060993 #kidney morphogenesis
+http://purl.obolibrary.org/obo/GO_0035904 #aorta development
+http://purl.obolibrary.org/obo/GO_0061326 #renal tubule development
+http://purl.obolibrary.org/obo/GO_0048730 #epidermis morphogenesis
+http://purl.obolibrary.org/obo/GO_0010463 #mesenchymal cell proliferation
+http://purl.obolibrary.org/obo/GO_0000027 #ribosomal large subunit assembly
+http://purl.obolibrary.org/obo/GO_0022612 #gland morphogenesis
+http://purl.obolibrary.org/obo/GO_0090026 #positive regulation of monocyte chemotaxis
+http://purl.obolibrary.org/obo/GO_0072006 #nephron development
+http://purl.obolibrary.org/obo/GO_0022626 #cytosolic ribosome
+http://purl.obolibrary.org/obo/GO_0044391 #ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0022625 #cytosolic large ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0005840 #ribosome
+http://purl.obolibrary.org/obo/GO_0022627 #cytosolic small ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0015934 #large ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0015935 #small ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0042788 #polysomal ribosome
+http://purl.obolibrary.org/obo/GO_0005844 #polysome
+http://purl.obolibrary.org/obo/GO_0045177 #apical part of cell
+http://purl.obolibrary.org/obo/GO_0016324 #apical plasma membrane
+http://purl.obolibrary.org/obo/GO_0005938 #cell cortex
+http://purl.obolibrary.org/obo/GO_0014069 #postsynaptic density
+http://purl.obolibrary.org/obo/GO_0032279 #asymmetric synapse
+http://purl.obolibrary.org/obo/GO_0009925 #basal plasma membrane
+http://purl.obolibrary.org/obo/GO_0099572 #postsynaptic specialization
+http://purl.obolibrary.org/obo/GO_0098984 #neuron to neuron synapse
+http://purl.obolibrary.org/obo/GO_0001533 #cornified envelope
+http://purl.obolibrary.org/obo/GO_0045178 #basal part of cell
+http://purl.obolibrary.org/obo/GO_0030057 #desmosome
+http://purl.obolibrary.org/obo/GO_0016323 #basolateral plasma membrane
+http://purl.obolibrary.org/obo/GO_0005923 #bicellular tight junction
+http://purl.obolibrary.org/obo/GO_0043296 #apical junction complex
+http://purl.obolibrary.org/obo/GO_0035710 #CD4-positive, alpha-beta T cell activation
+http://purl.obolibrary.org/obo/GO_0006958 #complement activation, classical pathway
+http://purl.obolibrary.org/obo/GO_0002455 #humoral immune response mediated by circulating immunoglobulin
+http://purl.obolibrary.org/obo/GO_0006956 #complement activation
+http://purl.obolibrary.org/obo/GO_0072376 #protein activation cascade
+http://purl.obolibrary.org/obo/GO_0016064 #immunoglobulin mediated immune response
+http://purl.obolibrary.org/obo/GO_0019724 #B cell mediated immunity
+http://purl.obolibrary.org/obo/GO_0030449 #regulation of complement activation
+http://purl.obolibrary.org/obo/GO_2000257 #regulation of protein activation cascade
+http://purl.obolibrary.org/obo/GO_0002449 #lymphocyte mediated immunity
+http://purl.obolibrary.org/obo/GO_0006959 #humoral immune response
+http://purl.obolibrary.org/obo/GO_0002460 #adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains
+http://purl.obolibrary.org/obo/GO_0002920 #regulation of humoral immune response
+http://purl.obolibrary.org/obo/GO_0070613 #regulation of protein processing
+http://purl.obolibrary.org/obo/GO_1903317 #regulation of protein maturation
+http://purl.obolibrary.org/obo/GO_0002673 #regulation of acute inflammatory response
+http://purl.obolibrary.org/obo/GO_0002433 #immune response-regulating cell surface receptor signaling pathway involved in phagocytosis
+http://purl.obolibrary.org/obo/GO_0038096 #Fc-gamma receptor signaling pathway involved in phagocytosis
+http://purl.obolibrary.org/obo/GO_0038094 #Fc-gamma receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0002431 #Fc receptor mediated stimulatory signaling pathway
+http://purl.obolibrary.org/obo/GO_0002526 #acute inflammatory response
+http://purl.obolibrary.org/obo/GO_0006910 #phagocytosis, recognition
+http://purl.obolibrary.org/obo/GO_0006911 #phagocytosis, engulfment
+http://purl.obolibrary.org/obo/GO_0002429 #immune response-activating cell surface receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0099024 #plasma membrane invagination
+http://purl.obolibrary.org/obo/GO_0002377 #immunoglobulin production
+http://purl.obolibrary.org/obo/GO_0010324 #membrane invagination
+http://purl.obolibrary.org/obo/GO_0016485 #protein processing
+http://purl.obolibrary.org/obo/GO_0006898 #receptor-mediated endocytosis
+http://purl.obolibrary.org/obo/GO_0038095 #Fc-epsilon receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0050853 #B cell receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0002440 #production of molecular mediator of immune response
+http://purl.obolibrary.org/obo/GO_0038093 #Fc receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0051604 #protein maturation
+http://purl.obolibrary.org/obo/GO_0050871 #positive regulation of B cell activation
+http://purl.obolibrary.org/obo/GO_0050727 #regulation of inflammatory response
+http://purl.obolibrary.org/obo/GO_0050864 #regulation of B cell activation
+http://purl.obolibrary.org/obo/GO_0008037 #cell recognition
+http://purl.obolibrary.org/obo/GO_0042742 #defense response to bacterium
+http://purl.obolibrary.org/obo/GO_0042113 #B cell activation
+http://purl.obolibrary.org/obo/GO_0050851 #antigen receptor-mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0051251 #positive regulation of lymphocyte activation
+http://purl.obolibrary.org/obo/GO_0002696 #positive regulation of leukocyte activation
+http://purl.obolibrary.org/obo/GO_0050867 #positive regulation of cell activation
+http://purl.obolibrary.org/obo/GO_0051249 #regulation of lymphocyte activation
+http://purl.obolibrary.org/obo/GO_0140014 #mitotic nuclear division
+http://purl.obolibrary.org/obo/GO_0000070 #mitotic sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0000280 #nuclear division
+http://purl.obolibrary.org/obo/GO_0000819 #sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0007059 #chromosome segregation
+http://purl.obolibrary.org/obo/GO_0048285 #organelle fission
+http://purl.obolibrary.org/obo/GO_0098813 #nuclear chromosome segregation
+http://purl.obolibrary.org/obo/GO_1901990 #regulation of mitotic cell cycle phase transition
+http://purl.obolibrary.org/obo/GO_0051983 #regulation of chromosome segregation
+http://purl.obolibrary.org/obo/GO_1902850 #microtubule cytoskeleton organization involved in mitosis
+http://purl.obolibrary.org/obo/GO_0007051 #spindle organization
+http://purl.obolibrary.org/obo/GO_0000086 #G2/M transition of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_1901987 #regulation of cell cycle phase transition
+http://purl.obolibrary.org/obo/GO_0044839 #cell cycle G2/M phase transition
+http://purl.obolibrary.org/obo/GO_0007052 #mitotic spindle organization
+http://purl.obolibrary.org/obo/GO_0030071 #regulation of mitotic metaphase/anaphase transition
+http://purl.obolibrary.org/obo/GO_1902099 #regulation of metaphase/anaphase transition of cell cycle
+http://purl.obolibrary.org/obo/GO_0007091 #metaphase/anaphase transition of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0051304 #chromosome separation
+http://purl.obolibrary.org/obo/GO_0044784 #metaphase/anaphase transition of cell cycle
+http://purl.obolibrary.org/obo/GO_0010965 #regulation of mitotic sister chromatid separation
+http://purl.obolibrary.org/obo/GO_0007088 #regulation of mitotic nuclear division
+http://purl.obolibrary.org/obo/GO_0007093 #mitotic cell cycle checkpoint
+http://purl.obolibrary.org/obo/GO_0010389 #regulation of G2/M transition of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0051306 #mitotic sister chromatid separation
+http://purl.obolibrary.org/obo/GO_1902749 #regulation of cell cycle G2/M phase transition
+http://purl.obolibrary.org/obo/GO_1905818 #regulation of chromosome separation
+http://purl.obolibrary.org/obo/GO_0007094 #mitotic spindle assembly checkpoint
+http://purl.obolibrary.org/obo/GO_0031577 #spindle checkpoint
+http://purl.obolibrary.org/obo/GO_0071173 #spindle assembly checkpoint
+http://purl.obolibrary.org/obo/GO_0071174 #mitotic spindle checkpoint
+http://purl.obolibrary.org/obo/GO_0044282 #small molecule catabolic process
+http://purl.obolibrary.org/obo/GO_0033046 #negative regulation of sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0051985 #negative regulation of chromosome segregation
+http://purl.obolibrary.org/obo/GO_0090307 #mitotic spindle assembly
+http://purl.obolibrary.org/obo/GO_0033045 #regulation of sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0045841 #negative regulation of mitotic metaphase/anaphase transition
+http://purl.obolibrary.org/obo/GO_0033047 #regulation of mitotic sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0000075 #cell cycle checkpoint
+http://purl.obolibrary.org/obo/GO_0051225 #spindle assembly
+http://purl.obolibrary.org/obo/GO_1902100 #negative regulation of metaphase/anaphase transition of cell cycle
+http://purl.obolibrary.org/obo/GO_0003094 #glomerular filtration
+http://purl.obolibrary.org/obo/GO_0051783 #regulation of nuclear division
+http://purl.obolibrary.org/obo/GO_2000816 #negative regulation of mitotic sister chromatid separation
+http://purl.obolibrary.org/obo/GO_0000082 #G1/S transition of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_1905819 #negative regulation of chromosome separation
+http://purl.obolibrary.org/obo/GO_0097205 #renal filtration
+http://purl.obolibrary.org/obo/GO_0044843 #cell cycle G1/S phase transition
+http://purl.obolibrary.org/obo/GO_1901991 #negative regulation of mitotic cell cycle phase transition
+http://purl.obolibrary.org/obo/GO_1901988 #negative regulation of cell cycle phase transition
+http://purl.obolibrary.org/obo/GO_0010948 #negative regulation of cell cycle process
+http://purl.obolibrary.org/obo/GO_0008608 #attachment of spindle microtubules to kinetochore
+http://purl.obolibrary.org/obo/GO_0033048 #negative regulation of mitotic sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0009123 #nucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009144 #purine nucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009141 #nucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0046034 #ATP metabolic process
+http://purl.obolibrary.org/obo/GO_0051321 #meiotic cell cycle
+http://purl.obolibrary.org/obo/GO_0000083 #regulation of transcription involved in G1/S transition of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0009205 #purine ribonucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0048146 #positive regulation of fibroblast proliferation
+http://purl.obolibrary.org/obo/GO_1901992 #positive regulation of mitotic cell cycle phase transition
+http://purl.obolibrary.org/obo/GO_1901989 #positive regulation of cell cycle phase transition
+http://purl.obolibrary.org/obo/GO_1903046 #meiotic cell cycle process
+http://purl.obolibrary.org/obo/GO_0045930 #negative regulation of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0045839 #negative regulation of mitotic nuclear division
+http://purl.obolibrary.org/obo/GO_0009199 #ribonucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0042737 #drug catabolic process
+http://purl.obolibrary.org/obo/GO_0019886 #antigen processing and presentation of exogenous peptide antigen via MHC class II
+http://purl.obolibrary.org/obo/GO_0031099 #regeneration
+http://purl.obolibrary.org/obo/GO_0042542 #response to hydrogen peroxide
+http://purl.obolibrary.org/obo/GO_0051310 #metaphase plate congression
+http://purl.obolibrary.org/obo/GO_0042558 #pteridine-containing compound metabolic process
+http://purl.obolibrary.org/obo/GO_0017001 #antibiotic catabolic process
+http://purl.obolibrary.org/obo/GO_0002495 #antigen processing and presentation of peptide antigen via MHC class II
+http://purl.obolibrary.org/obo/GO_0002504 #antigen processing and presentation of peptide or polysaccharide antigen via MHC class II
+http://purl.obolibrary.org/obo/GO_0009167 #purine ribonucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0031100 #animal organ regeneration
+http://purl.obolibrary.org/obo/GO_0009126 #purine nucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0000076 #DNA replication checkpoint
+http://purl.obolibrary.org/obo/GO_0051784 #negative regulation of nuclear division
+http://purl.obolibrary.org/obo/GO_0009124 #nucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0140013 #meiotic nuclear division
+http://purl.obolibrary.org/obo/GO_0051303 #establishment of chromosome localization
+http://purl.obolibrary.org/obo/GO_0050000 #chromosome localization
+http://purl.obolibrary.org/obo/GO_0000302 #response to reactive oxygen species
+http://purl.obolibrary.org/obo/GO_0016572 #histone phosphorylation
+http://purl.obolibrary.org/obo/GO_0009157 #deoxyribonucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0033314 #mitotic DNA replication checkpoint
+http://purl.obolibrary.org/obo/GO_0006760 #folic acid-containing compound metabolic process
+http://purl.obolibrary.org/obo/GO_0009161 #ribonucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0061615 #glycolytic process through fructose-6-phosphate
+http://purl.obolibrary.org/obo/GO_0061620 #glycolytic process through glucose-6-phosphate
+http://purl.obolibrary.org/obo/GO_0006119 #oxidative phosphorylation
+http://purl.obolibrary.org/obo/GO_0090068 #positive regulation of cell cycle process
+http://purl.obolibrary.org/obo/GO_0031145 #anaphase-promoting complex-dependent catabolic process
+http://purl.obolibrary.org/obo/GO_0046653 #tetrahydrofolate metabolic process
+http://purl.obolibrary.org/obo/GO_0015949 #nucleobase-containing small molecule interconversion
+http://purl.obolibrary.org/obo/GO_0034502 #protein localization to chromosome
+http://purl.obolibrary.org/obo/GO_0014074 #response to purine-containing compound
+http://purl.obolibrary.org/obo/GO_0048145 #regulation of fibroblast proliferation
+http://purl.obolibrary.org/obo/GO_0045787 #positive regulation of cell cycle
+http://purl.obolibrary.org/obo/GO_0048144 #fibroblast proliferation
+http://purl.obolibrary.org/obo/GO_0061640 #cytoskeleton-dependent cytokinesis
+http://purl.obolibrary.org/obo/GO_0007143 #female meiotic nuclear division
+http://purl.obolibrary.org/obo/GO_0046434 #organophosphate catabolic process
+http://purl.obolibrary.org/obo/GO_0000079 #regulation of cyclin-dependent protein serine/threonine kinase activity
+http://purl.obolibrary.org/obo/GO_0007077 #mitotic nuclear envelope disassembly
+http://purl.obolibrary.org/obo/GO_0051988 #regulation of attachment of spindle microtubules to kinetochore
+http://purl.obolibrary.org/obo/GO_0007292 #female gamete generation
+http://purl.obolibrary.org/obo/GO_0006090 #pyruvate metabolic process
+http://purl.obolibrary.org/obo/GO_0007080 #mitotic metaphase plate congression
+http://purl.obolibrary.org/obo/GO_0006739 #NADP metabolic process
+http://purl.obolibrary.org/obo/GO_0072522 #purine-containing compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0000281 #mitotic cytokinesis
+http://purl.obolibrary.org/obo/GO_1902750 #negative regulation of cell cycle G2/M phase transition
+http://purl.obolibrary.org/obo/GO_1904029 #regulation of cyclin-dependent protein kinase activity
+http://purl.obolibrary.org/obo/GO_0045132 #meiotic chromosome segregation
+http://purl.obolibrary.org/obo/GO_0000212 #meiotic spindle organization
+http://purl.obolibrary.org/obo/GO_0009162 #deoxyribonucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0030261 #chromosome condensation
+http://purl.obolibrary.org/obo/GO_0032799 #low-density lipoprotein receptor particle metabolic process
+http://purl.obolibrary.org/obo/GO_0071294 #cellular response to zinc ion
+http://purl.obolibrary.org/obo/GO_0045931 #positive regulation of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0019884 #antigen processing and presentation of exogenous antigen
+http://purl.obolibrary.org/obo/GO_0010755 #regulation of plasminogen activation
+http://purl.obolibrary.org/obo/GO_0032802 #low-density lipoprotein particle receptor catabolic process
+http://purl.obolibrary.org/obo/GO_0034404 #nucleobase-containing small molecule biosynthetic process
+http://purl.obolibrary.org/obo/GO_0051302 #regulation of cell division
+http://purl.obolibrary.org/obo/GO_0031639 #plasminogen activation
+http://purl.obolibrary.org/obo/GO_0051307 #meiotic chromosome separation
+http://purl.obolibrary.org/obo/GO_0006270 #DNA replication initiation
+http://purl.obolibrary.org/obo/GO_0051187 #cofactor catabolic process
+http://purl.obolibrary.org/obo/GO_0009142 #nucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0051591 #response to cAMP
+http://purl.obolibrary.org/obo/GO_0048569 #post-embryonic animal organ development
+http://purl.obolibrary.org/obo/GO_0016999 #antibiotic metabolic process
+http://purl.obolibrary.org/obo/GO_0000910 #cytokinesis
+http://purl.obolibrary.org/obo/GO_0009206 #purine ribonucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0046683 #response to organophosphorus
+http://purl.obolibrary.org/obo/GO_0001556 #oocyte maturation
+http://purl.obolibrary.org/obo/GO_0097066 #response to thyroid hormone
+http://purl.obolibrary.org/obo/GO_0043648 #dicarboxylic acid metabolic process
+http://purl.obolibrary.org/obo/GO_0042133 #neurotransmitter metabolic process
+http://purl.obolibrary.org/obo/GO_0009145 #purine nucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0001889 #liver development
+http://purl.obolibrary.org/obo/GO_0006260 #DNA replication
+http://purl.obolibrary.org/obo/GO_0006047 #UDP-N-acetylglucosamine metabolic process
+http://purl.obolibrary.org/obo/GO_0030397 #membrane disassembly
+http://purl.obolibrary.org/obo/GO_0051081 #nuclear envelope disassembly
+http://purl.obolibrary.org/obo/GO_0016054 #organic acid catabolic process
+http://purl.obolibrary.org/obo/GO_0046395 #carboxylic acid catabolic process
+http://purl.obolibrary.org/obo/GO_0006730 #one-carbon metabolic process
+http://purl.obolibrary.org/obo/GO_0006735 #NADH regeneration
+http://purl.obolibrary.org/obo/GO_0010971 #positive regulation of G2/M transition of mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0061621 #canonical glycolysis
+http://purl.obolibrary.org/obo/GO_0061718 #glucose catabolic process to pyruvate
+http://purl.obolibrary.org/obo/GO_0002478 #antigen processing and presentation of exogenous peptide antigen
+http://purl.obolibrary.org/obo/GO_0034381 #plasma lipoprotein particle clearance
+http://purl.obolibrary.org/obo/GO_0061008 #hepaticobiliary system development
+http://purl.obolibrary.org/obo/GO_0031570 #DNA integrity checkpoint
+http://purl.obolibrary.org/obo/GO_0009201 #ribonucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0070542 #response to fatty acid
+http://purl.obolibrary.org/obo/GO_0009152 #purine ribonucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0010744 #positive regulation of macrophage derived foam cell differentiation
+http://purl.obolibrary.org/obo/GO_0034501 #protein localization to kinetochore
+http://purl.obolibrary.org/obo/GO_0014068 #positive regulation of phosphatidylinositol 3-kinase signaling
+http://purl.obolibrary.org/obo/GO_0006754 #ATP biosynthetic process
+http://purl.obolibrary.org/obo/GO_0044774 #mitotic DNA integrity checkpoint
+http://purl.obolibrary.org/obo/GO_0032465 #regulation of cytokinesis
+http://purl.obolibrary.org/obo/GO_0019320 #hexose catabolic process
+http://purl.obolibrary.org/obo/GO_0051235 #maintenance of location
+http://purl.obolibrary.org/obo/GO_0009127 #purine nucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0009168 #purine ribonucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0034383 #low-density lipoprotein particle clearance
+http://purl.obolibrary.org/obo/GO_1901658 #glycosyl compound catabolic process
+http://purl.obolibrary.org/obo/GO_0001505 #regulation of neurotransmitter levels
+http://purl.obolibrary.org/obo/GO_0010743 #regulation of macrophage derived foam cell differentiation
+http://purl.obolibrary.org/obo/GO_0044818 #mitotic G2/M transition checkpoint
+http://purl.obolibrary.org/obo/GO_1902751 #positive regulation of cell cycle G2/M phase transition
+http://purl.obolibrary.org/obo/GO_0006081 #cellular aldehyde metabolic process
+http://purl.obolibrary.org/obo/GO_2001251 #negative regulation of chromosome organization
+http://purl.obolibrary.org/obo/GO_0090201 #negative regulation of release of cytochrome c from mitochondria
+http://purl.obolibrary.org/obo/GO_0009260 #ribonucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0019814 #immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0042571 #immunoglobulin complex, circulating
+http://purl.obolibrary.org/obo/GO_0072562 #blood microparticle
+http://purl.obolibrary.org/obo/GO_0000775 #chromosome, centromeric region
+http://purl.obolibrary.org/obo/GO_0000776 #kinetochore
+http://purl.obolibrary.org/obo/GO_0005819 #spindle
+http://purl.obolibrary.org/obo/GO_0030496 #midbody
+http://purl.obolibrary.org/obo/GO_0000793 #condensed chromosome
+http://purl.obolibrary.org/obo/GO_0000777 #condensed chromosome kinetochore
+http://purl.obolibrary.org/obo/GO_0098687 #chromosomal region
+http://purl.obolibrary.org/obo/GO_0072686 #mitotic spindle
+http://purl.obolibrary.org/obo/GO_0000940 #condensed chromosome outer kinetochore
+http://purl.obolibrary.org/obo/GO_0005876 #spindle microtubule
+http://purl.obolibrary.org/obo/GO_0005759 #mitochondrial matrix
+http://purl.obolibrary.org/obo/GO_0005874 #microtubule
+http://purl.obolibrary.org/obo/GO_0005871 #kinesin complex
+http://purl.obolibrary.org/obo/GO_0000778 #condensed nuclear chromosome kinetochore
+http://purl.obolibrary.org/obo/GO_0051233 #spindle midzone
+http://purl.obolibrary.org/obo/GO_0045334 #clathrin-coated endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0000922 #spindle pole
+http://purl.obolibrary.org/obo/GO_0000794 #condensed nuclear chromosome
+http://purl.obolibrary.org/obo/GO_0005875 #microtubule associated complex
+http://purl.obolibrary.org/obo/GO_0099738 #cell cortex region
+http://purl.obolibrary.org/obo/GO_0036019 #endolysosome
+http://purl.obolibrary.org/obo/GO_0098798 #mitochondrial protein complex
+http://purl.obolibrary.org/obo/GO_0030136 #clathrin-coated vesicle
+http://purl.obolibrary.org/obo/GO_0045120 #pronucleus
+http://purl.obolibrary.org/obo/GO_0030027 #lamellipodium
+http://purl.obolibrary.org/obo/GO_1904724 #tertiary granule lumen
+http://purl.obolibrary.org/obo/GO_0030135 #coated vesicle
+http://purl.obolibrary.org/obo/GO_1990752 #microtubule end
+http://purl.obolibrary.org/obo/GO_0035371 #microtubule plus-end
+http://purl.obolibrary.org/obo/GO_0030665 #clathrin-coated vesicle membrane
+http://purl.obolibrary.org/obo/GO_0098800 #inner mitochondrial membrane protein complex
+http://purl.obolibrary.org/obo/GO_0005743 #mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0005753 #mitochondrial proton-transporting ATP synthase complex
+http://purl.obolibrary.org/obo/GO_0045259 #proton-transporting ATP synthase complex
+http://purl.obolibrary.org/obo/GO_0034358 #plasma lipoprotein particle
+http://purl.obolibrary.org/obo/GO_1990777 #lipoprotein particle
+http://purl.obolibrary.org/obo/GO_0005905 #clathrin-coated pit
+http://purl.obolibrary.org/obo/GO_1902554 #serine/threonine protein kinase complex
+http://purl.obolibrary.org/obo/GO_0043312 #neutrophil degranulation
+http://purl.obolibrary.org/obo/GO_0002283 #neutrophil activation involved in immune response
+http://purl.obolibrary.org/obo/GO_0042119 #neutrophil activation
+http://purl.obolibrary.org/obo/GO_0002446 #neutrophil mediated immunity
+http://purl.obolibrary.org/obo/GO_0034976 #response to endoplasmic reticulum stress
+http://purl.obolibrary.org/obo/GO_0007229 #integrin-mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0035966 #response to topologically incorrect protein
+http://purl.obolibrary.org/obo/GO_0006986 #response to unfolded protein
+http://purl.obolibrary.org/obo/GO_0005996 #monosaccharide metabolic process
+http://purl.obolibrary.org/obo/GO_0051156 #glucose 6-phosphate metabolic process
+http://purl.obolibrary.org/obo/GO_1904380 #endoplasmic reticulum mannose trimming
+http://purl.obolibrary.org/obo/GO_0006517 #protein deglycosylation
+http://purl.obolibrary.org/obo/GO_0019058 #viral life cycle
+http://purl.obolibrary.org/obo/GO_0036498 #IRE1-mediated unfolded protein response
+http://purl.obolibrary.org/obo/GO_0006006 #glucose metabolic process
+http://purl.obolibrary.org/obo/GO_0019362 #pyridine nucleotide metabolic process
+http://purl.obolibrary.org/obo/GO_0046496 #nicotinamide nucleotide metabolic process
+http://purl.obolibrary.org/obo/GO_0019318 #hexose metabolic process
+http://purl.obolibrary.org/obo/GO_0036507 #protein demannosylation
+http://purl.obolibrary.org/obo/GO_0036508 #protein alpha-1,2-demannosylation
+http://purl.obolibrary.org/obo/GO_0042176 #regulation of protein catabolic process
+http://purl.obolibrary.org/obo/GO_1902563 #regulation of neutrophil activation
+http://purl.obolibrary.org/obo/GO_0072524 #pyridine-containing compound metabolic process
+http://purl.obolibrary.org/obo/GO_0009896 #positive regulation of catabolic process
+http://purl.obolibrary.org/obo/GO_0050900 #leukocyte migration
+http://purl.obolibrary.org/obo/GO_0006733 #oxidoreduction coenzyme metabolic process
+http://purl.obolibrary.org/obo/GO_0030433 #ubiquitin-dependent ERAD pathway
+http://purl.obolibrary.org/obo/GO_0002286 #T cell activation involved in immune response
+http://purl.obolibrary.org/obo/GO_1905897 #regulation of response to endoplasmic reticulum stress
+http://purl.obolibrary.org/obo/GO_0031589 #cell-substrate adhesion
+http://purl.obolibrary.org/obo/GO_1903829 #positive regulation of cellular protein localization
+http://purl.obolibrary.org/obo/GO_0031331 #positive regulation of cellular catabolic process
+http://purl.obolibrary.org/obo/GO_0016052 #carbohydrate catabolic process
+http://purl.obolibrary.org/obo/GO_0006732 #coenzyme metabolic process
+http://purl.obolibrary.org/obo/GO_0002285 #lymphocyte activation involved in immune response
+http://purl.obolibrary.org/obo/GO_0051222 #positive regulation of protein transport
+http://purl.obolibrary.org/obo/GO_0051017 #actin filament bundle assembly
+http://purl.obolibrary.org/obo/GO_0090316 #positive regulation of intracellular protein transport
+http://purl.obolibrary.org/obo/GO_0002697 #regulation of immune effector process
+http://purl.obolibrary.org/obo/GO_0045732 #positive regulation of protein catabolic process
+http://purl.obolibrary.org/obo/GO_0036503 #ERAD pathway
+http://purl.obolibrary.org/obo/GO_1903362 #regulation of cellular protein catabolic process
+http://purl.obolibrary.org/obo/GO_0032388 #positive regulation of intracellular transport
+http://purl.obolibrary.org/obo/GO_0031532 #actin cytoskeleton reorganization
+http://purl.obolibrary.org/obo/GO_0032970 #regulation of actin filament-based process
+http://purl.obolibrary.org/obo/GO_0002886 #regulation of myeloid leukocyte mediated immunity
+http://purl.obolibrary.org/obo/GO_0061572 #actin filament bundle organization
+http://purl.obolibrary.org/obo/GO_0031647 #regulation of protein stability
+http://purl.obolibrary.org/obo/GO_0032091 #negative regulation of protein binding
+http://purl.obolibrary.org/obo/GO_0044262 #cellular carbohydrate metabolic process
+http://purl.obolibrary.org/obo/GO_0045730 #respiratory burst
+http://purl.obolibrary.org/obo/GO_0035967 #cellular response to topologically incorrect protein
+http://purl.obolibrary.org/obo/GO_1901136 #carbohydrate derivative catabolic process
+http://purl.obolibrary.org/obo/GO_0042093 #T-helper cell differentiation
+http://purl.obolibrary.org/obo/GO_0033157 #regulation of intracellular protein transport
+http://purl.obolibrary.org/obo/GO_0045785 #positive regulation of cell adhesion
+http://purl.obolibrary.org/obo/GO_0002294 #CD4-positive, alpha-beta T cell differentiation involved in immune response
+http://purl.obolibrary.org/obo/GO_0006909 #phagocytosis
+http://purl.obolibrary.org/obo/GO_0016049 #cell growth
+http://purl.obolibrary.org/obo/GO_0006002 #fructose 6-phosphate metabolic process
+http://purl.obolibrary.org/obo/GO_1903332 #regulation of protein folding
+http://purl.obolibrary.org/obo/GO_0002287 #alpha-beta T cell activation involved in immune response
+http://purl.obolibrary.org/obo/GO_0002293 #alpha-beta T cell differentiation involved in immune response
+http://purl.obolibrary.org/obo/GO_0034620 #cellular response to unfolded protein
+http://purl.obolibrary.org/obo/GO_1903364 #positive regulation of cellular protein catabolic process
+http://purl.obolibrary.org/obo/GO_0046635 #positive regulation of alpha-beta T cell activation
+http://purl.obolibrary.org/obo/GO_0034394 #protein localization to cell surface
+http://purl.obolibrary.org/obo/GO_0032956 #regulation of actin cytoskeleton organization
+http://purl.obolibrary.org/obo/GO_1904951 #positive regulation of establishment of protein localization
+http://purl.obolibrary.org/obo/GO_0098883 #synapse pruning
+http://purl.obolibrary.org/obo/GO_0009100 #glycoprotein metabolic process
+http://purl.obolibrary.org/obo/GO_0034333 #adherens junction assembly
+http://purl.obolibrary.org/obo/GO_0009165 #nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0002683 #negative regulation of immune system process
+http://purl.obolibrary.org/obo/GO_0019359 #nicotinamide nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0019363 #pyridine nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0032957 #inositol trisphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_1901293 #nucleoside phosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0002698 #negative regulation of immune effector process
+http://purl.obolibrary.org/obo/GO_0046634 #regulation of alpha-beta T cell activation
+http://purl.obolibrary.org/obo/GO_0072525 #pyridine-containing compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0002292 #T cell differentiation involved in immune response
+http://purl.obolibrary.org/obo/GO_1903050 #regulation of proteolysis involved in cellular protein catabolic process
+http://purl.obolibrary.org/obo/GO_0030968 #endoplasmic reticulum unfolded protein response
+http://purl.obolibrary.org/obo/GO_0032527 #protein exit from endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0043300 #regulation of leukocyte degranulation
+http://purl.obolibrary.org/obo/GO_1901216 #positive regulation of neuron death
+http://purl.obolibrary.org/obo/GO_0061136 #regulation of proteasomal protein catabolic process
+http://purl.obolibrary.org/obo/GO_0042116 #macrophage activation
+http://purl.obolibrary.org/obo/GO_0002679 #respiratory burst involved in defense response
+http://purl.obolibrary.org/obo/GO_0051188 #cofactor biosynthetic process
+http://purl.obolibrary.org/obo/GO_0007044 #cell-substrate junction assembly
+http://purl.obolibrary.org/obo/GO_0006066 #alcohol metabolic process
+http://purl.obolibrary.org/obo/GO_0030038 #contractile actin filament bundle assembly
+http://purl.obolibrary.org/obo/GO_0043149 #stress fiber assembly
+http://purl.obolibrary.org/obo/GO_0002532 #production of molecular mediator involved in inflammatory response
+http://purl.obolibrary.org/obo/GO_0030970 #retrograde protein transport, ER to cytosol
+http://purl.obolibrary.org/obo/GO_1903513 #endoplasmic reticulum to cytosol transport
+http://purl.obolibrary.org/obo/GO_0005766 #primary lysosome
+http://purl.obolibrary.org/obo/GO_0042582 #azurophil granule
+http://purl.obolibrary.org/obo/GO_0042581 #specific granule
+http://purl.obolibrary.org/obo/GO_0034774 #secretory granule lumen
+http://purl.obolibrary.org/obo/GO_0030667 #secretory granule membrane
+http://purl.obolibrary.org/obo/GO_0060205 #cytoplasmic vesicle lumen
+http://purl.obolibrary.org/obo/GO_0031983 #vesicle lumen
+http://purl.obolibrary.org/obo/GO_0035579 #specific granule membrane
+http://purl.obolibrary.org/obo/GO_0008305 #integrin complex
+http://purl.obolibrary.org/obo/GO_0005775 #vacuolar lumen
+http://purl.obolibrary.org/obo/GO_0098636 #protein complex involved in cell adhesion
+http://purl.obolibrary.org/obo/GO_0044322 #endoplasmic reticulum quality control compartment
+http://purl.obolibrary.org/obo/GO_0101002 #ficolin-1-rich granule
+http://purl.obolibrary.org/obo/GO_0035578 #azurophil granule lumen
+http://purl.obolibrary.org/obo/GO_0070821 #tertiary granule membrane
+http://purl.obolibrary.org/obo/GO_0070820 #tertiary granule
+http://purl.obolibrary.org/obo/GO_0005925 #focal adhesion
+http://purl.obolibrary.org/obo/GO_0030055 #cell-substrate junction
+http://purl.obolibrary.org/obo/GO_0042470 #melanosome
+http://purl.obolibrary.org/obo/GO_0048770 #pigment granule
+http://purl.obolibrary.org/obo/GO_0005788 #endoplasmic reticulum lumen
+http://purl.obolibrary.org/obo/GO_0010008 #endosome membrane
+http://purl.obolibrary.org/obo/GO_0031227 #intrinsic component of endoplasmic reticulum membrane
+http://purl.obolibrary.org/obo/GO_0005770 #late endosome
+http://purl.obolibrary.org/obo/GO_0101003 #ficolin-1-rich granule membrane
+http://purl.obolibrary.org/obo/GO_0030176 #integral component of endoplasmic reticulum membrane
+http://purl.obolibrary.org/obo/GO_1904813 #ficolin-1-rich granule lumen
+http://purl.obolibrary.org/obo/GO_0031252 #cell leading edge
+http://purl.obolibrary.org/obo/GO_0001931 #uropod
+http://purl.obolibrary.org/obo/GO_0031254 #cell trailing edge
+http://purl.obolibrary.org/obo/GO_0005774 #vacuolar membrane
+http://purl.obolibrary.org/obo/GO_0034399 #nuclear periphery
+http://purl.obolibrary.org/obo/GO_0045335 #phagocytic vesicle
+http://purl.obolibrary.org/obo/GO_0031968 #organelle outer membrane
+http://purl.obolibrary.org/obo/GO_0019867 #outer membrane
+http://purl.obolibrary.org/obo/GO_0016363 #nuclear matrix
+http://purl.obolibrary.org/obo/GO_0000153 #cytoplasmic ubiquitin ligase complex
+http://purl.obolibrary.org/obo/GO_0097440 #apical dendrite
+http://purl.obolibrary.org/obo/GO_0035577 #azurophil granule membrane
+http://purl.obolibrary.org/obo/GO_0005741 #mitochondrial outer membrane
+http://purl.obolibrary.org/obo/GO_0001772 #immunological synapse
+http://purl.obolibrary.org/obo/GO_0031965 #nuclear membrane
+http://purl.obolibrary.org/obo/GO_0005635 #nuclear envelope
+http://purl.obolibrary.org/obo/GO_0030139 #endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0043202 #lysosomal lumen
+http://purl.obolibrary.org/obo/GO_0005793 #endoplasmic reticulum-Golgi intermediate compartment
+http://purl.obolibrary.org/obo/GO_0005769 #early endosome
+http://purl.obolibrary.org/obo/GO_0005765 #lysosomal membrane
+http://purl.obolibrary.org/obo/GO_0098852 #lytic vacuole membrane
+http://purl.obolibrary.org/obo/GO_0045121 #membrane raft
+http://purl.obolibrary.org/obo/GO_0098857 #membrane microdomain
+http://purl.obolibrary.org/obo/GO_0033116 #endoplasmic reticulum-Golgi intermediate compartment membrane
+http://purl.obolibrary.org/obo/GO_0030666 #endocytic vesicle membrane
+http://purl.obolibrary.org/obo/GO_0007411 #axon guidance
+http://purl.obolibrary.org/obo/GO_0097485 #neuron projection guidance
+http://purl.obolibrary.org/obo/GO_0000395 #mRNA 5'-splice site recognition
+http://purl.obolibrary.org/obo/GO_0007409 #axonogenesis
+http://purl.obolibrary.org/obo/GO_0006376 #mRNA splice site selection
+http://purl.obolibrary.org/obo/GO_0045292 #mRNA cis splicing, via spliceosome
+http://purl.obolibrary.org/obo/GO_0030593 #neutrophil chemotaxis
+http://purl.obolibrary.org/obo/GO_2000514 #regulation of CD4-positive, alpha-beta T cell activation
+http://purl.obolibrary.org/obo/GO_0033002 #muscle cell proliferation
+http://purl.obolibrary.org/obo/GO_0050673 #epithelial cell proliferation
+http://purl.obolibrary.org/obo/GO_0019722 #calcium-mediated signaling
+http://purl.obolibrary.org/obo/GO_0048608 #reproductive structure development
+http://purl.obolibrary.org/obo/GO_0050678 #regulation of epithelial cell proliferation
+http://purl.obolibrary.org/obo/GO_0061458 #reproductive system development
+http://purl.obolibrary.org/obo/GO_0060037 #pharyngeal system development
+http://purl.obolibrary.org/obo/GO_0060541 #respiratory system development
+http://purl.obolibrary.org/obo/GO_0000245 #spliceosomal complex assembly
+http://purl.obolibrary.org/obo/GO_0035066 #positive regulation of histone acetylation
+http://purl.obolibrary.org/obo/GO_0061384 #heart trabecula morphogenesis
+http://purl.obolibrary.org/obo/GO_2000758 #positive regulation of peptidyl-lysine acetylation
+http://purl.obolibrary.org/obo/GO_0003206 #cardiac chamber morphogenesis
+http://purl.obolibrary.org/obo/GO_0046629 #gamma-delta T cell activation
+http://purl.obolibrary.org/obo/GO_0046634 #regulation of alpha-beta T cell activation
+http://purl.obolibrary.org/obo/GO_0005685 #U1 snRNP
+http://purl.obolibrary.org/obo/GO_0097525 #spliceosomal snRNP complex
+http://purl.obolibrary.org/obo/GO_0030532 #small nuclear ribonucleoprotein complex
+http://purl.obolibrary.org/obo/GO_0120114 #Sm-like protein family complex
+http://purl.obolibrary.org/obo/GO_0009897 #external side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0006914 #autophagy
+http://purl.obolibrary.org/obo/GO_0006915 #apoptotic process
+http://purl.obolibrary.org/obo/GO_0072331 #signal transduction by p53 class mediator
+http://purl.obolibrary.org/obo/GO_0070160 #tight junction
+http://purl.obolibrary.org/obo/GO_0007596 #blood coagulation
+http://purl.obolibrary.org/obo/GO_0150034 #distal axon
+http://purl.obolibrary.org/obo/GO_0062023 #collagen-containing extracellular matrix
+http://purl.obolibrary.org/obo/GO_0046718 #viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0002250 #adaptive immune response
+http://purl.obolibrary.org/obo/GO_0050852 #T cell receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0002772 #inhibitory C-type lectin receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0002223 #stimulatory C-type lectin receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0070098 #chemokine-mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0006897 #endocytosis
+http://purl.obolibrary.org/obo/GO_0072672 #neutrophil extravasation
+http://purl.obolibrary.org/obo/GO_0042311 #vasodilation
+http://purl.obolibrary.org/obo/GO_0061517 #macrophage proliferation
+http://purl.obolibrary.org/obo/GO_0018995 #host cellular component
+http://purl.obolibrary.org/obo/GO_0019882 #antigen processing and presentation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+subClassOf
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+subClassOf
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

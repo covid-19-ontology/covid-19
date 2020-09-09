@@ -1,0 +1,82 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/GO_module1_import.owl.
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0001618 #virus receptor activity
+http://purl.obolibrary.org/obo/GO_0006948 #induction by virus of host cell-cell fusion
+http://purl.obolibrary.org/obo/GO_0016032 #viral process
+http://purl.obolibrary.org/obo/GO_0019013 #viral nucleocapsid
+http://purl.obolibrary.org/obo/GO_0019028 #viral capsid
+http://purl.obolibrary.org/obo/GO_0019029 #helical viral capsid
+http://purl.obolibrary.org/obo/GO_0019031 #viral envelope
+http://purl.obolibrary.org/obo/GO_0019042 #viral latency
+http://purl.obolibrary.org/obo/GO_0019046 #release from viral latency
+http://purl.obolibrary.org/obo/GO_0019048 #modulation by virus of host morphology or physiology
+http://purl.obolibrary.org/obo/GO_0019051 #induction by virus of host apoptotic process
+http://purl.obolibrary.org/obo/GO_0019054 #modulation by virus of host process
+http://purl.obolibrary.org/obo/GO_0019058 #viral life cycle
+http://purl.obolibrary.org/obo/GO_0019061 #uncoating of virus
+http://purl.obolibrary.org/obo/GO_0019062 #virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0019064 #fusion of virus membrane with host plasma membrane
+http://purl.obolibrary.org/obo/GO_0019065 #receptor-mediated endocytosis of virus by host cell
+http://purl.obolibrary.org/obo/GO_0019068 #virion assembly
+http://purl.obolibrary.org/obo/GO_0019072 #viral genome packaging
+http://purl.obolibrary.org/obo/GO_0019074 #viral RNA genome packaging
+http://purl.obolibrary.org/obo/GO_0019075 #virus maturation
+http://purl.obolibrary.org/obo/GO_0019076 #viral release from host cell
+http://purl.obolibrary.org/obo/GO_0019079 #viral genome replication
+http://purl.obolibrary.org/obo/GO_0019080 #viral gene expression
+http://purl.obolibrary.org/obo/GO_0019081 #viral translation
+http://purl.obolibrary.org/obo/GO_0019082 #viral protein processing
+http://purl.obolibrary.org/obo/GO_0019083 #viral transcription
+http://purl.obolibrary.org/obo/GO_0019087 #transformation of host cell by virus
+http://purl.obolibrary.org/obo/GO_0030683 #evasion or tolerance by virus of host immune response
+http://purl.obolibrary.org/obo/GO_0036338 #viral membrane
+http://purl.obolibrary.org/obo/GO_0039501 #suppression by virus of host type I interferon production
+http://purl.obolibrary.org/obo/GO_0039503 #suppression by virus of host innate immune response
+http://purl.obolibrary.org/obo/GO_0039516 #modulation by virus of host catalytic activity
+http://purl.obolibrary.org/obo/GO_0039517 #modulation by virus of host protein serine/threonine phosphatase activity
+http://purl.obolibrary.org/obo/GO_0039519 #modulation by virus of host autophagy
+http://purl.obolibrary.org/obo/GO_0039520 #induction by virus of host autophagy
+http://purl.obolibrary.org/obo/GO_0039522 #suppression by virus of host mRNA export from nucleus
+http://purl.obolibrary.org/obo/GO_0039524 #suppression by virus of host mRNA processing
+http://purl.obolibrary.org/obo/GO_0039525 #modulation by virus of host chromatin organization
+http://purl.obolibrary.org/obo/GO_0039538 #suppression by virus of host RIG-I signaling pathway
+http://purl.obolibrary.org/obo/GO_0039540 #suppression by virus of host RIG-I activity
+http://purl.obolibrary.org/obo/GO_0039545 #suppression by virus of host MAVS activity
+http://purl.obolibrary.org/obo/GO_0039547 #suppression by virus of host TRAF activity
+http://purl.obolibrary.org/obo/GO_0039548 #suppression by virus of host IRF3 activity
+http://purl.obolibrary.org/obo/GO_0039554 #suppression by virus of host MDA-5 activity
+http://purl.obolibrary.org/obo/GO_0039557 #suppression by virus of host IRF7 activity
+http://purl.obolibrary.org/obo/GO_0039587 #suppression by virus of host tetherin activity
+http://purl.obolibrary.org/obo/GO_0039592 #suppression by virus of G2/M transition of host mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0039593 #suppression by virus of host exit from mitosis
+http://purl.obolibrary.org/obo/GO_0039595 #induction by virus of catabolism of host mRNA
+http://purl.obolibrary.org/obo/GO_0039599 #cleavage by virus of host mRNA
+http://purl.obolibrary.org/obo/GO_0039604 #suppression by virus of host translation
+http://purl.obolibrary.org/obo/GO_0039606 #suppression by virus of host translation initiation
+http://purl.obolibrary.org/obo/GO_0039611 #suppression by virus of host translation initiation factor activity
+http://purl.obolibrary.org/obo/GO_0039612 #modulation by virus of host protein phosphorylation
+http://purl.obolibrary.org/obo/GO_0039614 #induction by virus of host protein phosphorylation
+http://purl.obolibrary.org/obo/GO_0039633 #killing by virus of host cell
+http://purl.obolibrary.org/obo/GO_0039634 #killing by virus of host cell during superinfection exclusion
+http://purl.obolibrary.org/obo/GO_0039638 #lipopolysaccharide-mediated virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0039642 #virion nucleoid
+http://purl.obolibrary.org/obo/GO_0039645 #modulation by virus of host G1/S transition checkpoint
+http://purl.obolibrary.org/obo/GO_0039646 #modulation by virus of host G0/G1 transition checkpoint
+http://purl.obolibrary.org/obo/GO_0039526 #modulation by virus of host apoptotic process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0016032 #viral process
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

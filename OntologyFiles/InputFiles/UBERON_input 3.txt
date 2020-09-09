@@ -1,0 +1,58 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0013529 #Brodmann area
+http://purl.obolibrary.org/obo/UBERON_0000477 #anatomical cluster
+http://purl.obolibrary.org/obo/UBERON_0000464 #anatomical space
+http://purl.obolibrary.org/obo/UBERON_0000061 #anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0001018 #axon tract
+http://purl.obolibrary.org/obo/UBERON_0004086 #brain ventricle
+http://purl.obolibrary.org/obo/UBERON_0003947 #brain ventricle/choroid plexus
+http://purl.obolibrary.org/obo/UBERON_0011215 #central nervous system cell part cluster
+http://purl.obolibrary.org/obo/UBERON_0016548 #central nervous system gray matter layer
+http://purl.obolibrary.org/obo/UBERON_0000956 #cerebral cortex
+http://purl.obolibrary.org/obo/UBERON_0016529 #cortex of cerebral lobe
+http://purl.obolibrary.org/obo/UBERON_0004121 #ectoderm-derived structure
+http://purl.obolibrary.org/obo/UBERON_0035014 #functional part of brain
+http://purl.obolibrary.org/obo/UBERON_0002020 #gray matter
+http://purl.obolibrary.org/obo/UBERON_0003876 #hippocampal field
+http://purl.obolibrary.org/obo/UBERON_0000466 #immaterial anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002304 #layer of dentate gyrus
+http://purl.obolibrary.org/obo/UBERON_0016526 #lobe of cerebral hemisphere
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0034768 #morphological feature
+http://purl.obolibrary.org/obo/UBERON_0005162 #multi cell part structure
+http://purl.obolibrary.org/obo/UBERON_0000481 #multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0010000 #multicellular anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0022303 #nervous system cell part layer
+http://purl.obolibrary.org/obo/UBERON_0000125 #neural nucleus
+http://purl.obolibrary.org/obo/UBERON_0000122 #neuron projection bundle
+http://purl.obolibrary.org/obo/UBERON_0002308 #nucleus of brain
+http://purl.obolibrary.org/obo/UBERON_0004923 #organ component layer
+http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002616 #regional part of brain
+http://purl.obolibrary.org/obo/UBERON_0000073 #regional part of nervous system
+http://purl.obolibrary.org/obo/UBERON_0010314 #structure with developmental contribution from neural crest
+http://purl.obolibrary.org/obo/UBERON_0005358 #ventricle of nervous system
+http://purl.obolibrary.org/obo/UBERON_0002316 #white matter
+http://purl.obolibrary.org/obo/UBERON_0005913 #zone of bone organ
+http://purl.obolibrary.org/obo/UBERON_0034944 #zone of organ
+http://purl.obolibrary.org/obo/UBERON_0000955 #brain
+http://purl.obolibrary.org/obo/UBERON_0000200 #gyrus
+http://purl.obolibrary.org/obo/UBERON_0000062 #organ
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

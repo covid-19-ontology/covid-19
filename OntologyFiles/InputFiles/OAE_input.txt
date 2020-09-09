@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/OAE_import.owl
+
+[Source ontology]
+OAE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OAE_0001525 #mechanical ventilation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OAE_0000002 #medical intervention
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

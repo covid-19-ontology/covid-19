@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+FMA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FMA_62340 #Troponin-I
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FMA_67135 #Anatomical structure
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

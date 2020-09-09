@@ -1,0 +1,38 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SYMP_0000551 #disturbances of sensation of smell and taste
+http://purl.obolibrary.org/obo/SYMP_0000614 #cough
+http://purl.obolibrary.org/obo/DOID_8469 #influenza
+http://purl.obolibrary.org/obo/DOID_1273 #respiratory syncytial virus infectious disease
+http://purl.obolibrary.org/obo/SYMP_0019177 #fatigue
+http://purl.obolibrary.org/obo/SYMP_0000613 #fever
+http://purl.obolibrary.org/obo/SYMP_0000504 #headache
+http://purl.obolibrary.org/obo/SYMP_0019176 #malaise
+http://purl.obolibrary.org/obo/SYMP_0019161 #muscle pain
+http://purl.obolibrary.org/obo/DOID_11394 #adult respiratory distress syndrome
+http://purl.obolibrary.org/obo/DOID_615 #leukopenia
+http://purl.obolibrary.org/obo/DOID_614 #lymphopenia
+http://purl.obolibrary.org/obo/SYMP_0000643 #respiratory failure
+http://purl.obolibrary.org/obo/SYMP_0000431 #sputum
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_10763 #hypertension
+http://purl.obolibrary.org/obo/DOID_5844 #myocardial infarction
+http://purl.obolibrary.org/obo/DOID_0080600 #COVID-19
+http://purl.obolibrary.org/obo/DOID_9351 #diabetes mellitus
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_4 #disease
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,52 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/PR_import.owl
+
+[Source ontology]
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_A0A663DJA2 #ORF10 protein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC6 #ORF6 protein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC8 #ORF8 protein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC4 #envelope small membrane protein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC5 #membrane protein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC9 #nucleoprotein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC3 #protein 3a (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC7 #protein 7a (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTD8 #protein 7b (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTD2 #protein 9b (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050274 #3C-like proteinase (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050288 #2'-O-methyltransferase (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050284 #RNA-directed RNA polymerase (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050286 #bifunctional exonuclease/methyltransferase (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050285 #helicase (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050287 #uridylate-specific endoribonuclease (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050270 #host translation inhibitor nsp1 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050279 #non-structural protein 10 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050271 #non-structural protein 2 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050272 #non-structural protein 3 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050273 #non-structural protein 4 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050275 #non-structural protein 6 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050276 #non-structural protein 7 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050277 #non-structural protein 8 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050278 #non-structural protein 9 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC1-1 #replicase polyprotein 1a (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTD1-1 #replicase polyprotein 1ab (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050280 #non-structural protein 11 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTC2 #spike glycoprotein (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050267 #spike protein S1 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050269 #spike protein S2' (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_P0DTD3 #uncharacterized protein 14 (SARS-CoV-2)
+http://purl.obolibrary.org/obo/PR_000050262 #severe acute respiratory syndrome coronavirus 2 protein
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PR_000036197 #viral protein
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

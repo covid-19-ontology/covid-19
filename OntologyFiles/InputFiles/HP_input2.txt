@@ -1,0 +1,50 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0100806 #Sepsis
+http://purl.obolibrary.org/obo/HP_0040081 #Abnormal circulating creatine kinase concentration
+http://purl.obolibrary.org/obo/HP_0008151 #Prolonged prothrombin time
+http://purl.obolibrary.org/obo/HP_0032308 #Increased circulating procalcitonin level
+http://purl.obolibrary.org/obo/HP_0001919 #Acute kidney injury
+http://purl.obolibrary.org/obo/HP_0031352 #Chest tightness
+http://purl.obolibrary.org/obo/HP_0031891 #Decreased eosinophil count
+http://purl.obolibrary.org/obo/HP_0003565 #Elevated erythrocyte sedimentation rate
+http://purl.obolibrary.org/obo/HP_0000841 #Hyperactive renin-angiotensin system
+http://purl.obolibrary.org/obo/HP_0005952 #Decreased pulmonary function
+http://purl.obolibrary.org/obo/HP_0002835 #Aspiration
+http://purl.obolibrary.org/obo/HP_0006528 #Chronic lung disease
+http://purl.obolibrary.org/obo/HP_0011897 #Neutrophilia
+http://purl.obolibrary.org/obo/HP_0003138 #Increased blood urea nitrogen
+http://purl.obolibrary.org/obo/HP_0002643 #Neonatal respiratory distress
+http://purl.obolibrary.org/obo/HP_0002113 #Pulmonary infiltrates
+http://purl.obolibrary.org/obo/HP_0005957 #Breathing dysregulation
+http://purl.obolibrary.org/obo/HP_0200119 #Acute hepatitis
+http://purl.obolibrary.org/obo/HP_0012378 #Fatigue
+http://purl.obolibrary.org/obo/HP_0003326 #Myalgia
+http://purl.obolibrary.org/obo/HP_0002018 #Nausea
+http://purl.obolibrary.org/obo/HP_0002013 #Vomiting
+http://purl.obolibrary.org/obo/HP_0006532 #Recurrent pneumonia
+http://purl.obolibrary.org/obo/HP_0012418 #Hypoxemia
+http://purl.obolibrary.org/obo/HP_0002900 #Hypokalemia
+http://purl.obolibrary.org/obo/HP_0031273 #Shock
+http://purl.obolibrary.org/obo/HP_0004421 #Elevated systolic blood pressure
+http://purl.obolibrary.org/obo/HP_0000790 #Hematuria
+http://purl.obolibrary.org/obo/HP_0040218 #Reduced natural killer cell count
+http://purl.obolibrary.org/obo/HP_0002733 #Abnormality of the lymph nodes
+http://purl.obolibrary.org/obo/HP_0004396 #Poor appetite
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

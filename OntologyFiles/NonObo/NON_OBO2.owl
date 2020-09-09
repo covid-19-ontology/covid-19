@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/appu/ontologies/2020/3/untitled-ontology-30#"
+     xml:base="http://www.semanticweb.org/appu/ontologies/2020/3/untitled-ontology-30"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/appu/ontologies/2020/3/untitled-ontology-30">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/appu/ontologies/2020/3/untitled-ontology-30"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000003 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000003">
+        <rdfs:label>abnormal respiratory finding
+</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32113704"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000013 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000013">
+        <rdfs:label>presumptive positive COVID-19 test</rdfs:label>
+        <rdfs:seeAlso>https://www.georgetown.edu/coronavirus/glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonHierarchy>clinical finding</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition> Anyone who has tested positive for the virus, but testing was conducted at the local or state level. Currently, presumptive positive cases must have sample undergo confirmatory testing at the CDC.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000013"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget> Anyone who has tested positive for the virus, but testing was conducted at the local or state level. Currently, presumptive positive cases must have sample undergo confirmatory testing at the CDC.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.kxxv.com/home/coronavirus-what-does-presumptive-positive-mean</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000019 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000019">
+        <rdfs:label>nonpharmaceutical Intervention</rdfs:label>
+        <rdfs:seeAlso>https://www.georgetown.edu/coronavirus/glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonHierarchy>intervenntion</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Nonpharmaceutical Interventions (NPIs)  are actions, apart from getting vaccinated and taking medicine, that people and communities can take to help slow the spread of illnesses like pandemic influenza (flu). </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>community mitigation strategies.</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000019"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Nonpharmaceutical Interventions (NPIs)  are actions, apart from getting vaccinated and taking medicine, that people and communities can take to help slow the spread of illnesses like pandemic influenza (flu). </owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.cdc.gov/nonpharmaceutical-interventions/index.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000020 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000020">
+        <rdfs:label>COVID-19 suppression</rdfs:label>
+        <rdfs:seeAlso>https://www.preventionweb.net/publications/view/71077</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32245346"/>
+        <oboInOwl:hasDefinition>Strategies for mitigation and suppression of COVID -19.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Suppression of COVID-19</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000021 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000021">
+        <rdfs:label>apex</rdfs:label>
+        <rdfs:seeAlso>https://www.summitmedicalgroup.com/news/living-well/must-know-covid-19-vocabulary/</rdfs:seeAlso>
+        <covid:CommentonHierarchy>quality</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Refers to the highest number of cases in a state or country, after which the rate of infection begins to slow.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000021"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Refers to the highest number of cases in a state or country, after which the rate of infection begins to slow.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.summitmedicalgroup.com/news/living-well/must-know-covid-19-vocabulary/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000044 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000044">
+        <rdfs:label>positive COVID-19 test</rdfs:label>
+        <rdfs:seeAlso>https://www.georgetown.edu/coronavirus/glossary-of-terms/
+</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.tmc.edu/news/2020/03/covid-19-crisis-catalog-a-glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonHierarchy>clinical finding</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>A positive test result shows you have antibodies that likely resulted from an infection with SARS-CoV-2, or possibly a related coronavirus.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Confirmed positive case</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000044"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A positive test result shows you have antibodies that likely resulted from an infection with SARS-CoV-2, or possibly a related coronavirus.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000047 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000047">
+        <rdfs:label>clusters of COVID-19
+</rdfs:label>
+        <rdfs:seeAlso>https://www.yalemedicine.org/stories/covid-19-glossary/</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>A collection of COVID-19 cases occurring in the same place at the same time. </oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000050 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000050">
+        <rdfs:label>
+frequently washing hands with soap and water for 20 seconds</rdfs:label>
+        <rdfs:seeAlso>https://www.cdc.gov/handwashing/when-how-handwashing.html</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.georgetown.edu/coronavirus/glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:CommentonHierarchy>intervention</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Scrubbing  hands frequently for at least 20 seconds  to prevent the spread of germs.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000052 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000052">
+        <rdfs:label>cytoplasmic budding</rdfs:label>
+        <covid:CommentonHierarchy>biological process</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7138183/"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000055 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000055">
+        <rdfs:label>flatten the curve
+</rdfs:label>
+        <rdfs:seeAlso>https://www.summitmedicalgroup.com/news/living-well/must-know-covid-19-vocabulary/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition> Flattening that curve means preventing a surge of new cases in a very short period.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Flattening the curve</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000055"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget> Flattening that curve means preventing a surge of new cases in a very short period.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.summitmedicalgroup.com/news/living-well/must-know-covid-19-vocabulary/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000060 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000060">
+        <rdfs:label>outbreak</rdfs:label>
+        <rdfs:seeAlso>https://www.yalemedicine.org/stories/covid-19-glossary/</rdfs:seeAlso>
+        <covid:CommentonDefinition>Process</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Outbreak is a classification used in epidemiology to describe a small, localized group of people or organisms infected with a disease. </oboInOwl:hasDefinition>
+        <oboInOwl:hasRelatedSynonym>COVID-19  outbreak</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000060"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Outbreak is a classification used in epidemiology to describe a small, localized group of people or organisms infected with a disease. </owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/IDOMAL_0000102</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000062 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000062">
+        <rdfs:label>super-spreader
+</rdfs:label>
+        <rdfs:seeAlso>https://www.yalemedicine.org/stories/covid-19-glossary/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>A super-spreader is an unusually contagious organism infected with a disease. In context of a human-borne illness, a super-spreader is an individual who is more likely to infect others, compared with a typical infected person. Such super-spreaders are of particular concern in epidemiology.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000062"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A super-spreader is an unusually contagious organism infected with a disease. In context of a human-borne illness, a super-spreader is an individual who is more likely to infect others, compared with a typical infected person. Such super-spreaders are of particular concern in epidemiology.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Super-spreader</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000076 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000076">
+        <rdfs:label>person-to-person transmission
+</rdfs:label>
+        <rdfs:seeAlso>https://www.healthline.com/health/disease-transmission</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.tmc.edu/news/2020/03/covid-19-crisis-catalog-a-glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Transmission from person to person by direct or indirect contact.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>human-to-human viral transmission</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000078 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000078">
+        <rdfs:label>shelter-in-place order
+</rdfs:label>
+        <rdfs:seeAlso>https://www.tmc.edu/news/2020/03/covid-19-crisis-catalog-a-glossary-of-terms/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.yalemedicine.org/stories/covid-19-glossary/
+</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition> An emergency measure or condition in which people are temporarily prevented from entering or leaving a restricted area or building (such as a school) during a threat of danger.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Lockdown</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000078"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget> An emergency measure or condition in which people are temporarily prevented from entering or leaving a restricted area or building (such as a school) during a threat of danger.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/lockdown</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000099 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000099">
+        <rdfs:label>emergency Warning Sign</rdfs:label>
+        <rdfs:seeAlso>https://www.georgetown.edu/coronavirus/glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonHierarchy>data item</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Warning signs that indicate a medical emergency.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000099"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Warning signs that indicate a medical emergency.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.memorialcare.org/services/emergency-care/medical-emergency-warning-signs</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000110 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000110">
+        <rdfs:label>self-observation
+</rdfs:label>
+        <rdfs:seeAlso>https://www.georgetown.edu/coronavirus/glossary-of-terms/</rdfs:seeAlso>
+        <covid:CommentonHierarchy>Intervention</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Self-monitoring is a personality characteristic that makes an individual pay closer attention to a social situation so that they can change their behaviors to fit that situation.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym> Self-Monitoring</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000110"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Self-monitoring is a personality characteristic that makes an individual pay closer attention to a social situation so that they can change their behaviors to fit that situation.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://www.psychologycampus.com/social-psychology/self-monitoring.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000114 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000114">
+        <rdfs:label>oxygen uptake diminishment
+</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>Diminished oxygen uptake.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000119 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000119">
+        <rdfs:label>nose nerve ending cell damage</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:CommentonHierarchy>phenotypic abnormality</covid:CommentonHierarchy>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000120 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000120">
+        <rdfs:label>RNAaemia
+</rdfs:label>
+        <rdfs:seeAlso>https://www.fda.gov/media/101367/download</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32113704"/>
+        <oboInOwl:hasDefinition>RNAemia is defined as the detection of viral RNA in samples taken.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000123 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000123">
+        <rdfs:label>zoonotic viral transmission</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32092483"/>
+        <oboInOwl:hasDefinition>The transmission of an infectious agent from an animal to a human being.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000123"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>The transmission of an infectious agent from an animal to a human being.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/books/NBK98094/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000127 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000127">
+        <rdfs:label>acute cardiac injury
+</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32113704"/>
+        <oboInOwl:hasDefinition>Acute myocardial injury is classified where troponin concentrations are elevated with evidence of dynamic change in the absence of overt myocardial ischaemia, whereas in chronic myocardial injury troponin concentrations remain unchanged on serial testing. </oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000127"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Acute myocardial injury is classified where troponin concentrations are elevated with evidence of dynamic change in the absence of overt myocardial ischaemia, whereas in chronic myocardial injury troponin concentrations remain unchanged on serial testing. </owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/27806987</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000134 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000134">
+        <rdfs:label>cytokine dysregulation
+</rdfs:label>
+        <rdfs:seeAlso>https://www.cebm.net/covid-19/registered-trials-and-analysis/</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified defintion</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16166805"/>
+        <oboInOwl:hasDefinition> Cytokine dysregulation is characterized by a dysregulation of the pro- versus anti-inflammatory and T helper (Th)1 versus Th2 cytokine balance.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000139 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000139">
+        <rdfs:label>N95 respirator
+</rdfs:label>
+        <rdfs:seeAlso>https://www.yalemedicine.org/stories/covid-19-glossary/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>An N95 respirator is a respiratory protective device designed to achieve a very close facial fit and very efficient filtration of airborne particles.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000139"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>An N95 respirator is a respiratory protective device designed to achieve a very close facial fit and very efficient filtration of airborne particles.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000140 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000140">
+        <rdfs:label>drive-thru testing
+</rdfs:label>
+        <rdfs:seeAlso>https://www.yalemedicine.org/stories/covid-19-glossary/</rdfs:seeAlso>
+        <covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasDefinition>In drive thru testing residents drive up in their cars, and medical staff (clad in full protective gear) comes to administer the swab test—the entire procedure takes about 15 minutes. </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>https://www.health.com/condition/infectious-diseases/coronavirus/drive-through-coronavirus-testing</oboInOwl:hasDefinition>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

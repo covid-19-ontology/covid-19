@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OMIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0027688 #Neuroimaging
+http://purl.obolibrary.org/obo/OMIT_0027689 #Functional Neuroimaging
+http://purl.obolibrary.org/obo/OMIT_0027103 #Endophenotypes
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

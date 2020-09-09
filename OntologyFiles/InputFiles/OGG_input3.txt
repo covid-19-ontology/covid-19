@@ -1,0 +1,87 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_3000003661 #IRF3
+http://purl.obolibrary.org/obo/OGG_3000003309 #HSPA5
+http://purl.obolibrary.org/obo/OGG_3000005045 #FURIN
+http://purl.obolibrary.org/obo/OGG_3000003002 #GZMB
+http://purl.obolibrary.org/obo/OGG_3000005551 #PRF1
+http://purl.obolibrary.org/obo/OGG_3000201633 #TIGIT
+http://purl.obolibrary.org/obo/OGG_3000001493 #CTLA4
+http://purl.obolibrary.org/obo/OGG_3000004061 #LY6E
+http://purl.obolibrary.org/obo/OGG_3000003439 #IFNA1
+http://purl.obolibrary.org/obo/OGG_3000003659 #IRF1
+http://purl.obolibrary.org/obo/OGG_3000006772 #STAT1
+http://purl.obolibrary.org/obo/OGG_3000007098 #TLR3
+http://purl.obolibrary.org/obo/OGG_3000007514 #XPO1
+http://purl.obolibrary.org/obo/OGG_3000004869 #NPM1
+http://purl.obolibrary.org/obo/OGG_3000002099 #ESR1
+http://purl.obolibrary.org/obo/OGG_3000006143 #RPL19
+http://purl.obolibrary.org/obo/OGG_3000003178 #HNRNPA1
+http://purl.obolibrary.org/obo/OGG_3000003612 #IMPA1
+http://purl.obolibrary.org/obo/OGG_3000002920 #CXCL2
+http://purl.obolibrary.org/obo/OGG_3000007042 #TGFB2
+http://purl.obolibrary.org/obo/OGG_3000006349 #CCL3L1
+http://purl.obolibrary.org/obo/OGG_3000006372 #CXCL6
+http://purl.obolibrary.org/obo/OGG_3000006355 #CCL8
+http://purl.obolibrary.org/obo/OGG_3000092304 #SCGB3A1
+http://purl.obolibrary.org/obo/OGG_3000002919 #CXCL1
+http://purl.obolibrary.org/obo/OGG_3000090865 #IL33
+http://purl.obolibrary.org/obo/OGG_3000058191 #CXCL16
+http://purl.obolibrary.org/obo/OGG_3000010220 #GDF11
+http://purl.obolibrary.org/obo/OGG_3000003084 #NRG1
+http://purl.obolibrary.org/obo/OGG_3000007076 #TIMP1
+http://purl.obolibrary.org/obo/OGG_3000003606 #IL18
+http://purl.obolibrary.org/obo/OGG_3000000374 #AREG
+http://purl.obolibrary.org/obo/OGG_3000146225 #CMTM2
+http://purl.obolibrary.org/obo/OGG_3000003576 #CXCL8
+http://purl.obolibrary.org/obo/OGG_3000054541 #DDIT4
+http://purl.obolibrary.org/obo/OGG_3000006237 #RRAS
+http://purl.obolibrary.org/obo/OGG_3000000332 #BIRC5
+http://purl.obolibrary.org/obo/OGG_3000008743 #TNFSF10
+http://purl.obolibrary.org/obo/OGG_3000001522 #CTSZ
+http://purl.obolibrary.org/obo/OGG_3000001509 #CTSD
+http://purl.obolibrary.org/obo/OGG_3000004914 #NTRK1
+http://purl.obolibrary.org/obo/OGG_3000003486 #IGFBP3
+http://purl.obolibrary.org/obo/OGG_3000000891 #CCNB1
+http://purl.obolibrary.org/obo/OGG_3000006241 #RRM2
+http://purl.obolibrary.org/obo/OGG_3000009133 #CCNB2
+http://purl.obolibrary.org/obo/OGG_3000051512 #GTSE1
+http://purl.obolibrary.org/obo/OGG_3000055240 #STEAP3
+http://purl.obolibrary.org/obo/OGG_3000009540 #TP53I3
+http://purl.obolibrary.org/obo/OGG_3000000622 #BDH1
+http://purl.obolibrary.org/obo/OGG_3000003456 #IFNB1
+http://purl.obolibrary.org/obo/OGG_3000002806 #GOT2
+http://purl.obolibrary.org/obo/OGG_3000003945 #LDHB
+http://purl.obolibrary.org/obo/OGG_3000003948 #LDHC
+http://purl.obolibrary.org/obo/OGG_3000000834 #CASP1
+http://purl.obolibrary.org/obo/OGG_3000002805 #GOT1
+http://purl.obolibrary.org/obo/OGG_3000007137 #TNNI3
+http://purl.obolibrary.org/obo/OGG_3000003557 #IL1RN
+http://purl.obolibrary.org/obo/OGG_3000001803 #DPP4
+http://purl.obolibrary.org/obo/OGG_3000000290 #ANPEP
+http://purl.obolibrary.org/obo/OGG_3000001514 #CTSL
+http://purl.obolibrary.org/obo/OGG_3000001508 #CTSB
+http://purl.obolibrary.org/obo/OGG_3000000383 #ARG1
+http://purl.obolibrary.org/obo/OGG_3000002875 #GPT
+http://purl.obolibrary.org/obo/OGG_3000005340 #PLG
+http://purl.obolibrary.org/obo/OGG_3000000727 #C5
+http://purl.obolibrary.org/obo/OGG_3000009241 #NOG
+http://purl.obolibrary.org/obo/OGG_3000002896 #GRN
+http://purl.obolibrary.org/obo/OGG_3000003725 #JUN
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGG_2060009606 #protein-coding gene of Homo sapiens
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

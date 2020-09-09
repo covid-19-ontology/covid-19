@@ -1,0 +1,2133 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/NCIT_module1.owl.#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/NCIT_module1.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/NCIT_module1.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#readOnly -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A10 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A10">
+        <obo:IAO_0000115>An association created to allow the source CDRH to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are the contributing source.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A10</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Has CDRH Parent</obo:NCIT_P107>
+        <obo:NCIT_P108>Has_CDRH_Parent</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_CDRH_Parent</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_CDRH_Parent</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A11 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A11">
+        <obo:IAO_0000115>An association created to allow the source NICHD to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are a contributing source.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A11</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_NICHD_Parent</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_NICHD_Parent</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_NICHD_Parent</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A15 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A15">
+        <obo:IAO_0000115>An association created to allow the source CTCAE 5.0 to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which CTCAE is the contributing source.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A15</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_CTCAE_5_Parent</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_CTCAE_5_Parent</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_CTCAE_5_Parent</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A5 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A5">
+        <obo:IAO_0000115>An association that connects the salt form of a drug with its free acid or free base.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A5</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Has Salt Form</obo:NCIT_P107>
+        <obo:NCIT_P108>Has_Salt_Form</obo:NCIT_P108>
+        <obo:NCIT_P98>USAGE NOTE: A salt form of a drug consists of 2 parts, one acidic and one basic group that are readily disassociated in liquid phase. Salt forms are either salts of strong acids and basic drugs (e.g. Atropine Sulfate, Cetirizine Hydrochloride) or salts of strong bases and acidic drugs (Allopurinol Sodium). This association is usually used in conjunction with Has_Free_Acid_Or_Base_Form.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Has_Salt_Form</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_Salt_Form</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A6 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A6">
+        <obo:IAO_0000115>An association that connects the salt form of a drug with its free acid or free base.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A6</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Has Free Acid Or Base Form</obo:NCIT_P107>
+        <obo:NCIT_P108>Has_Free_Acid_Or_Base_Form</obo:NCIT_P108>
+        <obo:NCIT_P98>The free acid or base is responsible for the drug&apos;s therapeutic effect. Hence, the salt form of a drug has the same mechanism of action as the free acid or base form.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Has_Free_Acid_Or_Base_Form</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_Free_Acid_Or_Base_Form</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A7 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A7">
+        <obo:IAO_0000115>An association that connects a drug or other agent to a clinically intended, molecular-scale target. The target value may be a gene, gene product, anatomic structure, biological process, or other concept, where the effect of the agent on the target is thought to be of therapeutic, diagnostic, or other clinical relevance to a disease process. The effect is most often direct, as defined at a molecular scale, but may also be indirect and/or defined at a larger scale.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A7</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Has Target</obo:NCIT_P107>
+        <obo:NCIT_P108>Has_Target</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_Target</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_Target</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <rdfs:label>code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <rdfs:label>Semantic_Type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Display_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Preferred_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P175 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P175">
+        <obo:IAO_0000115>A property representing a numeric identifier for substances submitted to the National Cancer Institute (NCI) for testing and evaluation. It is named after the Cancer Chemotherapy National Service Center (CCNSC), created in 1955, which originally ran the testing program and assigned these numbers. The testing program and repository is now run by the NCI Developmental Therapeutics Program (DTP). Assignment of NSC numbers was never done in a way that would guarantee one and only one NSC number would be assigned to a particular substance.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P175</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NSC Number</obo:NCIT_P107>
+        <obo:NCIT_P108>NSC_Number</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NSC_Code</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NSC_Number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NSC_Number_Property</oboInOwl:hasExactSynonym>
+        <rdfs:label>NSC_Code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P201 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P201">
+        <obo:IAO_0000115>A property used to store the name of children concepts present at the time a concept was retired.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P201</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>OLD CHILD</obo:NCIT_P107>
+        <obo:NCIT_P108>OLD_CHILD</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>OLD_CHILD</oboInOwl:hasExactSynonym>
+        <rdfs:label>OLD_CHILD</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P203 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P203">
+        <obo:IAO_0000115>Used to store the name of the concept&apos;s kind at the time a concept was retired.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P203</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>OLD KIND</obo:NCIT_P107>
+        <obo:NCIT_P108>OLD_KIND</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>OLD_KIND</oboInOwl:hasExactSynonym>
+        <rdfs:label>OLD_KIND</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <rdfs:label>UMLS_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P210 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P210">
+        <obo:IAO_0000115>A property representing the Chemical Abstracts Service number for a Chemical or Drug.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P210</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>CAS Registry Number</obo:NCIT_P107>
+        <obo:NCIT_P108>CAS_Registry</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CAS_Registry</oboInOwl:hasExactSynonym>
+        <rdfs:label>CAS_Registry</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P302 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P302">
+        <obo:IAO_0000115>A property representing a disease or condition for which this drug is an accepted treatment. Used in the Drug, Food, Chemical or Biomedical Material branch.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P302</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Accepted Therapeutic Use For</obo:NCIT_P107>
+        <obo:NCIT_P108>Accepted_Therapeutic_Use_For</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Accepted_Therapeutic_Use_For</oboInOwl:hasExactSynonym>
+        <rdfs:label>Accepted_Therapeutic_Use_For</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P310 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P310">
+        <obo:IAO_0000115>A property used to indicate the standing of a concept in relation to currently accepted classifications and concepts. In NCI Thesaurus concept status subtype indicates concepts with unusual and problematic characteristics that should be evaluated by people and/or programs before those concept are used.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P310</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Concept Status</obo:NCIT_P107>
+        <obo:NCIT_P108>Concept_Status</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Concept_Status</oboInOwl:hasExactSynonym>
+        <rdfs:label>Concept_Status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P317 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P317">
+        <obo:IAO_0000115>A property used to flag terms that are part of an FDA data standard manual, including Route of Administration, Dosage Form, Package Type and Potency.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P317</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>FDA Table</obo:NCIT_P107>
+        <obo:NCIT_P108>FDA_Table</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>FDA_Table</oboInOwl:hasExactSynonym>
+        <rdfs:label>FDA_Table</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P319 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P319">
+        <obo:IAO_0000115>A property representing the FDA Unique Ingredient Identifier, a key component of the federal drug information model.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P319</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>FDA UNII Code</obo:NCIT_P107>
+        <obo:NCIT_P108>FDA_UNII_Code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>FDA_UNII_Code</oboInOwl:hasExactSynonym>
+        <rdfs:label>FDA_UNII_Code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <rdfs:label>Contributing_Source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P329 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P329">
+        <obo:IAO_0000115>A property representing the identifier used by NCI&apos;s Cancer.gov Web site to retrieve PDQ Clinical Trials data for open trials involving specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only open trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P329</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PDQ Open Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Open_Trial_Search_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PDQ_Open_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>PDQ_Open_Trial_Search_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P330 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P330">
+        <obo:IAO_0000115>A property representing the identifier used by NCI&apos;s Cancer.gov web site to retrieve PDQ Clinical Trials data for closed trials that involved specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only closed trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P330</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PDQ Closed Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Closed_Trial_Search_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PDQ_Closed_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>PDQ_Closed_Trial_Search_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P331 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P331">
+        <obo:IAO_0000115>A property that is used to establish correspondence between the NCI Thesaurus concept representing a taxon (species) and the NCBI/NLM Species Taxonomy ID assigned by the NCBI to that taxon.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P331</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NCBI Taxon ID</obo:NCIT_P107>
+        <obo:NCIT_P108>NCBI_Taxon_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NCBI_Taxon_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>NCBI_Taxon_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P350 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P350">
+        <obo:IAO_0000115>A property representing a concise expression about the atoms that constitute a particular chemical compound.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P350</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Chemical Formula</obo:NCIT_P107>
+        <obo:NCIT_P108>Chemical_Formula</obo:NCIT_P108>
+        <obo:NCIT_P322>CRCH</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Chemical Formula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chemical_Formula</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chemical_Formula</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P368 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P368">
+        <obo:IAO_0000115>A property representing that a concept in the &apos;Drug, Food, Chemical or Biomedical Material&apos; branch of the NCI thesaurus maps to a specific concept in the EBI Chemical Entities of Biological Interest (CHEBI) database.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P368</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>CHEBI_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CHEBI_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>CHEBI_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P371 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P371">
+        <obo:IAO_0000115>A property representing a term chosen by NICHD to be used in the representation of the NICHD hierarchy.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P371</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>NICHD_Hierarchy_Term</obo:NCIT_P108>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>NICHD_Hierarchy_Term</oboInOwl:hasExactSynonym>
+        <rdfs:label>NICHD_Hierarchy_Term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P375 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <obo:IAO_0000115>A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P375</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Maps_To</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Maps_To</oboInOwl:hasExactSynonym>
+        <rdfs:label>Maps_To</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <rdfs:label>DesignNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C102401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C102401">
+        <obo:IAO_0000115>The potential future harm that may arise from some present action or attribute or condition is almost certain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C102401</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>High Risk</obo:NCIT_P108>
+        <obo:NCIT_P207>C0332167</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The potential future harm that may arise from some present action or attribute or condition is almost certain.</obo:NCIT_P325>
+        <obo:NCIT_P375>High Risk</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>HIGH RISK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>High Risk</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101848"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>High Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C102865 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C102865">
+        <obo:IAO_0000115>The diammonium salt of glycyrrhizin and the active constituent in the traditional Chinese medicinal herb Glycyrrhiza uralensis (Chinese liquorice or Gan-Cao) with anti-inflammatory, antioxidant and hepatoprotective properties. Diammonium glycyrrhizinate (DG) is slowly metabolized within the cells into glycyrrhetic acid, which inhibits enzymes that control cortisol metabolism and contributes to this agent&apos;s anti-inflammatory effect. Although the exact mechanism of action remains to be fully elucidated, DG may prevent or reduce hepatotoxicity via the scavenging of free radicals. This agent also upregulates the expression of transcription coactivator PGC-1alpha and modulates hepatic enzymes such as alanine aminotransferase (ALT), aspartate aminotransferase (AST), superoxide dismutase and glutathion peroxidase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C102865</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Diammonium Glycyrrhizinate</obo:NCIT_P108>
+        <obo:NCIT_P207>C1956193</obo:NCIT_P207>
+        <obo:NCIT_P210>79165-06-3</obo:NCIT_P210>
+        <obo:NCIT_P329>737610</obo:NCIT_P329>
+        <obo:NCIT_P330>737610</obo:NCIT_P330>
+        <obo:NCIT_P350>C42H62O16.2H3N</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>18beta-Glycyrrhizic Acid Diammoniumsalt</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diammonium Glycyrrhizinate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alpha-D-Glucopyranosiduronic acid, (3beta,20beta)-20-carboxy-11-oxo-30-norolean-12-en-3-yl 2-O-beta-D-Glucopyranuronosyl-, Diammonium Salt (9CI)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Diammonium Glycyrrhizinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C11364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C11364">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C11364</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Cytarabine/Homoharringtonine/Interferon Alfa</obo:NCIT_P108>
+        <obo:NCIT_P207>C0678006</obo:NCIT_P207>
+        <obo:NCIT_P310>Obsolete_Concept</obo:NCIT_P310>
+        <obo:NCIT_P366>Cytarabine_Homoharringtonine_Interferon-Alfa</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>ARA-C/HH/IFN-A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cytarabine/Homoharringtonine/Interferon Alfa</oboInOwl:hasExactSynonym>
+        <rdfs:label>Cytarabine/Homoharringtonine/Interferon Alfa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C115149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C115149">
+        <obo:IAO_0000115>An infectious process caused by adenovirus. The virus may cause respiratory illness, conjunctivitis, gastroenteritis, and cystitis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3439"/>
+        <obo:NCIT_NHC0>C115149</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P107>Adenovirus Infection</obo:NCIT_P107>
+        <obo:NCIT_P108>Adenovirus Infection</obo:NCIT_P108>
+        <obo:NCIT_P207>C0001486</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>An infectious process caused by adenovirus. The virus may cause respiratory illness, conjunctivitis, gastroenteritis, and cystitis.</obo:NCIT_P325>
+        <obo:NCIT_P371>Adenovirus Infection</obo:NCIT_P371>
+        <obo:NCIT_P375>Adenovirus infection</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>AdV Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adenoviral Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adenovirus Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Adenovirus Infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C115164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C115164">
+        <obo:IAO_0000115>An infection acquired in a hospital or other healthcare setting.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26726"/>
+        <obo:NCIT_NHC0>C115164</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Nosocomial Infection</obo:NCIT_P108>
+        <obo:NCIT_P207>C0205721</obo:NCIT_P207>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>An infection acquired in a hospital or other healthcare setting.</obo:NCIT_P325>
+        <obo:NCIT_P371>Nosocomial Infection</obo:NCIT_P371>
+        <obo:NCIT_P375>Nosocomial infection</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>HAI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Healthcare-Associated Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hospital-Acquired Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hospital-Onset Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nosocomial Infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Nosocomial Infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C123816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C123816">
+        <obo:IAO_0000115>A monoclonal antibody directed against the negative immunoregulatory human cell surface receptor programmed death-1 (PD-1, PCD-1,) with immune checkpoint inhibitory and antineoplastic activities. Upon administration, anti-PD-1 monoclonal antibody SHR-1210 binds to and blocks the binding of PD-1, expressed on activated T-lymphocytes, B-cells and natural killer (NK) cells, to its ligands programmed cell death ligand 1 (PD-L1), overexpressed on certain cancer cells, and programmed cell death ligand 2 (PD-L2), which is primarily expressed on antigen presenting cells (APCs). This prevents the activation of PD-1 and its downstream signaling pathways. This restores immune function through the activation of cytotoxic T-lymphocytes (CTLs) and cell-mediated immune responses against tumor cells or pathogens. Activated PD-1 negatively regulates T-cell activation and plays a key role in tumor evasion from host immunity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A7 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94697"/>
+        <obo:NCIT_NHC0>C123816</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <obo:NCIT_P108>Camrelizumab</obo:NCIT_P108>
+        <obo:NCIT_P208>CL498210</obo:NCIT_P208>
+        <obo:NCIT_P319>73096E137E</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>775449</obo:NCIT_P329>
+        <obo:NCIT_P330>775449</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>CAMRELIZUMAB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Camrelizumab</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HR-301210</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SHR-1210</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SHR1210</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Camrelizumab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124946">
+        <obo:IAO_0000115>An agent designed to interfere with the activity of programmed cell death protein 1 (PD1). PD1 inhibitors block T-cell apoptosis and act as non-specific activators of the immune system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C124946</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <obo:NCIT_P107>PD1 Inhibitor</obo:NCIT_P107>
+        <obo:NCIT_P108>PD1 Inhibitor</obo:NCIT_P108>
+        <obo:NCIT_P207>C4086713</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>PD-1 Inhibitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PD1 Inhibitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Programmed Cell Death Protein 1 Inhibitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Protein PD-1 Inhibitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <rdfs:label>PD1 Inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C125062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C125062">
+        <obo:IAO_0000115>An orally bioavailable inhibitor of mitogen-activated protein kinase (MAPK)-interacting serine/threonine-protein kinase 1 (MNK1) and 2 (MNK2), with potential antineoplastic activity. Upon oral administration, tomivosertib binds to and inhibits the activity of MNK1 and 2. This prevents MNK1/2-mediated signaling, and inhibits the phosphorylation of certain regulatory proteins, including eukaryotic translation initiation factor 4E (eIF4E), that regulate the translation of messenger RNAs (mRNAs) involved in tumor cell proliferation, angiogenesis, survival and immune signaling. This inhibits tumor cell proliferation in MNK1/2-overexpressing tumor cells. MNK1/2 are overexpressed in a variety of tumor cell types and promote phosphorylation of eIF4E; eIF4E is overexpressed in many tumor cell types and contributes to tumor development, maintenance and resistance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C125062</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Tomivosertib</obo:NCIT_P107>
+        <obo:NCIT_P108>Tomivosertib</obo:NCIT_P108>
+        <obo:NCIT_P208>CL503903</obo:NCIT_P208>
+        <obo:NCIT_P210>1849590-01-7</obo:NCIT_P210>
+        <obo:NCIT_P319>U2H19X4WBV</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>777456</obo:NCIT_P329>
+        <obo:NCIT_P330>777456</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>EFT-508</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Spiro(cyclohexane-1,3&apos;(2&apos;H)-imidazo(1,5-a)pyridine)-1&apos;,5&apos;-dione, 6&apos;-((6-Amino-4-pyrimidinyl)amino)-8&apos;-methyl-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TOMIVOSERTIB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tomivosertib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>eFT508</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Tomivosertib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126400">
+        <obo:IAO_0000115>Treatments that substitute for the blood-filtering function of the kidneys. It includes dialysis (hemodialysis or peritoneal dialysis), hemofiltration, and hemodiafiltration. Kidney transplant may also be considered a renal replacement therapy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C126400</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Renal Replacement Therapy</obo:NCIT_P108>
+        <obo:NCIT_P207>C0206074</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>RRT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Renal Replacement Therapy</oboInOwl:hasExactSynonym>
+        <rdfs:label>Renal Replacement Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126929">
+        <obo:IAO_0000115>A response indicating that an individual experiences or experienced some shortness of breath.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C126929</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Some Shortness of Breath</obo:NCIT_P108>
+        <obo:NCIT_P208>CL508083</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>Some Shortness of Breath</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Some shortness of breath</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C126891"/>
+        <rdfs:label>Some Shortness of Breath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C128376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C128376">
+        <obo:IAO_0000115>The process by which an infection is transmitted to a person.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20189"/>
+        <obo:NCIT_NHC0>C128376</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Phenomenon or Process</obo:NCIT_P106>
+        <obo:NCIT_P108>Mode of Transmission</obo:NCIT_P108>
+        <obo:NCIT_P207>C1443844</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>The process by which an infection is transmitted to a person.</obo:NCIT_P325>
+        <obo:NCIT_P371>Mode of Transmission</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>Mode of Transmission</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Mode of Transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1287">
+        <obo:IAO_0000115>A recombinant therapeutic agent which is chemically identical to or similar to the endogenous cytokine granulocyte colony-stimulating factor (G-CSF).  Secreted by monocytes, macrophages and neutrophils and other cells after activation, G-CSF stimulates the proliferation and differentiation of hematopoietic progenitor cells committed to the neutrophil/ granulocyte lineage. (NCI04)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C1287</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <obo:NCIT_P108>Recombinant Granulocyte Colony-Stimulating Factor</obo:NCIT_P108>
+        <obo:NCIT_P175>614371</obo:NCIT_P175>
+        <obo:NCIT_P175>614629</obo:NCIT_P175>
+        <obo:NCIT_P207>C0376562</obo:NCIT_P207>
+        <obo:NCIT_P210>143011-72-7</obo:NCIT_P210>
+        <obo:NCIT_P302>Neutropenia</obo:NCIT_P302>
+        <obo:NCIT_P329>618712</obo:NCIT_P329>
+        <obo:NCIT_P330>618712</obo:NCIT_P330>
+        <obo:NCIT_P366>Recombinant_Granulocyte_Colony_Stimulating_Factor</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Recombinant Colony-Stimulating Factor 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Recombinant Granulocyte Colony-Stimulating Factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rhG-CSF</oboInOwl:hasExactSynonym>
+        <rdfs:label>Recombinant Granulocyte Colony-Stimulating Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1311">
+        <obo:IAO_0000115>A macrolide isolated from Streptomyces tsukubaensis. Tacrolimus binds to the FKBP-12 protein and forms a complex with calcium-dependent proteins, thereby inhibiting calcineurin phosphatase activity and resulting in decreased cytokine production. This agent exhibits potent immunosuppressive activity in vivo and prevents the activation of T-lymphocytes in response to antigenic or mitogenic stimulation. Tacrolimus possesses similar immunosuppressive properties to cyclosporine, but is more potent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C1311</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Tacrolimus</obo:NCIT_P107>
+        <obo:NCIT_P108>Tacrolimus</obo:NCIT_P108>
+        <obo:NCIT_P175>717865</obo:NCIT_P175>
+        <obo:NCIT_P207>C0085149</obo:NCIT_P207>
+        <obo:NCIT_P210>109581-93-3</obo:NCIT_P210>
+        <obo:NCIT_P302>Atopic dermatitis; Kidney transplant rejection, prophylaxis; Liver transplant rejection, prophylaxis</obo:NCIT_P302>
+        <obo:NCIT_P319>WM0HAQ4WNM</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A drug used to help reduce the risk of rejection by the body of organ and bone marrow transplants.</obo:NCIT_P325>
+        <obo:NCIT_P329>42009</obo:NCIT_P329>
+        <obo:NCIT_P330>42009</obo:NCIT_P330>
+        <obo:NCIT_P350>C44H69NO12.H2O</obo:NCIT_P350>
+        <obo:NCIT_P366>Tacrolimus</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:61057</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>FK 506</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fujimycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hecoria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hexadecahydro-5,19-dihydroxy-3-[2-(4-hydroxy-3-methoxycyclohexyl)-1-methylethenyl]-14,16-dimethoxy-4,10,12,18-tetramethyl-8-(2-propenyl)-15,19-epoxy-3H-pyrido[2,1-c][1,4]oxaazacyclotricosine-1,7,20,21(4H,23H)-tetrone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prograf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Protopic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TACROLIMUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tacrolimus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tacrolimus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Tacrolimus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C13292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13292">
+        <obo:IAO_0000115>A sequence of nucleotides in that contains no termination codons and so can potentially translate as a polypeptide chain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C13292</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Nucleotide Sequence</obo:NCIT_P106>
+        <obo:NCIT_P108>Open Reading Frame</obo:NCIT_P108>
+        <obo:NCIT_P207>C0079941</obo:NCIT_P207>
+        <obo:NCIT_P366>Open_Reading_Frame</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>ORF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Open Reading Frame</oboInOwl:hasExactSynonym>
+        <rdfs:label>Open Reading Frame</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C133344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C133344">
+        <obo:IAO_0000115>Plasma derived from single units of whole blood, plasma, or as a by-product in the preparation of blood components from whole blood, for use in the manufacturing of licensed or unlicensed products.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C133344</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Recovered Plasma</obo:NCIT_P108>
+        <obo:NCIT_P208>CL520220</obo:NCIT_P208>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Recovered Plasma</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C133239"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C133243"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54452"/>
+        <rdfs:label>Recovered Plasma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C13410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13410">
+        <obo:IAO_0000115>The portion of an integral membrane protein crossing through the plasma lemma (cell membrane) or that of an internal vesicle. This region is highly hydrophobic, approximately 20 amino acids long, and bordered by charged amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C13410</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid Sequence</obo:NCIT_P106>
+        <obo:NCIT_P108>Transmembrane Domain</obo:NCIT_P108>
+        <obo:NCIT_P207>C1519623</obo:NCIT_P207>
+        <obo:NCIT_P366>Transmembrane_Domain</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>TM Domain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Transmembrane Domain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Transmembrane Region</oboInOwl:hasExactSynonym>
+        <rdfs:label>Transmembrane Domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C13457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13457">
+        <obo:IAO_0000115>The part of a transmembrane protein which projects into the cytoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C13457</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Spatial Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Cytoplasmic Domain</obo:NCIT_P108>
+        <obo:NCIT_P207>C1511625</obo:NCIT_P207>
+        <obo:NCIT_P366>Cytoplasmic_Tail</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Cytoplasmic Domain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cytoplasmic Tail</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cytosolic Domain</oboInOwl:hasExactSynonym>
+        <rdfs:label>Cytoplasmic Domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C137824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C137824">
+        <obo:IAO_0000115>A humanized immunoglobulin (Ig) G4 monoclonal antibody against CC chemokine receptor 5 (CCR5; CD195), with potential activity as a human immunodeficiency virus (HIV) entry blocker and potential protective activity against graft-versus-host disease (GvHD). Upon administration, leronlimab targets and binds to CCR5 expressed on T-cells. This blocks HIV cell entry, which prevents HIV infection and/or reduces HIV viral load. In addition, blocking CCR5 by PRO 140 decreases CCR5-mediated signaling and the CCR5-induced migration of donor cells into tissues after an allogeneic hematopoietic cell transplantation (HCT). Blocking CCR5 may therefore prevent or reduce GvHD. CCR5, a co-receptor needed for HIV cell entry, plays a key role in immunomodulation. Expressed on monocytes, activated T-cells and dendritic cells (DCs), CCR5 can regulate chemotaxis. Lymphocyte trafficking via chemokine receptors, such as CCR5, and recruitment to target organs, plays a critical role in alloreactive responses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C137824</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Leronlimab</obo:NCIT_P107>
+        <obo:NCIT_P108>Leronlimab</obo:NCIT_P108>
+        <obo:NCIT_P207>C3179326</obo:NCIT_P207>
+        <obo:NCIT_P210>674782-26-4</obo:NCIT_P210>
+        <obo:NCIT_P319>Y1J4NP8FF0</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>790146</obo:NCIT_P329>
+        <obo:NCIT_P330>790146</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>LERONLIMAB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Leronlimab</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PA14</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRO 140</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRO-140</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRO140</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>WHO 10751</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Leronlimab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14139">
+        <obo:IAO_0000115>A loss of any arm of immune functions, resulting in potential or actual increase in infections. This state may be reached secondary to specific genetic lesions, syndromes with unidentified or polygenic causes, acquired deficits from other disease states, or as result of therapy for other diseases or conditions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3507"/>
+        <obo:NCIT_NHC0>C14139</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Immunocompromised</obo:NCIT_P108>
+        <obo:NCIT_P207>C0085393</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A loss of any arm of immune functions resulting in potential or actual increase in infections. This state may be reached due to specific genetic lesions, syndromes with unidentified or polygenic causes, acquired deficits from other disease states, or as result of therapy for other diseases or conditions.</obo:NCIT_P325>
+        <obo:NCIT_P325>Having a weakened immune system caused by certain diseases or treatments.</obo:NCIT_P325>
+        <obo:NCIT_P366>Immunocompromised</obo:NCIT_P366>
+        <obo:NCIT_P371>Immunocompromised</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>Immunocompromised</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immunocompromised Host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immunocompromised Patient</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immunosuppressed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immunosuppressed Host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immunosuppressed Patient</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunocompromised</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunocompromised host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunocompromised patient</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunosuppressed host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunosuppressed patient</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118468"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Immunocompromised</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14212">
+        <obo:IAO_0000115>Any member of four genera of the rodent family Cricetidae; short-tailed Old World burrowing rodents with large cheek pouches.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14212</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Mammal</obo:NCIT_P106>
+        <obo:NCIT_P108>Hamster</obo:NCIT_P108>
+        <obo:NCIT_P207>C0018557</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any member of the subfamily cricetinae and the genuses Mesocricetus, Phodopus, Cricetus, Cricetulus, Allocricetulus, Cansumys and Tscherskia.</obo:NCIT_P325>
+        <obo:NCIT_P331>10035</obo:NCIT_P331>
+        <obo:NCIT_P366>Hamster</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>HAMSTER</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hamster</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mammals, Hamsters</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mesocricetus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77808"/>
+        <rdfs:label>Hamster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142470">
+        <obo:IAO_0000115>The process by which data is collected de novo from the source.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C142470</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Data Capture</obo:NCIT_P108>
+        <obo:NCIT_P208>CL540449</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>See data entry.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Data Capture</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>data capture</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <rdfs:label>Data Capture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C143657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C143657">
+        <obo:IAO_0000115>A disorder characterized by an infectious process involving the lungs, including pneumonia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A15 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C143171"/>
+        <obo:NCIT_NHC0>C143657</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Lung Infection, CTCAE</obo:NCIT_P108>
+        <obo:NCIT_P208>CL541914</obo:NCIT_P208>
+        <obo:NCIT_P322>CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P325>A disorder characterized by an infectious process involving the lungs, including pneumonia.</obo:NCIT_P325>
+        <obo:NCIT_P375>Lung Infection</obo:NCIT_P375>
+        <obo:NCIT_P375>Lung infection</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Lung Infection, CTCAE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lung infection</oboInOwl:hasExactSynonym>
+        <rdfs:label>Lung Infection, CTCAE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C148534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C148534">
+        <obo:IAO_0000115>A cancer vaccine composed of inactivated rabies vaccine (RV-V) and polyinosinic-polycytidylic acid (poly IC; poly I-C), an immunostimulant and Toll-like receptor 3 (TLR3) agonist, with potential immunostimulating and antineoplastic activities. Upon administration of the poly IC/inactivated RV-V YS-ON-001, the RV-V stimulates the immune system in various ways, such as promoting the activation and proliferation of T helper type 1 (Th1) cells, dendritic cells (DCs), B cells and natural killer cells (NKs), promoting macrophage M1 polarization, downregulating regulatory T-cells (Tregs), and inducing the production of anti-tumor cytokines. This re-activates immune responses in the suppressed tumor microenvironment (TME), leading to an induction of cytotoxic T-lymphocyte (CTL)-mediated immune response against the tumor cells, which cause tumor cell apoptosis and a reduction of tumor cell proliferation. Poly IC, a synthetic double-stranded RNA with one strand composed of a inosinic acid polymer and the other strand a cytidylic acid polymer, binds to TLR3 and stimulates the release of cytotoxic cytokines, such as interferon-gamma (IFNg). This may boost the immune response against the tumor cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C148534</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Polyinosinic-polycytidylic Acid/Inactivated Rabies Virus Vaccine YS-ON-001</obo:NCIT_P108>
+        <obo:NCIT_P208>CL551131</obo:NCIT_P208>
+        <obo:NCIT_P329>792708</obo:NCIT_P329>
+        <obo:NCIT_P330>792708</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>Poly IC/Inactivated RV-V YS-ON-001</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Polyinosinic-polycytidylic Acid/Inactivated Rabies Virus Vaccine YS-ON-001</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>YS ON 001</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>YS-ON-001</oboInOwl:hasExactSynonym>
+        <rdfs:label>Polyinosinic-polycytidylic Acid/Inactivated Rabies Virus Vaccine YS-ON-001</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15207">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Clinical Trial</obo:NCIT_P108>
+        <obo:NCIT_P201>Adjuvant_Study</obo:NCIT_P201>
+        <obo:NCIT_P203>Activity_Kind</obo:NCIT_P203>
+        <obo:NCIT_P310>Retired_Concept</obo:NCIT_P310>
+        <obo:NCIT_P98>See &apos;Clinical Study&apos;</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Clinical Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Trials</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Trials, Unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>clinical trial</oboInOwl:hasExactSynonym>
+        <rdfs:label>Clinical Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C152860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C152860">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C152860</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Verdinexor</obo:NCIT_P108>
+        <obo:NCIT_P208>CL554064</obo:NCIT_P208>
+        <obo:NCIT_P319>85Q03215IW</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>VERDINEXOR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Verdinexor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Verdinexor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15324">
+        <obo:IAO_0000115>Personal performance of activities or tasks traditionally performed by professional health care providers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15324</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Health Care Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Self Care</obo:NCIT_P108>
+        <obo:NCIT_P207>C0036592</obo:NCIT_P207>
+        <obo:NCIT_P366>Self_Care</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Self Care</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Self-care</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Selfcare</oboInOwl:hasExactSynonym>
+        <rdfs:label>Self Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C155835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C155835">
+        <obo:IAO_0000115>A biospecimen collected from the oropharynx by swabbing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C155835</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Body Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Oropharyngeal Swab Specimen</obo:NCIT_P108>
+        <obo:NCIT_P207>C0439056</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Oropharyngeal Swab</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Oropharyngeal Swab Specimen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>THRT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Throat Swab</oboInOwl:hasExactSynonym>
+        <rdfs:label>Oropharyngeal Swab Specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15747">
+        <obo:IAO_0000115>Supportive care is that which helps the patient and their family to cope with cancer and treatment of it from pre-diagnosis, through the process of diagnosis and treatment, to cure, continuing illness or death and into bereavement. It helps the patient to maximize the benefits of treatment and to live as well as possible with the effects of the disease. Supportive therapy may provide a patient with friendship, encouragement, practical advice such as access to community resources or how to develop a more active social life, vocational counseling, suggestions for minimizing friction with family members, and, above all, hope that the life of the patient may be improved. In all situations, supportive therapy involves the teaching of such life skills as managing medication, learning to socialize, handling finances, and getting a job.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15747</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Supportive Care</obo:NCIT_P107>
+        <obo:NCIT_P108>Supportive Care</obo:NCIT_P108>
+        <obo:NCIT_P207>C0344211</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>Any action or process to maximize comfort, minimize side effects, or mitigate against a decline in the participant&apos;s health or function. (clinicaltrials.gov)</obo:NCIT_P325>
+        <obo:NCIT_P366>Supportive_Care</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Supportive Care</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Supportive Therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Symptom Management</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Therapy, Supportive</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>supportive care</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <rdfs:label>Supportive Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15760">
+        <obo:IAO_0000115>Design, identification, synthesis, extraction, purification, modification, or characterization of potential anticancer agents; studies of their metabolism, distribution, excretion, physiological effects, molecular interactions, structural analysis, toxicity, mechanism of action, antitumor effects in vivo (nonhuman species) or in vitro (human or nonhuman), and phase I and phase II clinical trials.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15760</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Drug Development</obo:NCIT_P108>
+        <obo:NCIT_P207>C0872152</obo:NCIT_P207>
+        <obo:NCIT_P366>Drug_Development</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Drug Development</oboInOwl:hasExactSynonym>
+        <rdfs:label>Drug Development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C157816">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C157816</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Chronic Respiratory Disease</obo:NCIT_P108>
+        <obo:NCIT_P207>C0264220</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Chronic Respiratory Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520"/>
+        <rdfs:label>Chronic Respiratory Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15843">
+        <obo:IAO_0000115>Therapeutic, nutritional, environmental, social and/or behavioral interventions at the societal, community, organizational or individual levels to reduce, modify or stop the course of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15843</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Preventive Intervention</obo:NCIT_P107>
+        <obo:NCIT_P108>Preventive Intervention</obo:NCIT_P108>
+        <obo:NCIT_P208>CL000755</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>Any action or response to modify or stop the development of a disease.</obo:NCIT_P325>
+        <obo:NCIT_P325>In medicine, action taken to decrease the chance of getting a disease or condition. For example, cancer prevention includes avoiding risk factors (such as smoking, obesity, lack of exercise, and radiation exposure) and increasing protective factors (such as getting regular physical activity, staying at a healthy weight, and having a healthy diet).</obo:NCIT_P325>
+        <obo:NCIT_P366>Preventive_Intervention</obo:NCIT_P366>
+        <obo:NCIT_P375>Prevention</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>PREVENTATIVE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRYLX</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prevention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prevention Measures</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preventive Intervention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prophylaxis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>prevention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>prophylaxis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C124307"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Preventive Intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16087">
+        <obo:IAO_0000115>The use of animals for testing the safety and efficacy of drugs or treatments.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16087</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Animal Testing</obo:NCIT_P108>
+        <obo:NCIT_P207>C1510899</obo:NCIT_P207>
+        <obo:NCIT_P366>Animal_Testing</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Animal Testing</oboInOwl:hasExactSynonym>
+        <rdfs:label>Animal Testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1661">
+        <obo:IAO_0000115>A pharmacological agent that inhibits DNA replication or RNA synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C1661</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <obo:NCIT_P108>Nucleic Acid Synthesis Inhibitor</obo:NCIT_P108>
+        <obo:NCIT_P207>C0376568</obo:NCIT_P207>
+        <obo:NCIT_P366>Nucleic_Acid_Synthesis_Inhibitor</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Inhibitors, Nucleic Acid Synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nucleic Acid Synthesis Inhibitor</oboInOwl:hasExactSynonym>
+        <rdfs:label>Nucleic Acid Synthesis Inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16751">
+        <obo:IAO_0000115>A conversation with an individual regarding his or her background and other personal and professional details, opinions on specific subjects posed by the interviewer, etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16751</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Occupational Activity</obo:NCIT_P106>
+        <obo:NCIT_P107>Interview</obo:NCIT_P107>
+        <obo:NCIT_P108>Interview</obo:NCIT_P108>
+        <obo:NCIT_P207>C0021822</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>Interview</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Interview</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <rdfs:label>Interview</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17103">
+        <obo:IAO_0000115>Any aspect of an individual&apos;s life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C17103</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Risk Factor</obo:NCIT_P108>
+        <obo:NCIT_P207>C0035648</obo:NCIT_P207>
+        <obo:NCIT_P325>Something that increases the chance of developing a disease. Some examples of risk factors for cancer are age, a family history of certain cancers, use of tobacco products, being exposed to radiation or certain chemicals, infection with certain viruses or bacteria, and certain genetic changes.</obo:NCIT_P325>
+        <obo:NCIT_P366>Risk_Factor</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Risk Factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>risk factor</oboInOwl:hasExactSynonym>
+        <rdfs:label>Risk Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17253">
+        <obo:IAO_0000115>The total complement of hereditary material in a virus, which can be composed of either DNA or RNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C17253</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Gene or Genome</obo:NCIT_P106>
+        <obo:NCIT_P108>Viral Genome</obo:NCIT_P108>
+        <obo:NCIT_P207>C0042720</obo:NCIT_P207>
+        <obo:NCIT_P366>Viral_Genome</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Viral Genome</oboInOwl:hasExactSynonym>
+        <rdfs:label>Viral Genome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17254">
+        <obo:IAO_0000115>Proteins encoded by viral genes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C17254</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P108>Viral Protein</obo:NCIT_P108>
+        <obo:NCIT_P207>C0042736</obo:NCIT_P207>
+        <obo:NCIT_P366>Viral_Protein</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Viral Protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Virus Protein</oboInOwl:hasExactSynonym>
+        <rdfs:label>Viral Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17607">
+        <obo:IAO_0000115>The gene product limited to virus, and was found in either the nucleocapsid structure or the viral core.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C17607</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P108>Nucleocapsid Protein</obo:NCIT_P108>
+        <obo:NCIT_P207>C0524816</obo:NCIT_P207>
+        <obo:NCIT_P366>Nucleocapsid_Protein</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Nucleocapsid Protein</oboInOwl:hasExactSynonym>
+        <rdfs:label>Nucleocapsid Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18908">
+        <obo:IAO_0000115>The population of retired people, generally over 62</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C18908</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Population Group</obo:NCIT_P106>
+        <obo:NCIT_P108>Older Population</obo:NCIT_P108>
+        <obo:NCIT_P207>C1518563</obo:NCIT_P207>
+        <obo:NCIT_P366>Older_Population</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Older Population</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Older Populations</oboInOwl:hasExactSynonym>
+        <rdfs:label>Older Population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19291">
+        <obo:IAO_0000115>The identifiable and quantifiable things which contribute to the establishment and transmission of disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C19291</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Functional Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Epidemiological Factors</obo:NCIT_P108>
+        <obo:NCIT_P207>C1516907</obo:NCIT_P207>
+        <obo:NCIT_P366>Epidemiological_Factors</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Epidemiological Factors</oboInOwl:hasExactSynonym>
+        <rdfs:label>Epidemiological Factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20401">
+        <obo:IAO_0000115>An antibody produced by a clone or genetically homogenous fast-growing cells i.e., hybridoma. Hybridoma cells are cloned to establish cell lines producing a specific antibody that is chemically and immunologically homogeneous. They are widely used in cancer detection, diagnosis, and treatment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C20401</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P107>Monoclonal Antibody</obo:NCIT_P107>
+        <obo:NCIT_P108>Monoclonal Antibody</obo:NCIT_P108>
+        <obo:NCIT_P207>C0003250</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of protein made in the laboratory that can bind to substances in the body, including tumor cells. There are many kinds of monoclonal antibodies. Each monoclonal antibody is made to find one substance. Monoclonal antibodies are being used to treat some types of cancer and are being studied in the treatment of other types. They can be used alone or to carry drugs, toxins, or radioactive materials directly to a tumor.</obo:NCIT_P325>
+        <obo:NCIT_P366>Monoclonal_Antibody</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>MAb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MoAB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Monoclonal Antibodies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Monoclonal Antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Monoclonal Antibody Therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>monoclonal antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <rdfs:label>Monoclonal Antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2096">
+        <obo:IAO_0000115>A fixed combination of two protease inhibitors, lopinavir and ritonavir, used to treat human immunodeficiency virus (HIV) infection. The ritonavir in the combination drug increases the concentration and biological half-life of lopinavir but is not present in sufficient concentration to act as a protease inhibitor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C2096</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Lopinavir/Ritonavir</obo:NCIT_P108>
+        <obo:NCIT_P207>C0939237</obo:NCIT_P207>
+        <obo:NCIT_P325>A combination of the drugs ritonavir and lopinavir. It is used to treat infection with HIV (the virus that causes AIDS). It is also being studied in the treatment of some types of cancer. Lopinavir/ritonavir blocks the ability of HIV to make copies of itself and may help other anticancer drugs work better or may block the growth of cancer cells. Ritonavir blocks the breakdown of lopinavir. Lopinavir/ritonavir is a type of anti-HIV agent and a type of protease inhibitor.</obo:NCIT_P325>
+        <obo:NCIT_P366>Lopinavir_Ritonavir</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Kaletra</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lopinavir/Ritonavir</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lopinavir/ritonavir</oboInOwl:hasExactSynonym>
+        <rdfs:label>Lopinavir/Ritonavir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2284">
+        <obo:IAO_0000115>A hormone secreted by the thymus gland and effects T-lymphocyte differentiation and activation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C2284</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Hormone</obo:NCIT_P106>
+        <obo:NCIT_P108>Thymosin</obo:NCIT_P108>
+        <obo:NCIT_P207>C0040106</obo:NCIT_P207>
+        <obo:NCIT_P210>61512-21-8</obo:NCIT_P210>
+        <obo:NCIT_P366>Thymosin</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Thymosin</oboInOwl:hasExactSynonym>
+        <rdfs:label>Thymosin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25269">
+        <obo:IAO_0000115>Exhibiting the symptoms of a particular disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C25269</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Sign or Symptom</obo:NCIT_P106>
+        <obo:NCIT_P108>Symptomatic</obo:NCIT_P108>
+        <obo:NCIT_P207>C0231220</obo:NCIT_P207>
+        <obo:NCIT_P325>Having to do with symptoms, which are signs of a condition or disease.</obo:NCIT_P325>
+        <obo:NCIT_P366>Symptomatic</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Symptomatic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>symptomatic</oboInOwl:hasExactSynonym>
+        <rdfs:label>Symptomatic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25305">
+        <obo:IAO_0000115>An appraisal or evaluation of a patient&apos;s condition by a clinician that is based on a physical exam, medical history, and the patient&apos;s account of symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C25305</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Diagnostic Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Medical Examination</obo:NCIT_P107>
+        <obo:NCIT_P108>Medical Examination</obo:NCIT_P108>
+        <obo:NCIT_P207>C0582103</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>Examination</obo:NCIT_P366>
+        <obo:NCIT_P375>Encounter for general adult medical examination without abnormal findings</obo:NCIT_P375>
+        <obo:NCIT_P375>Examination for normal comparison and control in clinical research programme</obo:NCIT_P375>
+        <obo:NCIT_P375>General examination and investigation of persons without complaint and reported diagnosis</obo:NCIT_P375>
+        <obo:NCIT_P375>Routine child health examination</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Exam</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Examination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medical Assessment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medical Exam</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medical Examination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medical Inspection</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <rdfs:label>Medical Examination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25549">
+        <obo:IAO_0000115>A state of separation; the act of isolating something; setting something apart from others; marked by separation of or from usually contiguous elements.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C25549</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Isolation</obo:NCIT_P108>
+        <obo:NCIT_P207>C0205409</obo:NCIT_P207>
+        <obo:NCIT_P325>State of being separated from others. Isolation is sometimes used to prevent disease from spreading.</obo:NCIT_P325>
+        <obo:NCIT_P366>Isolated</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Isolated</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Isolation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>isolation</oboInOwl:hasExactSynonym>
+        <rdfs:label>Isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C258">
+        <obo:IAO_0000115>Substances naturally produced by microorganisms or their derivatives that selectively target microorganisms not humans. Antibiotics kill or inhibit the growth of microorganisms by targeting components of the microbial cell absent from human cells, including bacterial cell walls, cell membrane, and 30S or 50S ribosomal subunits. These substances are used in the treatment of bacterial and other microbial infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1909"/>
+        <obo:NCIT_NHC0>C258</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <obo:NCIT_P107>Antibiotic</obo:NCIT_P107>
+        <obo:NCIT_P108>Antibiotic</obo:NCIT_P108>
+        <obo:NCIT_P207>C0003232</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A substance that kills microorganisms such as bacteria or mold, or stops them from growing and causing disease.</obo:NCIT_P325>
+        <obo:NCIT_P325>Substances that kill or inhibit the growth or other functions of microorganisms. These substances are used in the treatment of bacterial and other microbial infections, though this term is most often used to describe antibacterial agents.</obo:NCIT_P325>
+        <obo:NCIT_P366>Antibiotic</obo:NCIT_P366>
+        <obo:NCIT_P371>Antibiotic</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>Antibiotic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antibiotic Agents</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antibiotic Drugs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antibiotic Therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antibiotics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antimicrobial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antimicrobial Agent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>antibiotic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>antimicrobial</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159412"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Antibiotic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2663">
+        <obo:IAO_0000115>Herbs used in Chinese Herbal Therapy for toxicity attenuation. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C2663</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Chinese Herbs</obo:NCIT_P108>
+        <obo:NCIT_P207>C1134558</obo:NCIT_P207>
+        <obo:NCIT_P329>38529</obo:NCIT_P329>
+        <obo:NCIT_P330>38529</obo:NCIT_P330>
+        <obo:NCIT_P366>Chinese_Herbs</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Chinese Herbs</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chinese Herbs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26947">
+        <obo:IAO_0000115>An increase in the level of aspartate aminotransferase in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C26947</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory or Test Result</obo:NCIT_P106>
+        <obo:NCIT_P108>Aspartate Aminotransferase Increased</obo:NCIT_P108>
+        <obo:NCIT_P207>C4076281</obo:NCIT_P207>
+        <obo:NCIT_P325>A finding based on laboratory test results that indicate an increase in the level of aspartate aminotransferase (AST or SGOT) in a blood specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Aspartate_Aminotransferase_Increased</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Aspartate Aminotransferase Increased</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Aspartate aminotransferase increased</oboInOwl:hasExactSynonym>
+        <rdfs:label>Aspartate Aminotransferase Increased</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26948">
+        <obo:IAO_0000115>An increase in the level of alanine aminotransferase in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C26948</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory or Test Result</obo:NCIT_P106>
+        <obo:NCIT_P108>Alanine Aminotransferase Increased</obo:NCIT_P108>
+        <obo:NCIT_P207>C0151905</obo:NCIT_P207>
+        <obo:NCIT_P325>A finding based on laboratory test results that indicate an increase in the level of alanine aminotransferase (ALT or SGPT) in the blood specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Alanine_Aminotransferase_Increased</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Alanine Aminotransferase Increased</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alanine aminotransferase increased</oboInOwl:hasExactSynonym>
+        <rdfs:label>Alanine Aminotransferase Increased</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C29490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C29490">
+        <obo:IAO_0000115>A nucleoside reverse transcriptase inhibitor analog of adenosine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C29490</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Nucleic Acid, Nucleoside, or Nucleotide</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Tenofovir</obo:NCIT_P107>
+        <obo:NCIT_P108>Tenofovir</obo:NCIT_P108>
+        <obo:NCIT_P207>C0384228</obo:NCIT_P207>
+        <obo:NCIT_P210>147127-20-6</obo:NCIT_P210>
+        <obo:NCIT_P210>206184-49-8</obo:NCIT_P210>
+        <obo:NCIT_P319>99YXE507IL</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>540635</obo:NCIT_P329>
+        <obo:NCIT_P330>540635</obo:NCIT_P330>
+        <obo:NCIT_P350>C9H14N5O4P.H2O</obo:NCIT_P350>
+        <obo:NCIT_P366>Tenofovir</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:63625</obo:NCIT_P368>
+        <obo:NCIT_P368>CHEBI:63716</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>(((1R)-2-(6-Amino-9H-purin-9-yl)-1-methylethoxy)methyl)phosphonic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(R)-9-(2-Phosphonomethoxypropyl)adenine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(R)-9-(Phosphonomethoxypropyl)adenine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GS-1275</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GS-1278</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PMPA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TENOFOVIR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tenofovir</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Tenofovir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C35681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C35681">
+        <obo:IAO_0000115>A test result that indicates that a specific disease, condition, or attribute being assessed is not present.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C35681</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Negative Test Result</obo:NCIT_P108>
+        <obo:NCIT_P207>C1334932</obo:NCIT_P207>
+        <obo:NCIT_P325>A test result that does not show the specific disease, condition, or biomarker for which the test is being done.</obo:NCIT_P325>
+        <obo:NCIT_P366>Negative_Test_Result</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Negative Test Result</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative test result</oboInOwl:hasExactSynonym>
+        <rdfs:label>Negative Test Result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C35682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C35682">
+        <obo:IAO_0000115>A laboratory test result that indicates that a specific disease, condition, or attribute being assessed is present.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C35682</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory or Test Result</obo:NCIT_P106>
+        <obo:NCIT_P108>Positive Laboratory Test Result</obo:NCIT_P108>
+        <obo:NCIT_P207>C1335447</obo:NCIT_P207>
+        <obo:NCIT_P325>A test result that reveals the presence of a specific disease or condition for which the test is being done.</obo:NCIT_P325>
+        <obo:NCIT_P366>Positive_Test_Result</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Positive Laboratory Test Result</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>positive test result</oboInOwl:hasExactSynonym>
+        <rdfs:label>Positive Laboratory Test Result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C38103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C38103">
+        <obo:IAO_0000115>An x-ray examination of the chest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C38103</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Diagnostic Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Chest Radiography</obo:NCIT_P108>
+        <obo:NCIT_P207>C0039985</obo:NCIT_P207>
+        <obo:NCIT_P325>An x-ray of the structures inside the chest. An x-ray is a type of high-energy radiation that can go through the body and onto film, making pictures of areas inside the chest, which can be used to diagnose disease.</obo:NCIT_P325>
+        <obo:NCIT_P366>Chest_Radiography</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Chest Radiography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chest X-ray</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>chest x-ray</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chest Radiography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C412">
+        <obo:IAO_0000115>A chromopeptide antineoplastic antibiotic isolated from the bacterium Streptomyces parvulus.  Dactinomycin intercalates between adjacent guanine-cytosine base pairs, blocking the transcription of DNA by RNA polymerase; it also causes single-strand DNA breaks, possibly via a free-radical intermediate or an interaction with topoisomerase II. (NCI04)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C412</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Antibiotic</obo:NCIT_P106>
+        <obo:NCIT_P107>Dactinomycin</obo:NCIT_P107>
+        <obo:NCIT_P108>Dactinomycin</obo:NCIT_P108>
+        <obo:NCIT_P175>3053</obo:NCIT_P175>
+        <obo:NCIT_P207>C0010934</obo:NCIT_P207>
+        <obo:NCIT_P210>50-76-0</obo:NCIT_P210>
+        <obo:NCIT_P302>Wilms&apos; tumor; rhabdomyosarcoma; Ewing&apos;s sarcoma; testicular cancer; gestational trophoblastic neoplasia; choriocarcinoma; melanoma; neuroblastoma; retinoblastoma; uterine sarcomas; Kaposi&apos;s sarcoma; sarcoma botryoides; soft tissue sarcoma.</obo:NCIT_P302>
+        <obo:NCIT_P319>1CC1JFE158</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>An anticancer drug that is a type of antitumor antibiotic.</obo:NCIT_P325>
+        <obo:NCIT_P329>39675</obo:NCIT_P329>
+        <obo:NCIT_P330>39675</obo:NCIT_P330>
+        <obo:NCIT_P350>C62H86N12O16</obo:NCIT_P350>
+        <obo:NCIT_P366>Dactinomycin</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:27666</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>2-bis[Cyclo(N-methyl-L-valyl-sarcosyl-L-prolyl-D-valyl-L-threonyl)]-1,9 dimethyl-4,6 3H-phenoxazinone-3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ACTINOMYCIN D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin A IV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin C1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin I1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin IV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin X 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Actinomycin-[thr-val-pro-sar-meval]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cosmegen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DACT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DACTINOMYCIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dactinomycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dactinomycine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lyovac Cosmegen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lyovac cosmegen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Meractinomycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dactinomycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Dactinomycin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C47445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C47445">
+        <obo:IAO_0000115>The phosphate salt of chloroquine, a quinoline compound with antimalarial and anti-inflammatory properties. Chloroquine is the most widely used drug against malaria, except for those cases caused by chloroquine resistant Plasmodium falciparum. Although the mechanism of action is not fully understood, chloroquine is shown to inhibit the parasitic enzyme heme polymerase that converts the toxic heme into non-toxic hemazoin, thereby resulting in the accumulation of toxic heme within the parasite. Chloroquine may also interfere with the biosynthesis of nucleic acids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A6 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61671"/>
+        <obo:NCIT_NHC0>C47445</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Chloroquine Phosphate</obo:NCIT_P108>
+        <obo:NCIT_P175>14050</obo:NCIT_P175>
+        <obo:NCIT_P207>C0055447</obo:NCIT_P207>
+        <obo:NCIT_P210>50-63-5</obo:NCIT_P210>
+        <obo:NCIT_P319>6E17K3343P</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P350>C18H26ClN3.2H3O4P</obo:NCIT_P350>
+        <obo:NCIT_P366>Chloroquine_Phosphate</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>1,4-Pentanediamine, N4-(7-chloro-4-quinolinyl)-N1,N1-diethyl-, Phosphate (1:2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>7-Chloro-4-((4-(diethylamino)-1-methylbutyl)amino)quinoline Phosphate (1:2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Aralen Phosphate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Avloclor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CHLOROQUINE PHOSPHATE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chloroquine Phosphate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tanakan</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Chloroquine Phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C50640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C50640">
+        <obo:IAO_0000115>A low level of the degree to which oxygen is bound to hemoglobin given as a percentage calculated by dividing the maximum oxygen capacity into the actual oxygen content and multiplying by 100. Oxygen saturation usually is measured using pulse oximetry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A10 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54450"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C100104"/>
+        <obo:NCIT_NHC0>C50640</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Low Blood Oxygen Saturation</obo:NCIT_P108>
+        <obo:NCIT_P207>C0746961</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A decrease in the concentration of oxyhemoglobin as contrasted to the concentration deoxyhemoglobin in the blood.</obo:NCIT_P325>
+        <obo:NCIT_P325>The calculated measurements indicating the degree to which oxygen is bound to hemoglobin is low.</obo:NCIT_P325>
+        <obo:NCIT_P366>Low_Blood_Oxygen_Saturation</obo:NCIT_P366>
+        <obo:NCIT_P371>Low Blood Oxygen Saturation</obo:NCIT_P371>
+        <obo:NCIT_P375>Oxygen saturation low</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Desaturation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Low Blood Oxygen Saturation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Low Oxygen Saturation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Oxygen Saturation Decreased</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Oxygen Saturation, Low</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Saturation, Low Oxygen</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Low Blood Oxygen Saturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C50747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C50747">
+        <obo:IAO_0000115>Any kind of inflammatory process of the tonsils, pharynx, or/and larynx characterized by pain in swallowing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A10 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54450"/>
+        <obo:NCIT_NHC0>C50747</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Sore Throat</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242429</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A disorder characterized by of marked discomfort in the throat</obo:NCIT_P325>
+        <obo:NCIT_P366>Sore_Throat</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Sore Throat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sore throat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Throat, Sore</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596"/>
+        <rdfs:label>Sore Throat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C647">
+        <obo:IAO_0000115>A synthetic corticosteroid with anti-inflammatory and immunomodulating properties.  Methylprednisolone binds to and activates specific nuclear receptors, resulting in altered gene expression and inhibition of proinflammatory cytokine production.  This agent also decreases the number of circulating lymphocytes, induces cell differentiation, and stimulates apoptosis in sensitive tumor cell populations.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C647</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Methylprednisolone</obo:NCIT_P107>
+        <obo:NCIT_P108>Methylprednisolone</obo:NCIT_P108>
+        <obo:NCIT_P175>19987</obo:NCIT_P175>
+        <obo:NCIT_P207>C0025815</obo:NCIT_P207>
+        <obo:NCIT_P210>83-43-2</obo:NCIT_P210>
+        <obo:NCIT_P302>Adrenocortical insufficiency; Conditions requiring immunosuppression; Inflammatory conditions; Multiple Sclerosis; Nephrotic syndrome</obo:NCIT_P302>
+        <obo:NCIT_P319>X4W7ZR7023</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A corticosteroid hormone replacement.</obo:NCIT_P325>
+        <obo:NCIT_P329>41528</obo:NCIT_P329>
+        <obo:NCIT_P330>41528</obo:NCIT_P330>
+        <obo:NCIT_P350>C22H30O5</obo:NCIT_P350>
+        <obo:NCIT_P366>Methylprednisolone</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:6888</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>(6alpha,11beta)-11,17,21-Trihydroxy-6-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>6Alpha-Methylprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adlone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Caberdelta M</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DepMedalone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Depo Moderin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Depo-Nisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Duralone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Emmetipi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Esametone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Firmacort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>METHYLPREDNISOLONE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medlone 21</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrol Veriderm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mega-Star</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Meprolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Methylprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Methylprednisolonum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metilbetasone Solubile</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metrocort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metypresol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metysolon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Predni-M-Tablinen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prednilen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Radilem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sieropresol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Solpredone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Summicort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Urbason</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Veriderm Medrol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Wyacort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methylprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Methylprednisolone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C66097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C66097">
+        <obo:IAO_0000115>An inosine monophosphate dehydrogenase (IMPDH) inhibitor with activity against hepatitis C virus (HCV). IMPDH catalyzes the rate-limiting step in the de novo synthesis of guanine nucleotides, and treatment with merimepodib reduces the intracellular guanine nucleotide levels that are required for RNA and DNA synthesis, resulting in antiproliferative and antiviral effect.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C66097</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Merimepodib</obo:NCIT_P108>
+        <obo:NCIT_P175>69811</obo:NCIT_P175>
+        <obo:NCIT_P175>70969</obo:NCIT_P175>
+        <obo:NCIT_P207>C1259636</obo:NCIT_P207>
+        <obo:NCIT_P210>198821-22-6</obo:NCIT_P210>
+        <obo:NCIT_P319>2ZL2BA06FU</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P350>C23H24N4O6</obo:NCIT_P350>
+        <obo:NCIT_P366>Merimepodib</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Carbamic acid, ((3-((((3-methoxy-4-(5-oxazolyl)phenyl)amino)carbonyl)amino)phenyl)methyl)-, (3S)-tetrahydro-3-furanyl ester</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MERIMEPODIB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MMPD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Merimepodib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VI-21,497</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VX-497</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Merimepodib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C66930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C66930">
+        <obo:IAO_0000115>A class of agents that act by selectively inhibiting angiotensin II receptor activation in the renin-angiotensin-aldosterone system. Angiotensin II receptor antagonists bind to and block the activation of angiotensin II type 1 (AT1) receptors, thereby reducing production and secretion of aldosterone, amongst other actions. The combined effects result in reduction of blood pressure. Although this class of agents is also used in diabetic nephropathy (kidney damage due to diabetes) and congestive heart failure, it is primarily used for the treatment of hypertension in cases where the patient is intolerant of ACE inhibitor therapy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1909"/>
+        <obo:NCIT_NHC0>C66930</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <obo:NCIT_P108>Angiotensin II Receptor Antagonist</obo:NCIT_P108>
+        <obo:NCIT_P207>C0521942</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A pharmaceutical agent that selectively inhibits angiotensin II receptor activation in the renin-angiotensin-aldosterone system reducing production and secretion of aldosterone, amongst other actions. The combined effects result in reduction of blood pressure. It is primarily used for the reduction of proteinuria and the treatment of hypertension in cases where the patient is intolerant of ACE inhibitor therapy.</obo:NCIT_P325>
+        <obo:NCIT_P366>Angiotensin_II_Receptor_Antagonist</obo:NCIT_P366>
+        <obo:NCIT_P371>Angiotensin II Receptor Antagonist</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>ARB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Angiotensin II Receptor Antagonist</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Angiotensin II Receptor Antagonists</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Angiotensin II Receptor Blocker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Angiotensin Receptor Blockers</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118468"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Angiotensin II Receptor Antagonist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71683">
+        <obo:IAO_0000115>Concentration in serum of the antibody that recognizes a particular epitope expressed as the reciprocal of the highest serum dilution that produces the specific positive immunologic reaction in an appropriate test system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C71683</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Antibody Titer</obo:NCIT_P108>
+        <obo:NCIT_P207>C1287242</obo:NCIT_P207>
+        <obo:NCIT_P366>Antibody_Titer</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Antibody Titer</oboInOwl:hasExactSynonym>
+        <rdfs:label>Antibody Titer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71902">
+        <obo:IAO_0000115>Place into enforced isolation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C71902</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Quarantine</obo:NCIT_P108>
+        <obo:NCIT_P207>C0034386</obo:NCIT_P207>
+        <obo:NCIT_P366>Quarantine</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Quarantine</oboInOwl:hasExactSynonym>
+        <rdfs:label>Quarantine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C78251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C78251">
+        <obo:IAO_0000115>A syndrome that occurs after therapeutic infusion of antibodies into the blood and is characterized by nausea, headache, tachycardia, hypotension, rash, and shortness of breath. It is caused by the release of cytokines from the cells that are targeted by the antibodies. Most patients experience a mild to moderate reaction; however, the reaction may be severe and life-threatening.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3507"/>
+        <obo:NCIT_NHC0>C78251</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Cytokine Release Syndrome</obo:NCIT_P108>
+        <obo:NCIT_P207>C0948245</obo:NCIT_P207>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A disorder characterized by nausea, headache, tachycardia, hypotension, rash, and shortness of breath; it is caused by the release of cytokines from the cells.</obo:NCIT_P325>
+        <obo:NCIT_P325>A systemic inflammatory reaction caused by the release of an excessive amount of cytokines into the circulation by activated T-cells.</obo:NCIT_P325>
+        <obo:NCIT_P366>Cytokine_Release_Syndrome</obo:NCIT_P366>
+        <obo:NCIT_P371>Cytokine Release Syndrome</obo:NCIT_P371>
+        <obo:NCIT_P375>Cytokine release syndrome</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Cytokine Release Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cytokine release syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Cytokine Release Syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86570">
+        <obo:IAO_0000115>A protective covering worn over the face, or an apparatus for administering anesthesia or oxygen through the nose or mouth.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C86570</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Manufactured Object</obo:NCIT_P106>
+        <obo:NCIT_P108>Mask</obo:NCIT_P108>
+        <obo:NCIT_P207>C0024861</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Mask</oboInOwl:hasExactSynonym>
+        <rdfs:label>Mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90548">
+        <obo:IAO_0000115>An orally bioavailable inhibitor of raptor-mTOR (TOR complex 1 or TORC1) and rictor-mTOR (TOR complex 2 or TORC2) with potential antineoplastic activity. Sapanisertib binds to and inhibits both TORC1 and TORC2 complexes of mTOR, which may result in tumor cell apoptosis and a decrease in tumor cell proliferation. TORC1 and 2 are upregulated in some tumors and play an important role in the PI3K/Akt/mTOR signaling pathway, which is frequently dysregulated in human cancers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C90548</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Sapanisertib</obo:NCIT_P107>
+        <obo:NCIT_P108>Sapanisertib</obo:NCIT_P108>
+        <obo:NCIT_P207>C2983747</obo:NCIT_P207>
+        <obo:NCIT_P210>1224844-38-5</obo:NCIT_P210>
+        <obo:NCIT_P319>JGH0DF1U03</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>665687</obo:NCIT_P329>
+        <obo:NCIT_P330>665687</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>INK-128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>INK128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MLN-0128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MLN0128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SAPANISERTIB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sapanisertib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TAK-228</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Sapanisertib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C94624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C94624">
+        <obo:IAO_0000115>The administration of oxygen to an individual, usually to aid in respiration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C94624</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Oxygen Therapy</obo:NCIT_P107>
+        <obo:NCIT_P108>Oxygen Therapy</obo:NCIT_P108>
+        <obo:NCIT_P207>C0184633</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>Treatment in which a storage tank of oxygen or a machine called a compressor is used to give oxygen to people with breathing problems. It may be given through a nose tube, a mask, or a tent. The extra oxygen is breathed in along with normal air.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Oxygen Therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxygen therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>supplemental oxygen therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <rdfs:label>Oxygen Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C98054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98054">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A5 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85460"/>
+        <obo:NCIT_NHC0>C98054</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Silmitasertib</obo:NCIT_P108>
+        <obo:NCIT_P208>CL430602</obo:NCIT_P208>
+        <obo:NCIT_P210>1009820-21-6</obo:NCIT_P210>
+        <obo:NCIT_P319>C6RWP0N0L2</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P350>C19H12ClN3O2</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>5-((3-chlorophenyl)amino)-benzo(c)-2,6-naphthyridine-8-carboxylic Acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CX 4945</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CX-4945</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CX4945</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SILMITASERTIB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Silmitasertib</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Silmitasertib</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

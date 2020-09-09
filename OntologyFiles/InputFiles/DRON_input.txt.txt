@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/chemicals1_import.owl.
+
+[Source ontology]
+DRON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00837844 #Baloxavir marboxil
+http://purl.obolibrary.org/obo/DRON_00017633 #Interferon Alfa-2b
+http://purl.obolibrary.org/obo/DRON_00015413 #nitazoxanide
+http://purl.obolibrary.org/obo/DRON_00016951 #peginterferon alfa-2a
+http://purl.obolibrary.org/obo/DRON_00019607 #tocilizumab
+http://purl.obolibrary.org/obo/DRON_00018971 #adalimumab
+http://purl.obolibrary.org/obo/DRON_00018939 #eculizumab
+http://purl.obolibrary.org/obo/DRON_00730857 #mepolizumab
+http://purl.obolibrary.org/obo/CHEBI_49662 #Indomethacin
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

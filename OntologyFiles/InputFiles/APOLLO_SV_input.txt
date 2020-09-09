@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+APOLLO_SV
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_00000002 #basic reproduction number
+http://purl.obolibrary.org/obo/APOLLO_SV_00000550 #contact tracing
+http://purl.obolibrary.org/obo/APOLLO_SV_00000331 #infection in population
+http://purl.obolibrary.org/obo/APOLLO_SV_00000298 #epidemic
+http://purl.obolibrary.org/obo/APOLLO_SV_00000307 #endemic
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_00000306 #infection in ecosystem
+subClassOf
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

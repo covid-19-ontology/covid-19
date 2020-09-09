@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://bio.scai.fraunhofer.de/ontology/haplotype#"
+     xml:base="https://bio.scai.fraunhofer.de/ontology/haplotype"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="https://bio.scai.fraunhofer.de/ontology/haplotype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#CommentonHierarchy"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000017 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000017">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>B1a haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000040 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000040">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A2a1 haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000046 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000046">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>B1a1 haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000057 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000057">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A2a2 haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000058 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000058">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A2a haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000061 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000061">
+        <rdfs:label>haplotype of Severe acute respiratory syndrome coronavirus 2 infection</rdfs:label>
+        <covid:CommentonHierarchy>Haplotype is classified under material entity , so as &apos;haplotype of Severe acute respiratory syndrome coronavirus 2 infection.&apos;
+Refer : https://www.ebi.ac.uk/ols/ontologies/ogi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGI_0000043</covid:CommentonHierarchy>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000074 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000074">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A2a2a haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000082 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000082">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A2a3 haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000096 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000096">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A2a3a haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000125 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000125">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/COVID_0000061"/>
+        <rdfs:label>A1a haplotype</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32289214"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000017"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000040"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000046"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000057"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000058"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000074"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000082"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000096"/>
+            <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000125"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+SYMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SYMP_0000517 #hemoptysis
+http://purl.obolibrary.org/obo/SYMP_0019168 #pneumonia
+http://purl.obolibrary.org/obo/SYMP_0019138 #immune system symptom
+http://purl.obolibrary.org/obo/SYMP_0000692 #low blood pressure
+http://purl.obolibrary.org/obo/SYMP_0000570 #diarrhea
+http://purl.obolibrary.org/obo/SYMP_0000734 #stroke
+http://purl.obolibrary.org/obo/SYMP_0000124 #seizure
+http://purl.obolibrary.org/obo/SYMP_0000128 #conjunctivitis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SYMP_0000462 #symptom
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

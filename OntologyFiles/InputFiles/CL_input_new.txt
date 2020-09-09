@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000492 #CD4-positive helper T cell
+http://purl.obolibrary.org/obo/CL_0000792 #CD4-positive, CD25-positive, alpha-beta regulatory T cell
+http://purl.obolibrary.org/obo/CL_0000624 #CD4-positive, alpha-beta T cell
+http://purl.obolibrary.org/obo/CL_0000789 #alpha-beta T cell
+http://purl.obolibrary.org/obo/CL_0002419 #mature T cell
+http://purl.obolibrary.org/obo/CL_0000791 #mature alpha-beta T cell
+http://purl.obolibrary.org/obo/CL_0000815 #regulatory T cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

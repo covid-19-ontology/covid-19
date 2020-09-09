@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/CHEBI_10_import.owl.#"
+     xml:base="http://purl.obolibrary.org/obo/CHEBI_10_import.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/CHEBI_10_import.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#DrugsinVirtualScreening -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#DrugsinVirtualScreening"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_147411 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_147411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <obo:IAO_0000115>A member of the class of thiadiazolidines that is 1,2,4-thiadiazolidine-3,5-dione which is substituted by a methyl group at position 2 and by a benzyl group at position 4. It is a non-ATP competitive inhibitor of glycogen synthase kinase 3beta (GSK3beta). An experimental compound which was being developed for the potential treatment of Alzheimer&apos;s disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C10H10N2O2S</chebi:formula>
+        <chebi:inchi>InChI=1S/C10H10N2O2S/c1-11-9(13)12(10(14)15-11)7-8-5-3-2-4-6-8/h2-6H,7H2,1H3</chebi:inchi>
+        <chebi:inchikey>JDSJDASOXWCHPN-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>222.260</chebi:mass>
+        <chebi:monoisotopicmass>222.04630</chebi:monoisotopicmass>
+        <chebi:smiles>N1(C(N(C(S1)=O)CC=2C=CC=CC2)=O)C</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:327036-89-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11881998</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17785584</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18323734</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21079728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21966423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25394244</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25453207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25735991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28256059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28624830</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28962480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28965119</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30392874</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31399185</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32141492</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32181909</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32188325</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:NZ574619</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>4-benzyl-2-methyl-1,2,4-thiadiazolidine-3,5-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>NP 01139</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>thiadiazolidinone-8</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:147411</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>TDZD-8</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32147628"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23888 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <obo:IAO_0000115>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:24431</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31959 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <obo:IAO_0000115>An organic disulfide that consists of two molecules of pantothenic acid linked by amide bonds to a cysteamine disulfide bridging group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C22H42N4O8S2</chebi:formula>
+        <chebi:inchi>InChI=1S/C22H42N4O8S2/c1-21(2,13-27)17(31)19(33)25-7-5-15(29)23-9-11-35-36-12-10-24-16(30)6-8-26-20(34)18(32)22(3,4)14-28/h17-18,27-28,31-32H,5-14H2,1-4H3,(H,23,29)(H,24,30)(H,25,33)(H,26,34)/t17-,18-/m0/s1</chebi:inchi>
+        <chebi:inchikey>DJWYOLJPSHDSAL-ROUUACIJSA-N</chebi:inchikey>
+        <chebi:mass>554.72100</chebi:mass>
+        <chebi:monoisotopicmass>554.24441</chebi:monoisotopicmass>
+        <chebi:smiles>CC(C)(CO)[C@@H](O)C(=O)NCCC(=O)NCCSSCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:16816-67-4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:3417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0003828</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C12661</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D01234</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20351285</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20416081</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21155629</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21551303</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21925346</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21963510</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1718252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Pantethine</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>(2R,2&apos;R)-N,N&apos;-{disulfanediylbis[ethane-2,1-diylimino(3-oxopropane-3,1-diyl)]}bis(2,4-dihydroxy-3,3-dimethylbutanamide)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(R-(R*,R*))-N,N&apos;-(Dithiobis(ethyleneimino(3-oxopropane-3,1-diyl)))bis(2,4-dihydroxy-3,3-dimethylbutyramide)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bis(pantothenamidoethyl) disulfide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>D-Bis(N-pantothenyl-beta-aminoethyl) disulfide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>D-pantethine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N-[2-[2-[2-[3-[(2,4-dihydroxy-3,3-dimethyl-butanoyl)amino]propanoylamino]ethyldisulfanyl]ethylcarbamoyl]ethyl]-2,4-dihydroxy-3,3-dimethyl-butanamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Pantetina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Pantomin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:31959</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>pantethine</rdfs:label>
+        <rdfs:seeAlso>https://www.preprints.org/manuscript/202003.0239/v1</rdfs:seeAlso>
+        <covid:DrugsinVirtualScreening>true</covid:DrugsinVirtualScreening>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

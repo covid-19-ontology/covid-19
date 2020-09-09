@@ -1,0 +1,114 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/CHEBI_4_import.owl.
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/CHEBI_4_import.owl
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_48432 #angiotensin II
+http://purl.obolibrary.org/obo/CHEBI_35660 #HIV protease inhibitor
+http://purl.obolibrary.org/obo/CHEBI_82594 #Ferritin
+http://purl.obolibrary.org/obo/CHEBI_35341 #steroid
+http://purl.obolibrary.org/obo/CHEBI_50990 #thiazolidinediones
+http://purl.obolibrary.org/obo/CHEBI_31347 #camostat methanesulfonate
+http://purl.obolibrary.org/obo/CHEBI_45267 #praziquantel
+http://purl.obolibrary.org/obo/CHEBI_3640 #chlorothiazide
+http://purl.obolibrary.org/obo/CHEBI_5147 #formoterol
+http://purl.obolibrary.org/obo/CHEBI_18208 #benzylpenicillin
+http://purl.obolibrary.org/obo/CHEBI_7470 #Naphazoline
+http://purl.obolibrary.org/obo/CHEBI_2666 #amitriptyline
+http://purl.obolibrary.org/obo/CHEBI_6432 #levamisole
+http://purl.obolibrary.org/obo/CHEBI_135074 #ethoheptazine
+http://purl.obolibrary.org/obo/CHEBI_9588 #ticlopidine
+http://purl.obolibrary.org/obo/CHEBI_28674 #tetryzoline
+http://purl.obolibrary.org/obo/CHEBI_6343 #labetalol
+http://purl.obolibrary.org/obo/CHEBI_6754 #Meperidine
+http://purl.obolibrary.org/obo/CHEBI_9448 #terbinafine
+http://purl.obolibrary.org/obo/CHEBI_48390 #cinacalcet
+http://purl.obolibrary.org/obo/CHEBI_8428 #procainamide
+http://purl.obolibrary.org/obo/CHEBI_6078 #ivermectin
+http://purl.obolibrary.org/obo/CHEBI_63611 #moxifloxacin
+http://purl.obolibrary.org/obo/CHEBI_7798 #oseltamivir
+http://purl.obolibrary.org/obo/CHEBI_5054 #Fibrin
+http://purl.obolibrary.org/obo/CHEBI_9765 #Trypsin
+http://purl.obolibrary.org/obo/CHEBI_52999 #interferon
+http://purl.obolibrary.org/obo/CHEBI_465284 #ganciclovir
+http://purl.obolibrary.org/obo/CHEBI_45783 #imatinib
+http://purl.obolibrary.org/obo/CHEBI_82941 #fosamprenavir
+http://purl.obolibrary.org/obo/CHEBI_421707 #abacavir
+http://purl.obolibrary.org/obo/CHEBI_52717 #bortezomib
+http://purl.obolibrary.org/obo/CHEBI_82960 #raltegravir
+http://purl.obolibrary.org/obo/CHEBI_72289 #elvitegravir
+http://purl.obolibrary.org/obo/CHEBI_50730 #montelukast
+http://purl.obolibrary.org/obo/CHEBI_8198 #trans-piceid
+http://purl.obolibrary.org/obo/CHEBI_27618 #chalcone
+http://purl.obolibrary.org/obo/CHEBI_4659 #disulfiram
+http://purl.obolibrary.org/obo/CHEBI_31360 #Carmofur
+http://purl.obolibrary.org/obo/CHEBI_81068 #Shikonin
+http://purl.obolibrary.org/obo/CHEBI_77543 #ebselen
+http://purl.obolibrary.org/obo/CHEBI_4031 #cyclosporin A
+http://purl.obolibrary.org/obo/CHEBI_145999 #cinanserin
+http://purl.obolibrary.org/obo/CHEBI_16737 #creatinine
+http://purl.obolibrary.org/obo/CHEBI_101381 #aloxistatin
+http://purl.obolibrary.org/obo/CHEBI_9434 #telmisartan
+http://purl.obolibrary.org/obo/CHEBI_55438 #Ile(5)-angiotensin II (1-7)
+http://purl.obolibrary.org/obo/CHEBI_48416 #olmesartan
+http://purl.obolibrary.org/obo/CHEBI_23066 #cephalosporin
+http://purl.obolibrary.org/obo/CHEBI_87211 #fluoroquinolone antibiotic
+http://purl.obolibrary.org/obo/CHEBI_22907 #bleomycin
+http://purl.obolibrary.org/obo/CHEBI_17154 #nicotinamide
+http://purl.obolibrary.org/obo/CHEBI_17224 #4-methylumbelliferone
+http://purl.obolibrary.org/obo/CHEBI_27732 #caffeine
+http://purl.obolibrary.org/obo/CHEBI_28774 #3,3',5'-triiodothyronine
+http://purl.obolibrary.org/obo/CHEBI_38215 #calcium channel blocker
+http://purl.obolibrary.org/obo/CHEBI_37887 #adrenergic antagonist
+http://purl.obolibrary.org/obo/CHEBI_35498 #diuretic
+http://purl.obolibrary.org/obo/CHEBI_35620 #vasodilator agent
+http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide
+http://purl.obolibrary.org/obo/CHEBI_7496 #nelfinavir
+http://purl.obolibrary.org/obo/CHEBI_135876 #valrubicin
+http://purl.obolibrary.org/obo/CHEBI_71204 #bepotastine
+http://purl.obolibrary.org/obo/CHEBI_499361 #aprepitant
+http://purl.obolibrary.org/obo/CHEBI_8028 #perphenazine
+http://purl.obolibrary.org/obo/CHEBI_135890 #pralmorelin
+http://purl.obolibrary.org/obo/CHEBI_37924 #atazanavir
+http://purl.obolibrary.org/obo/CHEBI_135870 #thymopentin
+http://purl.obolibrary.org/obo/CHEBI_65347 #carfilzomib
+http://purl.obolibrary.org/obo/CHEBI_85089 #ledipasvir
+http://purl.obolibrary.org/obo/CHEBI_133009 #velpatasvir
+http://purl.obolibrary.org/obo/CHEBI_119486 #efavirenz
+http://purl.obolibrary.org/obo/CHEBI_76010 #dolutegravir
+http://purl.obolibrary.org/obo/CHEBI_132975 #grazoprevir
+http://purl.obolibrary.org/obo/CHEBI_68595 #telaprevir
+http://purl.obolibrary.org/obo/CHEBI_68621 #boceprevir
+http://purl.obolibrary.org/obo/CHEBI_80618 #Isoniazid pyruvate
+http://purl.obolibrary.org/obo/CHEBI_28412 #eriodictyol
+http://purl.obolibrary.org/obo/CHEBI_71415 #nitrofurantoin
+http://purl.obolibrary.org/obo/CHEBI_3546 #cepharanthine
+http://purl.obolibrary.org/obo/CHEBI_5835 #hypericin
+http://purl.obolibrary.org/obo/CHEBI_15552 #prostaglandin I2
+http://purl.obolibrary.org/obo/CHEBI_50366 #6-methylprednisolone
+http://purl.obolibrary.org/obo/CHEBI_51209 #pseudoephedrine
+http://purl.obolibrary.org/obo/CHEBI_65408 #andrographolide
+http://purl.obolibrary.org/obo/CHEBI_82721 #dalbavancin
+http://purl.obolibrary.org/obo/CHEBI_26214 #porphyrins
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+

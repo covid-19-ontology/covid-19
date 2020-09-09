@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+Example:http://purl.obolibrary.org/obo/vo/external/SYMP_module2.owl.
+
+[Source ontology]
+SYMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SYMP_0000724 #multiple organ failure
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SYMP_0000462 #symptom
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

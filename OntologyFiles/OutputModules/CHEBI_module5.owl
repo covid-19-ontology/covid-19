@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/Chemicals2.owl.#"
+     xml:base="http://purl.obolibrary.org/obo/Chemicals2.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/Chemicals2.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134504 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134504">
+        <obo:IAO_0000115>A phosphorus oxoanion resulting from the removal of one proton from the phosphonic acid group of tenofovir. The major microspecies at pH 7.3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>-1</chebi:charge>
+        <chebi:formula>C9H13N5O4P</chebi:formula>
+        <chebi:inchi>InChI=1S/C9H14N5O4P/c1-6(18-5-19(15,16)17)2-14-4-13-7-8(10)11-3-12-9(7)14/h3-4,6H,2,5H2,1H3,(H2,10,11,12)(H2,15,16,17)/p-1/t6-/m1/s1</chebi:inchi>
+        <chebi:inchikey>SGOIRFVFHAKUTI-ZCFIWIBFSA-M</chebi:inchikey>
+        <chebi:mass>286.205</chebi:mass>
+        <chebi:monoisotopicmass>286.07106</chebi:monoisotopicmass>
+        <chebi:smiles>N1(C=2C(=C(N)N=CN2)N=C1)C[C@H](OCP(O)(=O)[O-])C</chebi:smiles>
+        <oboInOwl:hasDbXref>PMID:15914676</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hydrogen ({[(2R)-1-(6-amino-9H-purin-9-yl)propan-2-yl]oxy}methyl)phosphonate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>tenofovir</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tenofovir (1-)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:134504</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>tenofovir(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16480 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16480">
+        <obo:IAO_0000115>A nitrogen oxide which is a free radical, each molecule of which consists of one nitrogen and one oxygen atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>NO</chebi:formula>
+        <chebi:inchi>InChI=1S/NO/c1-2</chebi:inchi>
+        <chebi:inchikey>MWUXSHHQAYIFBG-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>30.00614</chebi:mass>
+        <chebi:monoisotopicmass>29.99799</chebi:monoisotopicmass>
+        <chebi:smiles>[N]=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:14657</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25546</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:44452</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:7583</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:10102-43-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00435</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:451</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00533</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00074</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MolBase:943</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:NO</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:3587257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Nitric_oxide</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Nitric oxide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nitric oxide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxidonitrogen(.)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxoazanyl</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(.)NO</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>(NO)(.)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EDRF</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NO</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NO(.)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Nitrogen monoxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Stickstoff(II)-oxid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Stickstoffmonoxid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>[NO]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>endothelium-derived relaxing factor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mononitrogen monoxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>monoxido de nitrogeno</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>monoxyde d&apos;azote</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nitrogen monooxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nitrogen monoxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nitrosyl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxido de nitrogeno(II)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxido nitrico</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxyde azotique</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxyde nitrique</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16480</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>nitric oxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2955 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2955">
+        <obo:IAO_0000115>A macrolide antibiotic useful for the treatment of bacterial infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C38H72N2O12</chebi:formula>
+        <chebi:inchi>InChI=1S/C38H72N2O12/c1-15-27-38(10,46)31(42)24(6)40(13)19-20(2)17-36(8,45)33(52-35-29(41)26(39(11)12)16-21(3)48-35)22(4)30(23(5)34(44)50-27)51-28-18-37(9,47-14)32(43)25(7)49-28/h20-33,35,41-43,45-46H,15-19H2,1-14H3/t20-,21-,22+,23-,24-,25+,26+,27-,28+,29-,30+,31-,32+,33-,35+,36-,37-,38-/m1/s1</chebi:inchi>
+        <chebi:inchikey>MQTOSJVFKKJCRP-BICOPXKESA-N</chebi:inchikey>
+        <chebi:mass>748.98450</chebi:mass>
+        <chebi:monoisotopicmass>748.50853</chebi:monoisotopicmass>
+        <chebi:smiles>CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:46596</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:5387583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:83905-01-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:276</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0014352</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C06838</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D07486</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LINCS:LSM-5821</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:ZIT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15143799</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18253999</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:BE892357</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:US4517359</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:5387583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8820027</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Azithromycin</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>(2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)-2-ethyl-3,4,10-trihydroxy-3,5,6,8,10,12,14-heptamethyl-15-oxo-11-{[3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranosyl]oxy}-1-oxa-6-azacyclopentadecan-13-yl 2,6-dideoxy-3-C-methyl-3-O-methyl-alpha-L-ribo-hexopyranoside</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)13-((2,6-Dideoxy-3-C-methyl-3-O-methyl-alpha-L-ribo-hexopyranosyl)oxy)-2-ethyl-3,4,10-trihydroxy-3,5,6,8,10,12,14-heptamethyl-11-((3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranosyl)oxy)-1-oxa-6-azacyclopentadecan-15-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Azenil</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Azifast</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Azigram</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Azimakrol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Azitromin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hemomycin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Zithromax</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Zmax</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>azithromycine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>azithromycinum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>azitromicina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:2955</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>azithromycin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31781 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31781">
+        <obo:IAO_0000115>A dicarboxylic acid diamide that is amphetamine is substituted on nitrogen by a (2,6-dimethylphenoxy)acetyl group and on the carbon alpha- to nitrogen by a (1S,3S)-1-hydroxy-3-{[(2S)-3-methyl-2-(2-oxotetrahydropyrimidin-1-yl)butanoyl]amino}-4-phenylbutyl group. An antiretroviral of the protease inhibitor class, it is used against HIV infections as a fixed-dose combination with another protease inhibitor, ritonavir.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C37H48N4O5</chebi:formula>
+        <chebi:inchi>InChI=1S/C37H48N4O5/c1-25(2)34(41-20-12-19-38-37(41)45)36(44)39-30(21-28-15-7-5-8-16-28)23-32(42)31(22-29-17-9-6-10-18-29)40-33(43)24-46-35-26(3)13-11-14-27(35)4/h5-11,13-18,25,30-32,34,42H,12,19-24H2,1-4H3,(H,38,45)(H,39,44)(H,40,43)/t30-,31-,32-,34-/m0/s1</chebi:inchi>
+        <chebi:inchikey>KJHKTHWMRKYKJE-SUGCFTRWSA-N</chebi:inchikey>
+        <chebi:mass>628.80080</chebi:mass>
+        <chebi:monoisotopicmass>628.36247</chebi:monoisotopicmass>
+        <chebi:smiles>CC(C)[C@H](N1CCCNC1=O)C(=O)N[C@H](C[C@H](O)[C@H](Cc1ccccc1)NC(=O)COc1c(C)cccc1C)Cc1ccccc1</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:192725-17-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB01601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:1601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0015539</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C12871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D01425</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LINCS:LSM-6027</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:AB1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24014186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24518130</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24566184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24805184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24906762</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24958908</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25120613</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:9309881</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>(2S)-N-[(2S,4S,5S)-5-{[(2,6-dimethylphenoxy)acetyl]amino}-4-hydroxy-1,6-diphenylhexan-2-yl]-3-methyl-2-(2-oxotetrahydropyrimidin-1(2H)-yl)butanamide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lopinavir</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:31781</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>lopinavir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_41879 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_41879">
+        <obo:IAO_0000115>A fluorinated steroid that is 9-fluoropregna-1,4-diene substituted by hydroxy groups at positions 11, 17 and 21, a methyl group at position 16 and oxo groups at positions 3 and 20. It is a synthetic member of the class of  glucocorticoids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C22H29FO5</chebi:formula>
+        <chebi:inchi>InChI=1S/C22H29FO5/c1-12-8-16-15-5-4-13-9-14(25)6-7-19(13,2)21(15,23)17(26)10-20(16,3)22(12,28)18(27)11-24/h6-7,9,12,15-17,24,26,28H,4-5,8,10-11H2,1-3H3/t12-,15+,16+,17+,19+,20+,21+,22+/m1/s1</chebi:inchi>
+        <chebi:inchikey>UREBDLICKHMUKA-CXSFZGCWSA-N</chebi:inchikey>
+        <chebi:mass>392.46106</chebi:mass>
+        <chebi:monoisotopicmass>392.19990</chebi:monoisotopicmass>
+        <chebi:smiles>[H][C@@]12C[C@@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:41873</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:4461</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:2066652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:50-02-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB01234</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:824</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0015364</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C15643</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00292</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11508649</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18272184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18524938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:DE1113690</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:GB869511</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:US3007923</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:2066652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VSDB:1769</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Dexamethasone</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>9-fluoro-11beta,17,21-trihydroxy-16alpha-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexamethasone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dexamethasone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1-Dehydro-16alpha-methyl-9alpha-fluorohydrocortisone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>16alpha-Methyl-9alpha-fluoro-1-dehydrocortisol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>9alpha-Fluoro-16alpha-methylprednisolone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Decadron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dexametasona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dexamethasone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dexamethasonum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:41879</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>dexamethasone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_45409 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_45409">
+        <obo:IAO_0000115>An L-valine derivative that is L-valinamide in which alpha-amino group has been acylated by a [(2-isopropyl-1,3-thiazol-4-yl)methyl]methylcarbamoyl group and in which a hydrogen of the carboxamide amino group has been replaced by a (2R,4S,5S)-4-hydroxy-1,6-diphenyl-5-{[(1,3-thiazol-5-ylmethoxy)carbonyl]amino}hexan-2-yl group. A CYP3A inhibitor and antiretroviral drug from the protease inhibitor class used to treat HIV infection and AIDS, it is often used as a fixed-dose combination with another protease inhibitor, lopinavir. Also used in combination with dasabuvir sodium hydrate, ombitasvir and paritaprevir (under the trade name Viekira Pak) for treatment of chronic hepatitis C virus genotype 1 infection as well as cirrhosis of the liver.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C37H48N6O5S2</chebi:formula>
+        <chebi:inchi>InChI=1S/C37H48N6O5S2/c1-24(2)33(42-36(46)43(5)20-29-22-49-35(40-29)25(3)4)34(45)39-28(16-26-12-8-6-9-13-26)18-32(44)31(17-27-14-10-7-11-15-27)41-37(47)48-21-30-19-38-23-50-30/h6-15,19,22-25,28,31-33,44H,16-18,20-21H2,1-5H3,(H,39,45)(H,41,47)(H,42,46)/t28-,31-,32-,33-/m0/s1</chebi:inchi>
+        <chebi:inchikey>NCDNCNXCDXHOMX-XGKFQTDJSA-N</chebi:inchikey>
+        <chebi:mass>720.94400</chebi:mass>
+        <chebi:monoisotopicmass>720.31276</chebi:monoisotopicmass>
+        <chebi:smiles>CC(C)[C@H](NC(=O)N(C)Cc1csc(n1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](Cc1ccccc1)NC(=O)OCc1cncs1)Cc1ccccc1</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:8873</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:155213-67-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:2391</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0014646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C07240</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00427</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LINCS:LSM-5623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:RIT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11363086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11363184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11363300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11363329</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11363397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11363517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11996889</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24202050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8568292</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9140265</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9278209</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9585800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:768009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Ritonavir</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>N-[(2S,4S,5S)-4-hydroxy-1,6-diphenyl-5-{[(1,3-thiazol-5-ylmethoxy)carbonyl]amino}hexan-2-yl]-N(2)-(methyl{[2-(propan-2-yl)-1,3-thiazol-4-yl]methyl}carbamoyl)-L-valinamide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>ritonavir</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:45409</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>ritonavir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6888 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6888">
+        <obo:IAO_0000115>The 6alpha-stereoisomer of  6-methylprednisolone.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C22H30O5</chebi:formula>
+        <chebi:inchi>InChI=1S/C22H30O5/c1-12-8-14-15-5-7-22(27,18(26)11-23)21(15,3)10-17(25)19(14)20(2)6-4-13(24)9-16(12)20/h4,6,9,12,14-15,17,19,23,25,27H,5,7-8,10-11H2,1-3H3/t12-,14-,15-,17-,19+,20-,21-,22-/m0/s1</chebi:inchi>
+        <chebi:inchikey>VHRSUDSXCMQTMA-PJHHCJLFSA-N</chebi:inchikey>
+        <chebi:mass>374.47060</chebi:mass>
+        <chebi:monoisotopicmass>374.20932</chebi:monoisotopicmass>
+        <chebi:smiles>C[C@H]1C[C@H]2[C@@H]3CC[C@](O)(C(=O)CO)[C@@]3(C)C[C@H](O)[C@@H]2[C@@]2(C)C=CC(=O)C=C12</chebi:smiles>
+        <oboInOwl:hasDbXref>Beilstein:2340300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:83-43-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:1768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0015094</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00407</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25232411</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:US2897218</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:US3053832</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:2340300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VSDB:1936</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Methylprednisolone</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>11beta,17,21-trihydroxy-6alpha-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(6alpha,11beta)-11,17,21-trihydroxy-6-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1-dehydro-6alpha-methylhydrocortisone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>6alpha-methyl-11beta,17alpha,21-triol-1,4-pregnadiene-3,20-dione</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Delta(1)-6alpha-methylhydrocortisone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Medrate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Medrol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Medrone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Methylprednisolon</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Solomet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Urbason</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>methylprednisolone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>methylprednisolonum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>metilprednisolona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:6888</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>6alpha-methylprednisolone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8378 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8378">
+        <obo:IAO_0000115>A glucocorticoid that is prednisone in which the oxo group at position 11 has been reduced to the corresponding beta-hydroxy group. It is a drug metabolite of prednisone.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C21H28O5</chebi:formula>
+        <chebi:inchi>InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h5,7,9,14-16,18,22,24,26H,3-4,6,8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1</chebi:inchi>
+        <chebi:inchikey>OIGNJSKKLXVSLS-VWUMJDOOSA-N</chebi:inchikey>
+        <chebi:mass>360.44400</chebi:mass>
+        <chebi:monoisotopicmass>360.19367</chebi:monoisotopicmass>
+        <chebi:smiles>[H][C@@]12CCC3=CC(=O)C=C[C@]3(C)[C@@]1([H])[C@@H](O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO</chebi:smiles>
+        <oboInOwl:hasDbXref>Beilstein:1354103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:50-24-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00860</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:2245</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0014998</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C07369</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00472</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11294518</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23625982</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24392764</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1354103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VSDB:1848</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Prednisolone</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>11beta,17,21-trihydroxypregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(11beta)-11,17,21-trihydroxypregna-1,4-diene-3,20-dione</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,4-pregnadiene-11beta,17alpha,21-triol-3,20-dione</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,4-pregnadiene-3,20-dione-11beta,17alpha,21-triol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>3,20-dioxo-11beta,17alpha,21-trihydroxy-1,4-pregnadiene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Delta(1)-dehydrocortisol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Delta(1)-dehydrohydrocortisone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Delta(1)-hydrocortisone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hydroretrocortine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>metacortandralone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>prednisolona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>prednisolone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>prednisolonum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:8378</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>prednisolone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_90926 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_90926">
+        <obo:IAO_0000115>An L-alanine derivative that is isopropyl L-alaninate in which one of the amino hydrogens is replaced by an (S)-({[(2R)-1-(6-amino-9H-purin-9-yl)propan-2-yl]oxy}methyl)(phenoxy)phosphoryl group. A prodrug for tenofovir, it is used (as the fumarate salt) in combination therapy for the treatment of HIV-1 infection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C21H29N6O5P</chebi:formula>
+        <chebi:inchi>InChI=1S/C21H29N6O5P/c1-14(2)31-21(28)16(4)26-33(29,32-17-8-6-5-7-9-17)13-30-15(3)10-27-12-25-18-19(22)23-11-24-20(18)27/h5-9,11-12,14-16H,10,13H2,1-4H3,(H,26,29)(H2,22,23,24)/t15-,16+,33+/m1/s1</chebi:inchi>
+        <chebi:inchikey>LDEKQSIMHVQZJK-CAQYMETFSA-N</chebi:inchikey>
+        <chebi:mass>476.467</chebi:mass>
+        <chebi:monoisotopicmass>476.19371</chebi:monoisotopicmass>
+        <chebi:smiles>N1=CN=C2C(=C1N)N=CN2C[C@H](OC[P@](N[C@H](C(OC(C)C)=O)C)(=O)OC3=CC=CC=C3)C</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:379270-37-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB09299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:4944</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D10428</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8948831</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Tenofovir_alafenamide</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>propan-2-yl N-[(S)-({[(2R)-1-(6-amino-9H-purin-9-yl)propan-2-yl]oxy}methyl)(phenoxy)phosphoryl]-L-alaninate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>GS 7340</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>GS-7340</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>TAF</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tenofovir alafenamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:90926</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>tenofovir alafenamide</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

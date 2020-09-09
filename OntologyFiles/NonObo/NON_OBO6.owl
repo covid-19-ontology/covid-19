@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://bio.scai.fraunhofer.de/ontology/chemical#"
+     xml:base="https://bio.scai.fraunhofer.de/ontology/chemical"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="https://bio.scai.fraunhofer.de/ontology/chemical"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#DrugsinVirtualScreening -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#DrugsinVirtualScreening"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000005 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000005">
+        <rdfs:label>ShuFengJieDu</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32186952/"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000007 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000007">
+        <rdfs:label>sanglifehrin A</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3.full</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000010 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000010">
+        <rdfs:label>apicidin</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3.full</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000023 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000023">
+        <rdfs:label>carriomycin</rdfs:label>
+        <rdfs:seeAlso>https://www.cebm.net/covid-19/registered-trials-and-analysis/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000053 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000053">
+        <rdfs:label>triazavirin</rdfs:label>
+        <rdfs:seeAlso>https://www.cebm.net/covid-19/registered-trials-and-analysis/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000066 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000066">
+        <rdfs:label>proelastase</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216698/"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000068 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000068">
+        <rdfs:label>zotatifin</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3.full</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000070 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000070">
+        <rdfs:label>4-Benzyl-2-methyl-1,2,4-thiadiazolidine-3,5-dione&apos;</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32147628"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000080 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000080">
+        <rdfs:label>desoxyrhaponticin</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32147628"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000083 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000083">
+        <rdfs:label>danoprevir</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32309623"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000088 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000088">
+        <rdfs:label>ferroquine</rdfs:label>
+        <rdfs:seeAlso>https://www.preprints.org/manuscript/202003.0275/v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000094 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000094">
+        <rdfs:label>bis(N-pantothenylamidoethyl) disulfide</rdfs:label>
+        <rdfs:seeAlso>https://www.preprints.org/manuscript/202003.0239/v1</rdfs:seeAlso>
+        <covid:DrugsinVirtualScreening>true</covid:DrugsinVirtualScreening>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl:hasExactSynonym>pantethine</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000095 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000095">
+        <rdfs:label>enzaplatovir</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32147628"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000097 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000097">
+        <rdfs:label>ternatin 4</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3.full</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000105 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000105">
+        <rdfs:label>Jakotinib hydrochloride</rdfs:label>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000106 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000106">
+        <rdfs:label>preprocalcitonin</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32193831/"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000116 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000116">
+        <rdfs:label>azvudine</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32291112"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000117 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000117">
+        <rdfs:label>lianhuaqingwen</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32186952/"/>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/COVID_0000138 -->
+
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/COVID_0000138">
+        <rdfs:label>alpha-ketoamide inhibitor</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32198291/"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

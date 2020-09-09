@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/NCIT_module4.owl.#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/NCIT_module4.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/NCIT_module4.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#readOnly -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A5 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A5">
+        <obo:IAO_0000115>An association that connects the salt form of a drug with its free acid or free base.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A5</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Has Salt Form</obo:NCIT_P107>
+        <obo:NCIT_P108>Has_Salt_Form</obo:NCIT_P108>
+        <obo:NCIT_P98>USAGE NOTE: A salt form of a drug consists of 2 parts, one acidic and one basic group that are readily disassociated in liquid phase. Salt forms are either salts of strong acids and basic drugs (e.g. Atropine Sulfate, Cetirizine Hydrochloride) or salts of strong bases and acidic drugs (Allopurinol Sodium). This association is usually used in conjunction with Has_Free_Acid_Or_Base_Form.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Has_Salt_Form</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_Salt_Form</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <rdfs:label>code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <rdfs:label>Semantic_Type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Display_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Preferred_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P171 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P171">
+        <obo:IAO_0000115>A property used to provide a primary reference for descriptions of an NCI Thesaurus concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P171</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PubMedID Primary Reference</obo:NCIT_P107>
+        <obo:NCIT_P108>PubMedID_Primary_Reference</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PubMedID_Primary_Reference</oboInOwl:hasExactSynonym>
+        <rdfs:label>PubMedID_Primary_Reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <rdfs:label>UMLS_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P210 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P210">
+        <obo:IAO_0000115>A property representing the Chemical Abstracts Service number for a Chemical or Drug.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P210</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>CAS Registry Number</obo:NCIT_P107>
+        <obo:NCIT_P108>CAS_Registry</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CAS_Registry</oboInOwl:hasExactSynonym>
+        <rdfs:label>CAS_Registry</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P319 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P319">
+        <obo:IAO_0000115>A property representing the FDA Unique Ingredient Identifier, a key component of the federal drug information model.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P319</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>FDA UNII Code</obo:NCIT_P107>
+        <obo:NCIT_P108>FDA_UNII_Code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>FDA_UNII_Code</oboInOwl:hasExactSynonym>
+        <rdfs:label>FDA_UNII_Code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <rdfs:label>Contributing_Source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P329 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P329">
+        <obo:IAO_0000115>A property representing the identifier used by NCI&apos;s Cancer.gov Web site to retrieve PDQ Clinical Trials data for open trials involving specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only open trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P329</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PDQ Open Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Open_Trial_Search_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PDQ_Open_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>PDQ_Open_Trial_Search_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P330 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P330">
+        <obo:IAO_0000115>A property representing the identifier used by NCI&apos;s Cancer.gov web site to retrieve PDQ Clinical Trials data for closed trials that involved specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only closed trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P330</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>PDQ Closed Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Closed_Trial_Search_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PDQ_Closed_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>PDQ_Closed_Trial_Search_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P350 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P350">
+        <obo:IAO_0000115>A property representing a concise expression about the atoms that constitute a particular chemical compound.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P350</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Chemical Formula</obo:NCIT_P107>
+        <obo:NCIT_P108>Chemical_Formula</obo:NCIT_P108>
+        <obo:NCIT_P322>CRCH</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Chemical Formula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chemical_Formula</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chemical_Formula</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <rdfs:label>DesignNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C114983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C114983">
+        <obo:IAO_0000115>A non-nucleoside, polymerase inhibitor of the hepatitis C virus (HCV) nonstructural protein 5B (NS5B), a RNA-dependent RNA polymerase, with potential activity against HCV. Upon administration and after intracellular uptake, beclabuvir allosterically binds to the non-catalytic Thumb 1 site of viral HCV NS5B polymerase and causes a decrease in viral RNA synthesis and replication. The HCV NS5B protein is essential for the replication of the viral HCV RNA genome. HCV is a small, enveloped, single-stranded RNA virus belonging to the Flaviviridae family.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C114983</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Beclabuvir</obo:NCIT_P108>
+        <obo:NCIT_P207>C3852614</obo:NCIT_P207>
+        <obo:NCIT_P210>958002-33-0</obo:NCIT_P210>
+        <obo:NCIT_P319>MYW1X5CO9S</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>759585</obo:NCIT_P329>
+        <obo:NCIT_P330>759585</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>(4bS,5aR)-12-Cyclohexyl-N-(dimethylsulfamoyl)-3-methoxy-5a-((3-methyl-3,8-diazabicyclo(3.2.1)oct-8-yl)carbonyl)-4b,5,5a,6-tetrahydrocyclopropa(d)indolo(2,1-a)(2)benzazepine-9-carboxamide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BECLABUVIR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BMS-791325</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Beclabuvir</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Beclabuvir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C118505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C118505">
+        <obo:IAO_0000115>An orally available inhibitor of human respiratory syncytial virus (RSV) fusion protein (F protein), with potential antiviral activity. Upon oral administration of GS-5806, this agent specifically binds to F protein on the viral surface, which inhibits RSV F protein-mediated fusion with the host cell membrane and prevents viral entry. This blocks RSV replication, reduces viral load, and decreases the severity of the disease. RSV F protein, a viral surface glycoprotein, plays a key role in RSV fusion with and entry into target cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C118505</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Presatovir</obo:NCIT_P107>
+        <obo:NCIT_P108>Presatovir</obo:NCIT_P108>
+        <obo:NCIT_P207>C3885071</obo:NCIT_P207>
+        <obo:NCIT_P210>1353625-73-6</obo:NCIT_P210>
+        <obo:NCIT_P319>9628AJ27JA</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P329>773674</obo:NCIT_P329>
+        <obo:NCIT_P330>773674</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>GS 5806</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GS-5806</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Methanesulfonamide, N-(2-(((2S)-2-(5-((3S)-3-amino-1-pyrrolidinyl)-6-methylpyrazolo(1,5-a)pyrimidin-2-yl)-1-piperidinyl)carbonyl)-4-chlorophenyl)-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRESATOVIR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Presatovir</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Respiratory Syncytial Virus Fusion Inhibitor GS-5806</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Presatovir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1429">
+        <obo:IAO_0000115>A synthetic cyclic octapeptide analogue of somatostatin with direct and indirect antitumor effects. Vapreotide binds to somatostatin receptors (SSTR), specifically SSTR-2 and to SSTR-5 with a lesser affinity, in the similar behaviors as other octapeptide somatostatin analogues. Like octreotide, this agent has direct and indirect antitumor effects via inhibiting the release of growth hormone and other peptides that regulate release of insulin, gastrointestinal hormones. Furthermore, vapreotide may also be useful for inducing hemostasis in cases of acute hemorrhage of the upper gastrointestinal tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A5 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95320"/>
+        <obo:NCIT_NHC0>C1429</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Vapreotide</obo:NCIT_P108>
+        <obo:NCIT_P171>16917205</obo:NCIT_P171>
+        <obo:NCIT_P207>C0164678</obo:NCIT_P207>
+        <obo:NCIT_P210>103222-11-3</obo:NCIT_P210>
+        <obo:NCIT_P319>2PK59M9GFF</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A substance that is being studied in the treatment of cancer. It belongs to the family of drugs called somatostatin analogs.</obo:NCIT_P325>
+        <obo:NCIT_P329>38258</obo:NCIT_P329>
+        <obo:NCIT_P330>38258</obo:NCIT_P330>
+        <obo:NCIT_P350>C57H70N12O9S2</obo:NCIT_P350>
+        <obo:NCIT_P366>Vapreotide</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>BMY-41606</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Docrised</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RC-160</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VAPREOTIDE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vapreotide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vapreotide</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Vapreotide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142924">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C142924</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Classification</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Angiotensin II Acetate</obo:NCIT_P108>
+        <obo:NCIT_P208>CL541352</obo:NCIT_P208>
+        <obo:NCIT_P319>31L3HS630A</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>ANGIOTENSIN II ACETATE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Angiotensin II Acetate</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Angiotensin II Acetate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16389">
+        <obo:IAO_0000115>Lysosomal proteinases or endopeptidases that function optimally at an acidic pH to catalyze the hydrolysis of peptidic bonds. Elevated cathepsin enzyme activity in either serum or extracellular matrix is often indicative of pathological conditions such as Alzheimer&apos;s disease, several types of cancer, arthritis, and osteoporosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16389</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Enzyme</obo:NCIT_P106>
+        <obo:NCIT_P107>Cathepsin</obo:NCIT_P107>
+        <obo:NCIT_P108>Cathepsin</obo:NCIT_P108>
+        <obo:NCIT_P207>C0007428</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>Cathepsin</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Cathepsin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cathepsins</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800"/>
+        <rdfs:label>Cathepsin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C82254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82254">
+        <obo:IAO_0000115>An orally available benzimidazole riboside compound with activity against cytomegalovirus (CMV). Maribavir is a selective ATP competitor of viral UL97 kinase, which is involved in viral nuclear maturation events, such as viral DNA assembly and movement of viral capsids from the nucleus of infected cells. Maribavir has activity against strains of CMV that are resistant to standard anti-CMV agents.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C82254</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P107>Maribavir</obo:NCIT_P107>
+        <obo:NCIT_P108>Maribavir</obo:NCIT_P108>
+        <obo:NCIT_P207>C1508759</obo:NCIT_P207>
+        <obo:NCIT_P210>176161-24-3</obo:NCIT_P210>
+        <obo:NCIT_P319>PTB4X93HE1</obo:NCIT_P319>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A substance that blocks the ability of viruses to make new viruses and infect cells. It is being studied in the prevention of cytomegalovirus infection in cancer patients who have had a donor stem cell transplant. It is a type of antiviral agent.</obo:NCIT_P325>
+        <obo:NCIT_P329>429563</obo:NCIT_P329>
+        <obo:NCIT_P330>429563</obo:NCIT_P330>
+        <obo:NCIT_P350>C15H19Cl2N3O4</obo:NCIT_P350>
+        <obo:NCIT_P366>Maribavir</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>BW 1263W94</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Benzimidazol-2-amine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MARIBAVIR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Maribavir</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NTBC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>maribavir</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Maribavir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C82255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82255">
+        <obo:IAO_0000115>A peptidomimetic inhibitor with activity against human rhinoviruses. Rupintrivir is an irreversible 3C protease inhibitor which blocks processing of viral proteins, thus blocking viral replication.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C82255</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Rupintrivir</obo:NCIT_P108>
+        <obo:NCIT_P207>C2350739</obo:NCIT_P207>
+        <obo:NCIT_P210>223537-30-2</obo:NCIT_P210>
+        <obo:NCIT_P319>RGE5K1Q5QW</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P350>C31H39FN4O7</obo:NCIT_P350>
+        <obo:NCIT_P366>Rupintrivir</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>AG7088</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ethyl (2E,4S)-4-(((2R,5S)-2-(4-fluorobenzyl)-6-methyl-5-(((5-methylisoxazol-3-yl)carbonyl)amino)-4-oxoheptanoyl)amino)-5-((3S)-2-oxopyrrolidin-3-yl)pent-2-enoate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RUPINTRIVIR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Rupintrivir</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ruprintrivir</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Rupintrivir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85447">
+        <obo:IAO_0000115>A recombinant, soluble glycosylated form of human angiotensin converting enzyme 2 (rhACE2) with antihypertensive and potential antineoplastic activities. Recombinant human angiotensin converting enzyme 2 APN01 may normalize ACE2 levels, cleaving angiotensin II to create angiotensin-(1-7) and restoring the function of the renin-angiotensin system (RAS). ACE2, a homolog of ACE1, appears to function as a negative regulator of the RAS system by converting angiotensin II to angiotensin-(1-7), a peptide with actions that counteract the cardiovascular actions of angiotensin II. In addition, angiotensin-(1-7) may inhibit cyclooxygenase 2 (COX-2) and the production of proinflammatory prostaglandins and may activate the angiotensin-(1-7) G protein-coupled receptor Mas, resulting in diminished tumor cell proliferation. ACE2 levels may be reduced in malignancy and diabetes and in liver, cardiovascular and lung diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C85447</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Recombinant Human Angiotensin Converting Enzyme 2 APN01</obo:NCIT_P108>
+        <obo:NCIT_P208>CL412316</obo:NCIT_P208>
+        <obo:NCIT_P329>642531</obo:NCIT_P329>
+        <obo:NCIT_P330>642531</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>APN01</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Recombinant Human Angiotensin Converting Enzyme 2 APN01</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rhACE2 APN01</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <rdfs:label>Recombinant Human Angiotensin Converting Enzyme 2 APN01</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90808">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A5 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90809"/>
+        <obo:NCIT_NHC0>C90808</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Apilimod</obo:NCIT_P108>
+        <obo:NCIT_P207>C1610483</obo:NCIT_P207>
+        <obo:NCIT_P210>541550-19-0</obo:NCIT_P210>
+        <obo:NCIT_P319>GFW2K84S4L</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P350>C23H26N6O2</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>APILIMOD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Apilimod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Benzaldehyde, 3-Methyl-, (6-(4-Morpholinyl)-2-(2-(2-Pyridinyl)Ethoxy)-4-Pyrimidinyl)Hydrazone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>N-(3-Methyl-Benzylidene)-N&apos;-(6-Morpholin-4-Yl-2-(2-Pyridin-2-Yl-Ethoxy)-Pyrimidin-4-Yl)-Hydrazine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>STA 5326</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Apilimod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C97364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C97364">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C97364</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Tideglusib</obo:NCIT_P108>
+        <obo:NCIT_P207>C3273375</obo:NCIT_P207>
+        <obo:NCIT_P210>865854-05-3</obo:NCIT_P210>
+        <obo:NCIT_P319>Q747Y6TT42</obo:NCIT_P319>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P350>C19H14N2O2S</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>4-Benzyl-2-(naphthalen-1-yl)-1,2,4-thiadiazolidine-3,5-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nypta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TIDEGLUSIB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tideglusib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zentylor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <rdfs:label>Tideglusib</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

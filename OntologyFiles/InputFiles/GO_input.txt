@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+cellular process	http://purl.obolibrary.org/obo/GO_0009987
+signal transduction	http://purl.obolibrary.org/obo/GO_0007165
+behavior	http://purl.obolibrary.org/obo/GO_0007610
+biological_process	http://purl.obolibrary.org/obo/GO_0008150
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

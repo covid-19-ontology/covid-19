@@ -1,0 +1,60 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/DOID_module2.owl
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_3393 #coronary artery disease
+http://purl.obolibrary.org/obo/DOID_2945 #severe acute respiratory syndrome
+http://purl.obolibrary.org/obo/DOID_10533 #viral pneumonia
+http://purl.obolibrary.org/obo/DOID_1227 #neutropenia
+http://purl.obolibrary.org/obo/DOID_0050700 #cardiomyopathy
+http://purl.obolibrary.org/obo/DOID_104 #bacterial infectious disease
+http://purl.obolibrary.org/obo/DOID_1936 #atherosclerosis
+http://purl.obolibrary.org/obo/DOID_576 #proteinuria
+http://purl.obolibrary.org/obo/DOID_1074 #kidney failure
+http://purl.obolibrary.org/obo/DOID_409 #liver disease
+http://purl.obolibrary.org/obo/DOID_784 #chronic kidney disease
+http://purl.obolibrary.org/obo/DOID_863 #nervous system disease
+http://purl.obolibrary.org/obo/DOID_14566 #disease of cellular proliferation
+http://purl.obolibrary.org/obo/DOID_3770 #pulmonary fibrosis
+http://purl.obolibrary.org/obo/DOID_0040085 #bacterial sepsis
+http://purl.obolibrary.org/obo/DOID_615 #leukopenia
+http://purl.obolibrary.org/obo/DOID_8622 #measles
+http://purl.obolibrary.org/obo/DOID_8469 #influenza
+http://purl.obolibrary.org/obo/DOID_3082 #interstitial lung disease
+http://purl.obolibrary.org/obo/DOID_0060014 #CD45 deficiency
+http://purl.obolibrary.org/obo/DOID_10763 #hypertension
+http://purl.obolibrary.org/obo/DOID_2043 #hepatitis B
+http://purl.obolibrary.org/obo/DOID_3083 #chronic obstructive pulmonary disease
+http://purl.obolibrary.org/obo/DOID_12177 #common variable immunodeficiency
+http://purl.obolibrary.org/obo/DOID_5364 #pulmonary coin lesion
+http://purl.obolibrary.org/obo/DOID_5362 #focal epithelial hyperplasia
+http://purl.obolibrary.org/obo/DOID_11247 #disseminated intravascular coagulation
+http://purl.obolibrary.org/obo/DOID_2089 #constipation
+http://purl.obolibrary.org/obo/DOID_11396 #pulmonary edema
+http://purl.obolibrary.org/obo/DOID_614 #lymphopenia
+http://purl.obolibrary.org/obo/DOID_9352 #type 2 diabetes mellitus
+http://purl.obolibrary.org/obo/DOID_974 #upper respiratory tract disease
+http://purl.obolibrary.org/obo/DOID_6713 #cerebrovascular disease
+http://purl.obolibrary.org/obo/DOID_2452 #thrombophilia
+http://purl.obolibrary.org/obo/DOID_2988 #antiphospholipid syndrome
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_7 #disease of anatomical entity
+subClassOf
+http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+subClassOf
+http://purl.obolibrary.org/obo/DOID_0014667 #disease of metabolism
+subClassOf
+http://purl.obolibrary.org/obo/DOID_4 #disease
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

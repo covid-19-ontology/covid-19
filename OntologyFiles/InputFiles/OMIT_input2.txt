@@ -1,0 +1,39 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OMIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0028047 #Molecular Docking Simulation
+http://purl.obolibrary.org/obo/OMIT_0025555 #Pneumonia, Ventilator-Associated
+http://purl.obolibrary.org/obo/OMIT_0020854 #Cyclophilins
+http://purl.obolibrary.org/obo/OMIT_0007284 #Granulocytes
+http://purl.obolibrary.org/obo/OMIT_0007506 #Heart Injuries
+http://purl.obolibrary.org/obo/OMIT_0028856 #Vascular Remodeling
+http://purl.obolibrary.org/obo/OMIT_0026579 #Viral Tropism
+http://purl.obolibrary.org/obo/OMIT_0014461 #T-Lymphocytes
+http://purl.obolibrary.org/obo/OMIT_0018573 #T-Lymphocytopenia, Idiopathic CD4-Positive
+http://purl.obolibrary.org/obo/OMIT_0026254 #Lung Injury
+http://purl.obolibrary.org/obo/OMIT_0013045 #Pulmonary Ventilation
+http://purl.obolibrary.org/obo/OMIT_0011107 #Oxygen Inhalation Therapy
+http://purl.obolibrary.org/obo/OMIT_0027719 #Coinfection
+http://purl.obolibrary.org/obo/OMIT_0015990 #Extracorporeal Membrane Oxygenation
+http://purl.obolibrary.org/obo/OMIT_0006044 #Eosinophils
+http://purl.obolibrary.org/obo/OMIT_0027065 #Hydrophobic and Hydrophilic Interactions
+http://purl.obolibrary.org/obo/OMIT_0016234 #CD4-Positive T-Lymphocytes
+http://purl.obolibrary.org/obo/OMIT_0009582 #Medicine, Chinese Traditional
+http://purl.obolibrary.org/obo/OMIT_0026623 #Drug-Induced Liver Injury
+http://purl.obolibrary.org/obo/OMIT_0002531 #Arrhythmias, Cardiac
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000019 #quality
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

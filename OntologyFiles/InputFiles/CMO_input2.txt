@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/CMO_import.owl
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0000027 #white blood cell count
+http://purl.obolibrary.org/obo/CMO_0000031 #blood lymphocyte count
+http://purl.obolibrary.org/obo/CMO_0001324 #oxygen saturation
+http://purl.obolibrary.org/obo/CMO_0000036 #blood cell measurement
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000035 #blood measurement
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

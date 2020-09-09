@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/SYMP_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/SYMP_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/SYMP_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000387 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000387">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000387</oboInOwl:id>
+        <rdfs:label>head symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000410 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000410</oboInOwl:id>
+        <rdfs:label>neurological and physiological symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000459 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:787</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:5330</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284224</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000459</oboInOwl:id>
+        <rdfs:label>digestive system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000462 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
+        <obo:IAO_0000115>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>SyOID:14974</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000462</oboInOwl:id>
+        <rdfs:label>symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000473 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:2644</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284163</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000473</oboInOwl:id>
+        <rdfs:label>nutrition, metabolism, and development symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000480 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:90</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284131</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000480</oboInOwl:id>
+        <rdfs:label>nervous system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000567 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159028</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284119</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000567</oboInOwl:id>
+        <rdfs:label>general symptom</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,175 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_3000003661 #IRF3
+http://purl.obolibrary.org/obo/OGG_3000003309 #HSPA5
+http://purl.obolibrary.org/obo/OGG_3000005045 #FURIN
+http://purl.obolibrary.org/obo/OGG_3000003002 #GZMB
+http://purl.obolibrary.org/obo/OGG_3000005551 #PRF1
+http://purl.obolibrary.org/obo/OGG_3000201633 #TIGIT
+http://purl.obolibrary.org/obo/OGG_3000001493 #CTLA4
+http://purl.obolibrary.org/obo/OGG_3000004061 #LY6E
+http://purl.obolibrary.org/obo/OGG_3000003439 #IFNA1
+http://purl.obolibrary.org/obo/OGG_3000003659 #IRF1
+http://purl.obolibrary.org/obo/OGG_3000006772 #STAT1
+http://purl.obolibrary.org/obo/OGG_3000007098 #TLR3
+http://purl.obolibrary.org/obo/OGG_3000007514 #XPO1
+http://purl.obolibrary.org/obo/OGG_3000004869 #NPM1
+http://purl.obolibrary.org/obo/OGG_3000002099 #ESR1
+http://purl.obolibrary.org/obo/OGG_3000006143 #RPL19
+http://purl.obolibrary.org/obo/OGG_3000003178 #HNRNPA1
+http://purl.obolibrary.org/obo/OGG_3000003612 #IMPA1
+http://purl.obolibrary.org/obo/OGG_3000002920 #CXCL2
+http://purl.obolibrary.org/obo/OGG_3000007042 #TGFB2
+http://purl.obolibrary.org/obo/OGG_3000006349 #CCL3L1
+http://purl.obolibrary.org/obo/OGG_3000006372 #CXCL6
+http://purl.obolibrary.org/obo/OGG_3000006355 #CCL8
+http://purl.obolibrary.org/obo/OGG_3000092304 #SCGB3A1
+http://purl.obolibrary.org/obo/OGG_3000002919 #CXCL1
+http://purl.obolibrary.org/obo/OGG_3000090865 #IL33
+http://purl.obolibrary.org/obo/OGG_3000058191 #CXCL16
+http://purl.obolibrary.org/obo/OGG_3000010220 #GDF11
+http://purl.obolibrary.org/obo/OGG_3000003084 #NRG1
+http://purl.obolibrary.org/obo/OGG_3000007076 #TIMP1
+http://purl.obolibrary.org/obo/OGG_3000003606 #IL18
+http://purl.obolibrary.org/obo/OGG_3000000374 #AREG
+http://purl.obolibrary.org/obo/OGG_3000146225 #CMTM2
+http://purl.obolibrary.org/obo/OGG_3000003576 #CXCL8
+http://purl.obolibrary.org/obo/OGG_3000054541 #DDIT4
+http://purl.obolibrary.org/obo/OGG_3000006237 #RRAS
+http://purl.obolibrary.org/obo/OGG_3000000332 #BIRC5
+http://purl.obolibrary.org/obo/OGG_3000008743 #TNFSF10
+http://purl.obolibrary.org/obo/OGG_3000001522 #CTSZ
+http://purl.obolibrary.org/obo/OGG_3000001509 #CTSD
+http://purl.obolibrary.org/obo/OGG_3000004914 #NTRK1
+http://purl.obolibrary.org/obo/OGG_3000003486 #IGFBP3
+http://purl.obolibrary.org/obo/OGG_3000000891 #CCNB1
+http://purl.obolibrary.org/obo/OGG_3000006241 #RRM2
+http://purl.obolibrary.org/obo/OGG_3000009133 #CCNB2
+http://purl.obolibrary.org/obo/OGG_3000051512 #GTSE1
+http://purl.obolibrary.org/obo/OGG_3000055240 #STEAP3
+http://purl.obolibrary.org/obo/OGG_3000009540 #TP53I3
+http://purl.obolibrary.org/obo/OGG_3000000622 #BDH1
+http://purl.obolibrary.org/obo/OGG_3000003456 #IFNB1
+http://purl.obolibrary.org/obo/OGG_3000002806 #GOT2
+http://purl.obolibrary.org/obo/OGG_3000003945 #LDHB
+http://purl.obolibrary.org/obo/OGG_3000003948 #LDHC
+http://purl.obolibrary.org/obo/OGG_3000000834 #CASP1
+http://purl.obolibrary.org/obo/OGG_3000002805 #GOT1
+http://purl.obolibrary.org/obo/OGG_3000007137 #TNNI3
+http://purl.obolibrary.org/obo/OGG_3000003557 #IL1RN
+http://purl.obolibrary.org/obo/OGG_3000001803 #DPP4
+http://purl.obolibrary.org/obo/OGG_3000000290 #ANPEP
+http://purl.obolibrary.org/obo/OGG_3000001514 #CTSL
+http://purl.obolibrary.org/obo/OGG_3000001508 #CTSB
+http://purl.obolibrary.org/obo/OGG_3000000383 #ARG1
+http://purl.obolibrary.org/obo/OGG_3000002875 #GPT
+http://purl.obolibrary.org/obo/OGG_3000005340 #PLG
+http://purl.obolibrary.org/obo/OGG_3000000727 #C5
+http://purl.obolibrary.org/obo/OGG_3000009241 #NOG
+http://purl.obolibrary.org/obo/OGG_3000002896 #GRN
+http://purl.obolibrary.org/obo/OGG_3000003725 #JUN
+http://purl.obolibrary.org/obo/OGG_3000006279 #S100A8
+http://purl.obolibrary.org/obo/OGG_3000006280 #S100A9
+http://purl.obolibrary.org/obo/OGG_3000001462 #VCAN
+http://purl.obolibrary.org/obo/OGG_3000002219 #FCN1
+http://purl.obolibrary.org/obo/OGG_3000000929 #CD14
+http://purl.obolibrary.org/obo/OGG_3000006402 #SELL
+http://purl.obolibrary.org/obo/OGG_3000004283 #CXCL9
+http://purl.obolibrary.org/obo/OGG_3000006373 #CXCL11
+http://purl.obolibrary.org/obo/OGG_3000200315 #APOBEC3A
+http://purl.obolibrary.org/obo/OGG_3000009636 #ISG15
+http://purl.obolibrary.org/obo/OGG_3000003669 #ISG20
+http://purl.obolibrary.org/obo/OGG_3000002633 #GBP1
+http://purl.obolibrary.org/obo/OGG_3000010410 #IFITM3
+http://purl.obolibrary.org/obo/OGG_3000004599 #MX1
+http://purl.obolibrary.org/obo/OGG_3000000002 #A2M
+http://purl.obolibrary.org/obo/OGG_3000001880 #GPR183
+http://purl.obolibrary.org/obo/OGG_3000006357 #CCL13
+http://purl.obolibrary.org/obo/OGG_3000054209 #TREM2
+http://purl.obolibrary.org/obo/OGG_3000007040 #TGFB1
+http://purl.obolibrary.org/obo/OGG_3000006696 #SPP1
+http://purl.obolibrary.org/obo/OGG_3000002167 #FABP4
+http://purl.obolibrary.org/obo/OGG_3000002171 #FABP5
+http://purl.obolibrary.org/obo/OGG_3000003624 #INHBA
+http://purl.obolibrary.org/obo/OGG_3000028992 #MACROD1
+http://purl.obolibrary.org/obo/OGG_3000007037 #TFRC
+http://purl.obolibrary.org/obo/OGG_3000004360 #MRC1
+http://purl.obolibrary.org/obo/OGG_3000051348 #KLRF1
+http://purl.obolibrary.org/obo/OGG_3000003821 #KLRC1
+http://purl.obolibrary.org/obo/OGG_3000003824 #KLRD1
+http://purl.obolibrary.org/obo/OGG_3000003001 #GZMA
+http://purl.obolibrary.org/obo/OGG_3000003003 #GZMK
+http://purl.obolibrary.org/obo/OGG_3000000356 #FASLG
+http://purl.obolibrary.org/obo/OGG_3000006352 #CCL5
+http://purl.obolibrary.org/obo/OGG_3000003672 #ITGA1
+http://purl.obolibrary.org/obo/OGG_3000120425 #JAML
+http://purl.obolibrary.org/obo/OGG_3000006375 #XCL1
+http://purl.obolibrary.org/obo/OGG_3000006846 #XCL2
+http://purl.obolibrary.org/obo/OGG_3000257101 #ZNF683
+http://purl.obolibrary.org/obo/OGG_3000084525 #HOPX
+http://purl.obolibrary.org/obo/OGG_3000010663 #CXCR6
+http://purl.obolibrary.org/obo/OGG_3000003682 #ITGAE
+http://purl.obolibrary.org/obo/OGG_3000004142 #MAS1
+http://purl.obolibrary.org/obo/OGG_3000000185 #AGTR1
+http://purl.obolibrary.org/obo/OGG_3000003037 #HAS2
+http://purl.obolibrary.org/obo/OGG_3000027178 #IL37
+http://purl.obolibrary.org/obo/OGG_3000000796 #CALCA
+http://purl.obolibrary.org/obo/OGG_3000000249 #ALPL
+http://purl.obolibrary.org/obo/OGG_3000000721 #C4B
+http://purl.obolibrary.org/obo/OGG_3000003559 #IL2RA
+http://purl.obolibrary.org/obo/OGG_3000003560 #IL2RB
+http://purl.obolibrary.org/obo/OGG_3000003939 #LDHA
+http://purl.obolibrary.org/obo/OGG_3000001158 #CKM
+http://purl.obolibrary.org/obo/OGG_3000005133 #PDCD1
+http://purl.obolibrary.org/obo/OGG_3000084868 #HAVCR2
+http://purl.obolibrary.org/obo/OGG_3000007139 #TNNT2
+http://purl.obolibrary.org/obo/OGG_3000004879 #NPPB
+http://purl.obolibrary.org/obo/OGG_3000055922 #NKRF
+http://purl.obolibrary.org/obo/OGG_3000000708 #C1QBP
+http://purl.obolibrary.org/obo/OGG_3000009908 #G3BP2
+http://purl.obolibrary.org/obo/OGG_3000008480 #RAE1
+http://purl.obolibrary.org/obo/OGG_3000003579 #CXCR2
+http://purl.obolibrary.org/obo/OGG_3000010394 #PRG3
+http://purl.obolibrary.org/obo/OGG_3000003929 #LBP
+http://purl.obolibrary.org/obo/OGG_3000064386 #MMP25
+http://purl.obolibrary.org/obo/OGG_3000000916 #CD3E
+http://purl.obolibrary.org/obo/OGG_3000000917 #CD3G
+http://purl.obolibrary.org/obo/OGG_3000000919 #CD247
+http://purl.obolibrary.org/obo/OGG_3000028755 #TRAC
+http://purl.obolibrary.org/obo/OGG_3000028639 #TRBC1
+http://purl.obolibrary.org/obo/OGG_3000000920 #CD4
+http://purl.obolibrary.org/obo/OGG_3000000925 #CD8A
+http://purl.obolibrary.org/obo/OGG_3000000926 #CD8B
+http://purl.obolibrary.org/obo/OGG_3000000914 #CD2
+http://purl.obolibrary.org/obo/OGG_3000003122#HLA-DRA
+http://purl.obolibrary.org/obo/OGG_3000003123 #HLA-DRB1
+http://purl.obolibrary.org/obo/OGG_3000003126 #HLA-DRB4
+http://purl.obolibrary.org/obo/OGG_3000003127 #HLA-DRB5
+http://purl.obolibrary.org/obo/OGG_3000007535 #ZAP70
+http://purl.obolibrary.org/obo/OGG_3000002534 #FYN
+http://purl.obolibrary.org/obo/OGG_3000003932 #LCK
+http://purl.obolibrary.org/obo/OGG_3000003500 #IGHG1
+http://purl.obolibrary.org/obo/OGG_3000003501 #IGHG2
+http://purl.obolibrary.org/obo/OGG_3000003503 #IGHG4
+http://purl.obolibrary.org/obo/OGG_3000003538 #IGLC2
+http://purl.obolibrary.org/obo/OGG_3000003543 #IGLL1
+http://purl.obolibrary.org/obo/OGG_3000003497 #IGHE
+http://purl.obolibrary.org/obo/OGG_3000007138 #TNNT1
+http://purl.obolibrary.org/obo/OGG_3000003454 #IFNAR
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

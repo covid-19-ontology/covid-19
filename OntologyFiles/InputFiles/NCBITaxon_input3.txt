@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2709072 #Bat coronavirus RaTG13
+http://purl.obolibrary.org/obo/NCBITaxon_9397 #Chiroptera
+http://purl.obolibrary.org/obo/NCBITaxon_162145 #Human metapneumovirus
+http://purl.obolibrary.org/obo/NCBITaxon_10515 #Human adenovirus 2
+http://purl.obolibrary.org/obo/NCBITaxon_28285 #Human adenovirus 5
+http://purl.obolibrary.org/obo/NCBITaxon_10359 #Human betaherpesvirus 5
+http://purl.obolibrary.org/obo/NCBITaxon_651668 #Human herpesvirus 8 strain rKSHV.219
+http://purl.obolibrary.org/obo/NCBITaxon_10376 #Human gammaherpesvirus 4
+http://purl.obolibrary.org/obo/NCBITaxon_10912 #Rotavirus
+http://purl.obolibrary.org/obo/NCBITaxon_12067 #Coxsackievirus A9
+http://purl.obolibrary.org/obo/NCBITaxon_10029 #Cricetulus griseus
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_1 #root
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

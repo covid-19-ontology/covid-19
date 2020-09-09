@@ -1,0 +1,93 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/chemicals_import.owl.
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_22198 #acetylcysteine
+http://purl.obolibrary.org/obo/CHEBI_3638 #chloroquine
+http://purl.obolibrary.org/obo/CHEBI_367163 #darunavir
+http://purl.obolibrary.org/obo/CHEBI_4653 #dipyridamole
+http://purl.obolibrary.org/obo/CHEBI_31528 #Ebastine
+http://purl.obolibrary.org/obo/CHEBI_31536 #emtricitabine
+http://purl.obolibrary.org/obo/CHEBI_134722 #favipiravir
+http://purl.obolibrary.org/obo/CHEBI_63115 #fingolimod
+http://purl.obolibrary.org/obo/CHEBI_5801 #hydroxychloroquine
+http://purl.obolibrary.org/obo/CHEBI_6541 #losartan
+http://purl.obolibrary.org/obo/CHEBI_7798 #oseltamivir
+http://purl.obolibrary.org/obo/CHEBI_91231 #piperaquine
+http://purl.obolibrary.org/obo/CHEBI_32016 #pirfenidone
+http://purl.obolibrary.org/obo/CHEBI_145994 #remdesivir
+http://purl.obolibrary.org/obo/CHEBI_63580 #ribavirin
+http://purl.obolibrary.org/obo/CHEBI_29687 #teicoplanin
+http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide
+http://purl.obolibrary.org/obo/CHEBI_77572 #tranilast
+http://purl.obolibrary.org/obo/CHEBI_134730 #umifenovir
+http://purl.obolibrary.org/obo/CHEBI_135632 #camostat
+http://purl.obolibrary.org/obo/CHEBI_3380 #captopril
+http://purl.obolibrary.org/obo/CHEBI_17698 #chloramphenicol
+http://purl.obolibrary.org/obo/CHEBI_75045 #dabrafenib
+http://purl.obolibrary.org/obo/CHEBI_63607 #linezolid
+http://purl.obolibrary.org/obo/CHEBI_43755 #lisinopril
+http://purl.obolibrary.org/obo/CHEBI_135466 #nafamostat
+http://purl.obolibrary.org/obo/CHEBI_145535 #pevonedistat
+http://purl.obolibrary.org/obo/CHEBI_149836 #tigecycline
+http://purl.obolibrary.org/obo/CHEBI_22689 #bafilomycin A1
+http://purl.obolibrary.org/obo/CHEBI_72291 #cobicistat
+http://purl.obolibrary.org/obo/CHEBI_41977 #daunorubicin
+http://purl.obolibrary.org/obo/CHEBI_4798 #entacapone
+http://purl.obolibrary.org/obo/CHEBI_5613 #haloperidol
+http://purl.obolibrary.org/obo/CHEBI_6801 #metformin
+http://purl.obolibrary.org/obo/CHEBI_63452 #midostaurin
+http://purl.obolibrary.org/obo/CHEBI_168396 #mycophenolic acid
+http://purl.obolibrary.org/obo/CHEBI_78543 #ponatinib
+http://purl.obolibrary.org/obo/CHEBI_66919 #ruxolitinib
+http://purl.obolibrary.org/obo/CHEBI_77736 #(S)-verapamil
+http://purl.obolibrary.org/obo/CHEBI_39867 #valproic acid
+http://purl.obolibrary.org/obo/CHEBI_36773 #camphor
+http://purl.obolibrary.org/obo/CHEBI_3441 #carvedilol
+http://purl.obolibrary.org/obo/CHEBI_23359 #colchicine
+http://purl.obolibrary.org/obo/CHEBI_42223 #emodin
+http://purl.obolibrary.org/obo/CHEBI_31547 #eplerenone
+http://purl.obolibrary.org/obo/CHEBI_42309 #equilin
+http://purl.obolibrary.org/obo/CHEBI_5959 #irbesartan
+http://purl.obolibrary.org/obo/CHEBI_16796 #melatonin
+http://purl.obolibrary.org/obo/CHEBI_50667 #mercaptopurine
+http://purl.obolibrary.org/obo/CHEBI_6775 #mesalamine
+http://purl.obolibrary.org/obo/CHEBI_7864 #oxymetholone
+http://purl.obolibrary.org/obo/CHEBI_7936 #paroxetine
+http://purl.obolibrary.org/obo/CHEBI_9168 #sirolimus
+http://purl.obolibrary.org/obo/CHEBI_9635 #toremifene
+http://purl.obolibrary.org/obo/CHEBI_35718 #antifungal agent
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+http://purl.obolibrary.org/obo/CHEBI_22587 #antiviral agent
+http://purl.obolibrary.org/obo/CHEBI_24261 #glucocorticoid
+http://purl.obolibrary.org/obo/CHEBI_50846 #immunomodulator
+http://purl.obolibrary.org/obo/CHEBI_35480 #analgesic
+http://purl.obolibrary.org/obo/CHEBI_5855 #ibuprofen
+http://purl.obolibrary.org/obo/CHEBI_48219 #disinfectant
+http://purl.obolibrary.org/obo/CHEBI_16240 #hydrogen peroxide
+http://purl.obolibrary.org/obo/CHEBI_32146 #sodium hypochlorite
+http://purl.obolibrary.org/obo/CHEBI_207229 #dihydroartemisinin
+http://purl.obolibrary.org/obo/CHEBI_9364 #Suramin sodium
+http://purl.obolibrary.org/obo/CHEBI_50858 #corticosteroid
+http://purl.obolibrary.org/obo/CHEBI_6402 #leflunomide
+http://purl.obolibrary.org/obo/CHEBI_77596 #Ranitidine bismuth citrate
+http://purl.obolibrary.org/obo/CHEBI_21241 #vitamin C
+http://purl.obolibrary.org/obo/CHEBI_4781 #emetine
+http://purl.obolibrary.org/obo/CHEBI_71019 #omacetaxine mepesuccinate
+http://purl.obolibrary.org/obo/CHEBI_31303 #bromhexine hydrochloride
+http://purl.obolibrary.org/obo/CHEBI_25805 #oxygen atom
+http://purl.obolibrary.org/obo/CHEBI_29235 #hydrogen(.)
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

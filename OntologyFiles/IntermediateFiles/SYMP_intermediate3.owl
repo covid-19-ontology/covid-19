@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/atb3tosy.owl#"
+     xml:base="http://ontofox.hegroup.org/atb3tosy.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/atb3tosy.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromBEL -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromBEL"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000025 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000025</oboInOwl:id>
+        <rdfs:label>dry cough</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32196678"/>
+        <oboInOwl1:hasDefinition>A dry cough refers to a cough that does not produce mucus (also known as phlegm or sputum).</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000025"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A dry cough refers to a cough that does not produce mucus (also known as phlegm or sputum).</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.healthgrades.com/right-care/lungs-breathing-and-respiration/dry-cough</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000041 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000041</oboInOwl:id>
+        <rdfs:label>hemorrhage</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216698/"/>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+        <oboInOwl1:hasDefinition>Hemorrhage is an acute loss of blood from a damaged blood vessel.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000041"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Hemorrhage is an acute loss of blood from a damaged blood vessel.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/books/NBK542273/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000061 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+        <obo:IAO_0000115>Inflammation is a general symptom where there is a local response to cellular injury that is marked by capillary dilatation, leukocytic infiltration, redness, heat, pain, swelling, and often loss of function and that serves as a mechanism initiating the elimination of noxious agents and of damaged tissue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000061</oboInOwl:id>
+        <rdfs:label>inflammation</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216698/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000075 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
+        <obo:IAO_0000115>Lethargy is a fatigue characterized as abnormal drowsiness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000075</oboInOwl:id>
+        <rdfs:label>lethargy</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32215598"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000095 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000095</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:label>myocarditis</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32215613"/>
+        <oboInOwl1:hasDefinition>Myocarditis is a disease marked by the inflammation of the heart muscle known as the myocardium — the muscular layer of the heart wall.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000095"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Myocarditis is a disease marked by the inflammation of the heart muscle known as the myocardium — the muscular layer of the heart wall.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.healthline.com/health/heart-disease/myocarditis</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000099 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000892"/>
+        <obo:IAO_0000115>A sensation perception where there is an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000099</oboInOwl:id>
+        <rdfs:label>pain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000107 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <obo:IAO_0000115>A skin and integumentary tissue symptom characterized as an exudation of fluid from the blood or lymph into a pleural cavity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000107</oboInOwl:id>
+        <rdfs:label>pleural effusion</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32173576"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000114 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000114</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:label>thrombocytopenia</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32215598"/>
+        <oboInOwl1:hasDefinition>Thrombocytopenia or low platelet count is a lower than normal number of platelets (less than 150,000 platelets per microliter) in the blood.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000114"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Thrombocytopenia or low platelet count is a lower than normal number of platelets (less than 150,000 platelets per microliter) in the blood.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.medicinenet.com/thrombocytopenia_low_platelet_count/article.htm</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000153 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000153</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:label>vasculitis</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+        <oboInOwl1:hasDefinition>Vasculitis refers to a large group of diseases that cause inflammation of the blood vessels.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000153"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Vasculitis refers to a large group of diseases that cause inflammation of the blood vessels.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.medicalnewstoday.com/articles/189281</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000178 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000178</oboInOwl:id>
+        <rdfs:label>weight loss</rdfs:label>
+        <rdfs:seeAlso>http://biorxiv.org/lookup/doi/10.1101/2020.03.13.990226</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+        <oboInOwl1:hasDefinition>A reduction in total body weight.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A reduction in total body weight.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/NCIT_C3445</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000287 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000115>Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasAlternativeId>SYMP:0000288</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>SYMP:0000667</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>SYMP:0000668</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>abnormal heart beat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>abnormal heart rhythm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dysrhythmia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart rhythm symptom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>fluctuation of heart rate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>SYMP:0000287</oboInOwl:id>
+        <rdfs:label>arrhythmia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000292 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000292</oboInOwl:id>
+        <rdfs:label>heart failure</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32171076"/>
+        <oboInOwl1:hasDefinition>Inability of the heart to pump blood at an adequate rate to meet tissue metabolic requirements. Clinical symptoms of heart failure include: unusual dyspnea on light exertion, recurrent dyspnea occurring in the supine position, fluid retention or rales, jugular venous distension, pulmonary edema on physical exam, or pulmonary edema on chest x-ray presumed to be cardiac dysfunction.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000292"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Inability of the heart to pump blood at an adequate rate to meet tissue metabolic requirements. Clinical symptoms of heart failure include: unusual dyspnea on light exertion, recurrent dyspnea occurring in the supine position, fluid retention or rales, jugular venous distension, pulmonary edema on physical exam, or pulmonary edema on chest x-ray presumed to be cardiac dysfunction.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/NCIT_C50577</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000299 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
+        <obo:IAO_0000115>Hyperemia is a hemic system symptom consisting of an excess of blood in a body part as from an increased flow of blood due to vasodilation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>hyperaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hyperemic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000299</oboInOwl:id>
+        <rdfs:label>hyperemia</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32196678"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000410 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000410</oboInOwl:id>
+        <rdfs:label>neurological and physiological symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000450 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000115>A cardiovascular system symptom that is characterized as a state of profound depression of the vital processes of the body that is characterized by pallor, rapid but weak pulse, rapid and shallow respiration, reduced total blood volume, and low blood pressure and that is caused usually by severe especially crushing injuries, hemorrhage, burns, or major surgery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:785.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284197</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000450</oboInOwl:id>
+        <rdfs:label>shock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000451 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000451">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000450"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:785.52</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:10220</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0036983</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A2797434</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000451</oboInOwl:id>
+        <rdfs:label>septic shock</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32171076"/>
+        <oboInOwl1:hasDefinition>A state of acute circulatory failure characterized by persistent arterial hypotension despite adequate fluid resuscitation or by tissue hypoperfusion unexplained by other causes.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym>Shock, Septic</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000451"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A state of acute circulatory failure characterized by persistent arterial hypotension despite adequate fluid resuscitation or by tissue hypoperfusion unexplained by other causes.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/NCIT_C35018</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000462 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
+        <obo:IAO_0000115>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>SyOID:14974</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000462</oboInOwl:id>
+        <rdfs:label>symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000473 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:2644</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284163</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000473</oboInOwl:id>
+        <rdfs:label>nutrition, metabolism, and development symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000480 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:90</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284131</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000480</oboInOwl:id>
+        <rdfs:label>nervous system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000488 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:2103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284161</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000488</oboInOwl:id>
+        <rdfs:label>skin and integumentary tissue symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000514 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:5868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0476271</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284200</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000514</oboInOwl:id>
+        <rdfs:label>respiratory system and chest symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000528 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:785</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:2147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284192</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000528</oboInOwl:id>
+        <rdfs:label>cardiovascular system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000529 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+        <obo:IAO_0000115>Tachycardia is a cardiovascular system symptom consisting of a relatively rapid heart action whether physiological (as after exercise) or pathological.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:785.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:16496</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0039231</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0804597</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000529</oboInOwl:id>
+        <rdfs:label>tachycardia</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32217556"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000538 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <obo:IAO_0000115>A skin and integumentary tissue symptom characterized as an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:17347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0013604</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0052720</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>dropsy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000538</oboInOwl:id>
+        <rdfs:label>edema</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32216698/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000567 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159028</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284119</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000567</oboInOwl:id>
+        <rdfs:label>general symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000576 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:4705</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0008031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0243830</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0400627</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000576</oboInOwl:id>
+        <rdfs:label>chest pain</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32178547/"/>
+        <oboInOwl1:hasDefinition>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the chest.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000576"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the chest.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/HP_0100749</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000598 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:7239</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159053</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284202</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000598</oboInOwl:id>
+        <rdfs:label>respiratory abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000603 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000598"/>
+        <obo:IAO_0000115>Tachypnea is a respiratory abnormality characterized by an increased rate of respiration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.06</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:7246</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0231835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0465027</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000603</oboInOwl:id>
+        <rdfs:label>tachypnea</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32217835/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000614 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115>Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:8253</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0010200</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0043303</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000614</oboInOwl:id>
+        <rdfs:label>cough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000634 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000634</oboInOwl:id>
+        <rdfs:label>leukocytosis</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32171076"/>
+        <oboInOwl1:hasDefinition>Leukocytosis refers to an increase in the total number of white blood cells (WBCs) due to any cause.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000634"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Leukocytosis refers to an increase in the total number of white blood cells (WBCs) due to any cause.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://emedicine.medscape.com/article/956278-overview</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000827 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000529"/>
+        <obo:IAO_0000115>A tachycardia that is associated with the generation of improper electrical impulses within the ventricles, characterized by an electrocardiogram showing a rate of greater than 120 BPM and three or more wide QRS complexes in a row.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>V-tach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000827</oboInOwl:id>
+        <rdfs:label>ventricular tachycardia</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/3221830"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000892 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115>Sensation perception is a nervous system symptom where the information perceived by sensory receptors are interpreted.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-15T11:54:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000892</oboInOwl:id>
+        <rdfs:label>sensation perception</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000898 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+        <obo:IAO_0000115>An arrhythmia characterized by rapid, irregular, and unsynchronized contraction of muscle fibers within the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000898</oboInOwl:id>
+        <rdfs:label>cardiac fibrillation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000899 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000898"/>
+        <obo:IAO_0000115>A cardiac fibrillation associated with quivering of the lower chambers of the heart, preventing blood from being pumped and causing cardiac arrest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>v-fib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000899</oboInOwl:id>
+        <rdfs:label>ventricular fibrillation</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/3221830"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0017795 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0017795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0017795</oboInOwl:id>
+        <rdfs:label>hemic and immune system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019139 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0017795"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019139</oboInOwl:id>
+        <rdfs:label>hemic system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019174 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>rigors</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019174</oboInOwl:id>
+        <rdfs:label>chills</rdfs:label>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32213337"/>
+        <oboInOwl1:hasDefinition>Shivering or moderate tremors of the body often accompanied by a cold sensation.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019174"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Shivering or moderate tremors of the body often accompanied by a cold sensation.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/NCIT_C35143</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019177 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019177</oboInOwl:id>
+        <rdfs:label>fatigue</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

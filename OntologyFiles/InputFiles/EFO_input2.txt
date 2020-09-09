@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000492 #CD4-positive helper T cell
+http://www.ebi.ac.uk/efo/EFO_0004219 #CD8-Positive T-Lymphocytes
+http://purl.obolibrary.org/obo/CL_0000792 #CD4-positive, CD25-positive, alpha-beta regulatory T cell
+http://www.ebi.ac.uk/efo/EFO_0010106 #CD3-positive T-lymphocyte count
+http://www.ebi.ac.uk/efo/EFO_0005682 #oxygen saturation measurement
+http://www.ebi.ac.uk/efo/EFO_0000769 #Epstein-Barr virus infection
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000084 #T cell
+subClassOf
+http://www.ebi.ac.uk/efo/EFO_0001444 #measurement
+subClassOf
+http://www.ebi.ac.uk/efo/EFO_0000763 #viral disease
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

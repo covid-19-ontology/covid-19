@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/95539xf5.owl#"
+     xml:base="http://ontofox.hegroup.org/95539xf5.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/95539xf5.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
+        <oboInOwl:id>seeAlso</oboInOwl:id>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <rdfs:label>seeAlso</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromBEL -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromBEL"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005043 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005043">
+        <obo:IAO_0000115>An abnormal increase in the number of cells in an organ or a tissue with consequent enlargement.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <oboInOwl:hasDbXref>EFO:0000536</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3113</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hyperplasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hyperplastic</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005043</oboInOwl:id>
+        <rdfs:label>hyperplasia</rdfs:label>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/76197007"/>
+        <skos:closeMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0020507"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D006965"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3113"/>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005570 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005570">
+        <obo:IAO_0000115>A disease involving the hematopoietic system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <oboInOwl:hasDbXref>DOID:74</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0005803</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GTR:AN1320635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:D75.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:280-289.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:289.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:289.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:414022008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018939</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:CN882913</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>blood disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>blood disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>blood dyscrasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of the blood and blood-forming organs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematologic and lymphocytic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematologic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematological disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematological system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematopoietic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematopoietic system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematopoietic system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>blood dyscrasia NOS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>disorder of hematopoietic system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hematological disorders and malignancies</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0005570</oboInOwl:id>
+        <rdfs:comment>placeholder for lymphoid disease</rdfs:comment>
+        <rdfs:label>hematologic disease</rdfs:label>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/154785002"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/154842002"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/191124002"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/191402006"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/191446003"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/267552000"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/267573000"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/34093004"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D006402"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/414022008"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018939"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/CN882913"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_74"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26323"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0008651 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0008651">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <oboInOwl:hasDbXref>MESH:C566002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:192900</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1860463</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>vertebral hypoplasia with lumbar kyphosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0008651</oboInOwl:id>
+        <rdfs:label>vertebral hypoplasia with lumbar kyphosis</rdfs:label>
+        <rdfs:seeAlso>http://biorxiv.org/lookup/doi/10.1101/2020.03.13.990226</rdfs:seeAlso>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/C566002"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/omim/192900"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1860463"/>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromBEL>true</covid:fromBEL>
+        <oboInOwl1:hasDefinition>Vertebral hypoplasia leading to kyphosis in the upper lumbar area.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008651"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Vertebral hypoplasia leading to kyphosis in the upper lumbar area.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://omim.org/entry/192900</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0015118 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0015118">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <oboInOwl:hasDbXref>Orphanet:101944</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0015118</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#obsoletion_candidate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_group_of_disorders"/>
+        <rdfs:comment>Editor note: TODO merge with parent, distinction in ORDO not clear</rdfs:comment>
+        <rdfs:label>rare pulmonary disease</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/254</rdfs:seeAlso>
+        <skos:closeMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0024115"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_101944"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019540 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0015118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <oboInOwl:hasDbXref>HP:0025420</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:J98.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:90060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:CN206369</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>diffuse alveolar hemorrhage</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0019540</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_clinical_situation"/>
+        <rdfs:label>diffuse alveolar hemorrhage (disease)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/CN206369"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_90060"/>
+        <covid:fromBEL>true</covid:fromBEL>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32222466"/>
+        <oboInOwl1:hasDefinition>Diffuse alveolar hemorrhage (DAH) is a life-threatening and medical emergency that can be caused by numerous disorders and presents with hemoptysis, anemia, and diffuse alveolar infiltrates.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019540"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Diffuse alveolar hemorrhage (DAH) is a life-threatening and medical emergency that can be caused by numerous disorders and presents with hemoptysis, anemia, and diffuse alveolar infiltrates.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3651925/</rdfs:isDefinedBy>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

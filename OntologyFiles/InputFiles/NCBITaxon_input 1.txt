@@ -1,0 +1,286 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_694009 #Severe acute respiratory syndrome-related coronavirus
+http://purl.obolibrary.org/obo/NCBITaxon_1283332 #Bat coronavirus Rp/Shaanxi2011
+http://purl.obolibrary.org/obo/NCBITaxon_1283333 #Bat coronavirus Cp/Yunnan2011
+http://purl.obolibrary.org/obo/NCBITaxon_1415834 #Bat SARS-like coronavirus Rs3367
+http://purl.obolibrary.org/obo/NCBITaxon_1415851 #Bat SARS-like coronavirus RsSHC014
+http://purl.obolibrary.org/obo/NCBITaxon_1415852 #Bat SARS-like coronavirus WIV1
+http://purl.obolibrary.org/obo/NCBITaxon_1431340 #SARS bat coronavirus
+http://purl.obolibrary.org/obo/NCBITaxon_1487703 #Rhinolophus affinis coronavirus
+http://purl.obolibrary.org/obo/NCBITaxon_1503296 #BtRf-BetaCoV/HeB2013
+http://purl.obolibrary.org/obo/NCBITaxon_1503299 #BtRf-BetaCoV/JL2012
+http://purl.obolibrary.org/obo/NCBITaxon_1503300 #BtRf-BetaCoV/SX2013
+http://purl.obolibrary.org/obo/NCBITaxon_1503301 #BtRs-BetaCoV/GX2013
+http://purl.obolibrary.org/obo/NCBITaxon_1503302 #BtRs-BetaCoV/HuB2013
+http://purl.obolibrary.org/obo/NCBITaxon_1503303 #BtRs-BetaCoV/YN2013
+http://purl.obolibrary.org/obo/NCBITaxon_1508227 #Bat SARS-like coronavirus
+http://purl.obolibrary.org/obo/NCBITaxon_1699360 #Bat SARS-like coronavirus YNLF_31C
+http://purl.obolibrary.org/obo/NCBITaxon_1699361 #Bat SARS-like coronavirus YNLF_34C
+http://purl.obolibrary.org/obo/NCBITaxon_2042697 #SARS-related bat coronavirus RsSHC014
+http://purl.obolibrary.org/obo/NCBITaxon_2042698 #SARS-related betacoronavirus Rp3/2004
+http://purl.obolibrary.org/obo/NCBITaxon_227859 #SARS coronavirus
+http://purl.obolibrary.org/obo/NCBITaxon_227860 #SARS coronavirus Vietnam
+http://purl.obolibrary.org/obo/NCBITaxon_227861 #SARS coronavirus Taiwan
+http://purl.obolibrary.org/obo/NCBITaxon_227984 #SARS coronavirus Tor2
+http://purl.obolibrary.org/obo/NCBITaxon_227998 #SARS coronavirus Hong Kong/03/2003
+http://purl.obolibrary.org/obo/NCBITaxon_228330 #SARS coronavirus Urbani
+http://purl.obolibrary.org/obo/NCBITaxon_228404 #SARS coronavirus HKU-39849
+http://purl.obolibrary.org/obo/NCBITaxon_228406 #SARS coronavirus BJ02
+http://purl.obolibrary.org/obo/NCBITaxon_228407 #SARS coronavirus BJ01
+http://purl.obolibrary.org/obo/NCBITaxon_228409 #SARS coronavirus BJ03
+http://purl.obolibrary.org/obo/NCBITaxon_228415 #SARS coronavirus CUHK-W1
+http://purl.obolibrary.org/obo/NCBITaxon_228607 #SARS coronavirus BJ04
+http://purl.obolibrary.org/obo/NCBITaxon_229206 #SARS coronavirus CUHK-Su10
+http://purl.obolibrary.org/obo/NCBITaxon_229992 #SARS coronavirus Frankfurt 1
+http://purl.obolibrary.org/obo/NCBITaxon_229993 #SARS coronavirus TW1
+http://purl.obolibrary.org/obo/NCBITaxon_230471 #SARS coronavirus ZJ01
+http://purl.obolibrary.org/obo/NCBITaxon_230522 #SARS coronavirus Taiwan JC-2003
+http://purl.obolibrary.org/obo/NCBITaxon_231513 #Civet SARS CoV SZ3/2003
+http://purl.obolibrary.org/obo/NCBITaxon_231514 #SARS coronavirus SZ13
+http://purl.obolibrary.org/obo/NCBITaxon_231515 #Civet SARS CoV SZ16/2003
+http://purl.obolibrary.org/obo/NCBITaxon_231516 #SARS coronavirus SZ1
+http://purl.obolibrary.org/obo/NCBITaxon_231517 #SARS coronavirus GZ43
+http://purl.obolibrary.org/obo/NCBITaxon_231518 #SARS coronavirus GZ60
+http://purl.obolibrary.org/obo/NCBITaxon_231519 #SARS coronavirus HKU-36871
+http://purl.obolibrary.org/obo/NCBITaxon_231520 #SARS coronavirus HKU-65806
+http://purl.obolibrary.org/obo/NCBITaxon_231521 #SARS coronavirus HKU-66078
+http://purl.obolibrary.org/obo/NCBITaxon_231522 #SARS coronavirus GZ50
+http://purl.obolibrary.org/obo/NCBITaxon_233044 #SARS coronavirus GD01
+http://purl.obolibrary.org/obo/NCBITaxon_233872 #SARS coronavirus TWC
+http://purl.obolibrary.org/obo/NCBITaxon_235088 #SARS coronavirus HSR 1
+http://purl.obolibrary.org/obo/NCBITaxon_235173 #SARS coronavirus Shanhgai LY
+http://purl.obolibrary.org/obo/NCBITaxon_235410 #SARS coronavirus Sin2774
+http://purl.obolibrary.org/obo/NCBITaxon_235411 #SARS coronavirus Sin2748
+http://purl.obolibrary.org/obo/NCBITaxon_235412 #SARS coronavirus Sin2679
+http://purl.obolibrary.org/obo/NCBITaxon_235413 #SARS coronavirus Sin2677
+http://purl.obolibrary.org/obo/NCBITaxon_235414 #SARS coronavirus Sin2500
+http://purl.obolibrary.org/obo/NCBITaxon_237639 #SARS coronavirus Taiwan TC1
+http://purl.obolibrary.org/obo/NCBITaxon_237640 #SARS coronavirus Taiwan TC2
+http://purl.obolibrary.org/obo/NCBITaxon_239241 #SARS coronavirus CUHK-AG01
+http://purl.obolibrary.org/obo/NCBITaxon_239242 #SARS coronavirus CUHK-AG02
+http://purl.obolibrary.org/obo/NCBITaxon_239243 #SARS coronavirus CUHK-AG03
+http://purl.obolibrary.org/obo/NCBITaxon_239758 #SARS coronavirus Taiwan TC3
+http://purl.obolibrary.org/obo/NCBITaxon_240273 #SARS coronavirus ZMY 1
+http://purl.obolibrary.org/obo/NCBITaxon_240549 #SARS coronavirus TWH
+http://purl.obolibrary.org/obo/NCBITaxon_240550 #SARS coronavirus TWJ
+http://purl.obolibrary.org/obo/NCBITaxon_240551 #SARS coronavirus TWK
+http://purl.obolibrary.org/obo/NCBITaxon_240552 #SARS coronavirus TWS
+http://purl.obolibrary.org/obo/NCBITaxon_240553 #SARS coronavirus TWY
+http://purl.obolibrary.org/obo/NCBITaxon_241183 #SARS coronavirus BJ2232
+http://purl.obolibrary.org/obo/NCBITaxon_241628 #SARS coronavirus TWC2
+http://purl.obolibrary.org/obo/NCBITaxon_241629 #SARS coronavirus TWC3
+http://purl.obolibrary.org/obo/NCBITaxon_242743 #SARS coronavirus FRA
+http://purl.obolibrary.org/obo/NCBITaxon_243925 #SARS coronavirus HPZ-2003
+http://purl.obolibrary.org/obo/NCBITaxon_247149 #SARS coronavirus WHU
+http://purl.obolibrary.org/obo/NCBITaxon_248485 #SARS coronavirus AS
+http://purl.obolibrary.org/obo/NCBITaxon_249062 #SARS coronavirus GZ-A
+http://purl.obolibrary.org/obo/NCBITaxon_249063 #SARS coronavirus GZ-B
+http://purl.obolibrary.org/obo/NCBITaxon_249064 #SARS coronavirus GZ-C
+http://purl.obolibrary.org/obo/NCBITaxon_249065 #SARS coronavirus GZ-D
+http://purl.obolibrary.org/obo/NCBITaxon_249066 #SARS coronavirus HGZ8L1-A
+http://purl.obolibrary.org/obo/NCBITaxon_249067 #SARS coronavirus HGZ8L1-B
+http://purl.obolibrary.org/obo/NCBITaxon_249068 #SARS coronavirus HSZ2-A
+http://purl.obolibrary.org/obo/NCBITaxon_249069 #SARS coronavirus HSZ-A
+http://purl.obolibrary.org/obo/NCBITaxon_249070 #SARS coronavirus HSZ-Bb
+http://purl.obolibrary.org/obo/NCBITaxon_249071 #SARS coronavirus HSZ-Cb
+http://purl.obolibrary.org/obo/NCBITaxon_249072 #SARS coronavirus HZS2-Fb
+http://purl.obolibrary.org/obo/NCBITaxon_249073 #SARS coronavirus JMD
+http://purl.obolibrary.org/obo/NCBITaxon_249074 #SARS coronavirus HZS2-D
+http://purl.obolibrary.org/obo/NCBITaxon_249075 #SARS coronavirus HZS2-E
+http://purl.obolibrary.org/obo/NCBITaxon_249076 #SARS coronavirus HZS2-Fc
+http://purl.obolibrary.org/obo/NCBITaxon_249077 #SARS coronavirus HZS2-C
+http://purl.obolibrary.org/obo/NCBITaxon_249078 #SARS coronavirus HGZ8L2
+http://purl.obolibrary.org/obo/NCBITaxon_249079 #SARS coronavirus HSZ-Bc
+http://purl.obolibrary.org/obo/NCBITaxon_249080 #SARS coronavirus HSZ-Cc
+http://purl.obolibrary.org/obo/NCBITaxon_249081 #SARS coronavirus ZS-B
+http://purl.obolibrary.org/obo/NCBITaxon_249082 #SARS coronavirus ZS-A
+http://purl.obolibrary.org/obo/NCBITaxon_249083 #SARS coronavirus LC1
+http://purl.obolibrary.org/obo/NCBITaxon_249084 #SARS coronavirus LC2
+http://purl.obolibrary.org/obo/NCBITaxon_249085 #SARS coronavirus LC3
+http://purl.obolibrary.org/obo/NCBITaxon_249086 #SARS coronavirus LC4
+http://purl.obolibrary.org/obo/NCBITaxon_249087 #SARS coronavirus LC5
+http://purl.obolibrary.org/obo/NCBITaxon_249088 #SARS coronavirus ZS-C
+http://purl.obolibrary.org/obo/NCBITaxon_249089 #SARS coronavirus HZS2-Bb
+http://purl.obolibrary.org/obo/NCBITaxon_252654 #SARS coronavirus BJ302
+http://purl.obolibrary.org/obo/NCBITaxon_253433 #SARS coronavirus PUMC01
+http://purl.obolibrary.org/obo/NCBITaxon_253434 #SARS coronavirus PUMC02
+http://purl.obolibrary.org/obo/NCBITaxon_253435 #SARS coronavirus PUMC03
+http://purl.obolibrary.org/obo/NCBITaxon_253634 #SARS coronavirus HB
+http://purl.obolibrary.org/obo/NCBITaxon_255194 #SARS coronavirus SoD
+http://purl.obolibrary.org/obo/NCBITaxon_255729 #SARS coronavirus Sino3-11
+http://purl.obolibrary.org/obo/NCBITaxon_255730 #SARS coronavirus Sino1-11
+http://purl.obolibrary.org/obo/NCBITaxon_256753 #SARS coronavirus GZ02
+http://purl.obolibrary.org/obo/NCBITaxon_258445 #SARS coronavirus GD69
+http://purl.obolibrary.org/obo/NCBITaxon_258507 #SARS coronavirus ShanghaiQXC1
+http://purl.obolibrary.org/obo/NCBITaxon_258508 #SARS coronavirus ShanghaiQXC2
+http://purl.obolibrary.org/obo/NCBITaxon_258963 #SARS coronavirus TW10
+http://purl.obolibrary.org/obo/NCBITaxon_258964 #SARS coronavirus TW11
+http://purl.obolibrary.org/obo/NCBITaxon_258965 #SARS coronavirus TW2
+http://purl.obolibrary.org/obo/NCBITaxon_258966 #SARS coronavirus TW3
+http://purl.obolibrary.org/obo/NCBITaxon_258967 #SARS coronavirus TW4
+http://purl.obolibrary.org/obo/NCBITaxon_258968 #SARS coronavirus TW5
+http://purl.obolibrary.org/obo/NCBITaxon_258969 #SARS coronavirus TW6
+http://purl.obolibrary.org/obo/NCBITaxon_258970 #SARS coronavirus TW7
+http://purl.obolibrary.org/obo/NCBITaxon_258971 #SARS coronavirus TW8
+http://purl.obolibrary.org/obo/NCBITaxon_258972 #SARS coronavirus TW9
+http://purl.obolibrary.org/obo/NCBITaxon_260069 #SARS coronavirus HC/SZ/61/03
+http://purl.obolibrary.org/obo/NCBITaxon_260550 #SARS coronavirus CUHK-L2
+http://purl.obolibrary.org/obo/NCBITaxon_260743 #SARS coronavirus NS-1
+http://purl.obolibrary.org/obo/NCBITaxon_262338 #SARS coronavirus GD03T0013
+http://purl.obolibrary.org/obo/NCBITaxon_264370 #SARS coronavirus TW
+http://purl.obolibrary.org/obo/NCBITaxon_264371 #SARS coronavirus TW-HP1
+http://purl.obolibrary.org/obo/NCBITaxon_264372 #SARS coronavirus TW-HP2
+http://purl.obolibrary.org/obo/NCBITaxon_264373 #SARS coronavirus TW-HP3
+http://purl.obolibrary.org/obo/NCBITaxon_264374 #SARS coronavirus TW-HP4
+http://purl.obolibrary.org/obo/NCBITaxon_264375 #SARS coronavirus TW-JC2
+http://purl.obolibrary.org/obo/NCBITaxon_264376 #SARS coronavirus TW-KC1
+http://purl.obolibrary.org/obo/NCBITaxon_264377 #SARS coronavirus TW-KC3
+http://purl.obolibrary.org/obo/NCBITaxon_264378 #SARS coronavirus TW-GD1
+http://purl.obolibrary.org/obo/NCBITaxon_264379 #SARS coronavirus TW-GD2
+http://purl.obolibrary.org/obo/NCBITaxon_264380 #SARS coronavirus TW-GD3
+http://purl.obolibrary.org/obo/NCBITaxon_264381 #SARS coronavirus TW-GD4
+http://purl.obolibrary.org/obo/NCBITaxon_264382 #SARS coronavirus TW-GD5
+http://purl.obolibrary.org/obo/NCBITaxon_264383 #SARS coronavirus TW-YM1
+http://purl.obolibrary.org/obo/NCBITaxon_264384 #SARS coronavirus TW-YM2
+http://purl.obolibrary.org/obo/NCBITaxon_264385 #SARS coronavirus TW-YM3
+http://purl.obolibrary.org/obo/NCBITaxon_264386 #SARS coronavirus TW-YM4
+http://purl.obolibrary.org/obo/NCBITaxon_264387 #SARS coronavirus TW-PH1
+http://purl.obolibrary.org/obo/NCBITaxon_264388 #SARS coronavirus TW-PH2
+http://purl.obolibrary.org/obo/NCBITaxon_264988 #SARS coronavirus sf099
+http://purl.obolibrary.org/obo/NCBITaxon_264989 #SARS coronavirus cw049
+http://purl.obolibrary.org/obo/NCBITaxon_264990 #SARS coronavirus sf098
+http://purl.obolibrary.org/obo/NCBITaxon_265124 #SARS coronavirus cw037
+http://purl.obolibrary.org/obo/NCBITaxon_265125 #SARS coronavirus xw002
+http://purl.obolibrary.org/obo/NCBITaxon_266147 #SARS coronavirus Sin0409
+http://purl.obolibrary.org/obo/NCBITaxon_266148 #SARS coronavirus Sin_WNV
+http://purl.obolibrary.org/obo/NCBITaxon_267383 #SARS coronavirus Sin842
+http://purl.obolibrary.org/obo/NCBITaxon_267384 #SARS coronavirus Sin852
+http://purl.obolibrary.org/obo/NCBITaxon_267385 #SARS coronavirus Sin3408
+http://purl.obolibrary.org/obo/NCBITaxon_267386 #SARS coronavirus Sin3765V
+http://purl.obolibrary.org/obo/NCBITaxon_267387 #SARS coronavirus Sin848
+http://purl.obolibrary.org/obo/NCBITaxon_267388 #SARS coronavirus Sin849
+http://purl.obolibrary.org/obo/NCBITaxon_267389 #SARS coronavirus Sin3725V
+http://purl.obolibrary.org/obo/NCBITaxon_267390 #SARS coronavirus SinP1
+http://purl.obolibrary.org/obo/NCBITaxon_267391 #SARS coronavirus SinP2
+http://purl.obolibrary.org/obo/NCBITaxon_267392 #SARS coronavirus SinP3
+http://purl.obolibrary.org/obo/NCBITaxon_267393 #SARS coronavirus SinP4
+http://purl.obolibrary.org/obo/NCBITaxon_267394 #SARS coronavirus SinP5
+http://purl.obolibrary.org/obo/NCBITaxon_267395 #SARS coronavirus Sin845
+http://purl.obolibrary.org/obo/NCBITaxon_267396 #SARS coronavirus Sin846
+http://purl.obolibrary.org/obo/NCBITaxon_267397 #SARS coronavirus Sin847
+http://purl.obolibrary.org/obo/NCBITaxon_267398 #SARS coronavirus Sin850
+http://purl.obolibrary.org/obo/NCBITaxon_267399 #SARS coronavirus Sin3408L
+http://purl.obolibrary.org/obo/NCBITaxon_273522 #SARS coronavirus LLJ-2004
+http://purl.obolibrary.org/obo/NCBITaxon_281976 #SARS coronavirus GZ0401
+http://purl.obolibrary.org/obo/NCBITaxon_284672 #SARS coronavirus TJF
+http://purl.obolibrary.org/obo/NCBITaxon_285267 #SARS coronavirus HHS-2004
+http://purl.obolibrary.org/obo/NCBITaxon_285945 #Civet SARS CoV 007/2004
+http://purl.obolibrary.org/obo/NCBITaxon_285946 #SARS coronavirus civet010
+http://purl.obolibrary.org/obo/NCBITaxon_285947 #SARS coronavirus civet014
+http://purl.obolibrary.org/obo/NCBITaxon_285948 #SARS coronavirus civet019
+http://purl.obolibrary.org/obo/NCBITaxon_285949 #SARS coronavirus civet020
+http://purl.obolibrary.org/obo/NCBITaxon_291613 #SARS coronavirus GD322
+http://purl.obolibrary.org/obo/NCBITaxon_292360 #SARS Coronavirus CDC#200301157
+http://purl.obolibrary.org/obo/NCBITaxon_293319 #SARS coronavirus PC4-127
+http://purl.obolibrary.org/obo/NCBITaxon_293320 #SARS coronavirus PC4-205
+http://purl.obolibrary.org/obo/NCBITaxon_293321 #SARS coronavirus GZ0403
+http://purl.obolibrary.org/obo/NCBITaxon_293933 #SARS coronavirus GZ0402
+http://purl.obolibrary.org/obo/NCBITaxon_293934 #SARS coronavirus PC4-13
+http://purl.obolibrary.org/obo/NCBITaxon_293935 #SARS coronavirus PC4-136
+http://purl.obolibrary.org/obo/NCBITaxon_293936 #SARS coronavirus PC4-227
+http://purl.obolibrary.org/obo/NCBITaxon_296837 #SARS coronavirus PC4-115
+http://purl.obolibrary.org/obo/NCBITaxon_296838 #SARS coronavirus PC4-137
+http://purl.obolibrary.org/obo/NCBITaxon_296839 #SARS coronavirus PC4-145
+http://purl.obolibrary.org/obo/NCBITaxon_296840 #SARS coronavirus PC4-199
+http://purl.obolibrary.org/obo/NCBITaxon_296841 #SARS coronavirus PC4-241
+http://purl.obolibrary.org/obo/NCBITaxon_299335 #SARS coronavirus B039
+http://purl.obolibrary.org/obo/NCBITaxon_304858 #SARS coronavirus A022
+http://purl.obolibrary.org/obo/NCBITaxon_305401 #SARS coronavirus A001
+http://purl.obolibrary.org/obo/NCBITaxon_305402 #SARS coronavirus A013
+http://purl.obolibrary.org/obo/NCBITaxon_305403 #SARS coronavirus A021
+http://purl.obolibrary.org/obo/NCBITaxon_305404 #SARS coronavirus A030
+http://purl.obolibrary.org/obo/NCBITaxon_305405 #SARS coronavirus A031
+http://purl.obolibrary.org/obo/NCBITaxon_305406 #SARS coronavirus B012
+http://purl.obolibrary.org/obo/NCBITaxon_305407 #SARS coronavirus B024
+http://purl.obolibrary.org/obo/NCBITaxon_305408 #SARS coronavirus B029
+http://purl.obolibrary.org/obo/NCBITaxon_305409 #SARS coronavirus B033
+http://purl.obolibrary.org/obo/NCBITaxon_305410 #SARS coronavirus B040
+http://purl.obolibrary.org/obo/NCBITaxon_305411 #SARS coronavirus C013
+http://purl.obolibrary.org/obo/NCBITaxon_305412 #SARS coronavirus C014
+http://purl.obolibrary.org/obo/NCBITaxon_305413 #SARS coronavirus C017
+http://purl.obolibrary.org/obo/NCBITaxon_305414 #SARS coronavirus C018
+http://purl.obolibrary.org/obo/NCBITaxon_305415 #SARS coronavirus C019
+http://purl.obolibrary.org/obo/NCBITaxon_305416 #SARS coronavirus C025
+http://purl.obolibrary.org/obo/NCBITaxon_305417 #SARS coronavirus C028
+http://purl.obolibrary.org/obo/NCBITaxon_305418 #SARS coronavirus C029
+http://purl.obolibrary.org/obo/NCBITaxon_312027 #SARS coronavirus WH20
+http://purl.obolibrary.org/obo/NCBITaxon_321147 #SARS coronavirus BJ162
+http://purl.obolibrary.org/obo/NCBITaxon_321149 #SARS coronavirus BJ202
+http://purl.obolibrary.org/obo/NCBITaxon_333387 #Bat SARS coronavirus HKU3-1
+http://purl.obolibrary.org/obo/NCBITaxon_338605 #Bat SARS coronavirus HKU3-2
+http://purl.obolibrary.org/obo/NCBITaxon_338606 #Bat SARS coronavirus HKU3-3
+http://purl.obolibrary.org/obo/NCBITaxon_344702 #SARS coronavirus ZJ0301
+http://purl.obolibrary.org/obo/NCBITaxon_347536 #Bat SARS CoV Rm1/2004
+http://purl.obolibrary.org/obo/NCBITaxon_347537 #Bat SARS CoV Rf1/2004
+http://purl.obolibrary.org/obo/NCBITaxon_349342 #Bat SARS coronavirus Rp1
+http://purl.obolibrary.org/obo/NCBITaxon_349343 #Bat SARS coronavirus Rp2
+http://purl.obolibrary.org/obo/NCBITaxon_349344 #Bat SARS CoV Rp3/2004
+http://purl.obolibrary.org/obo/NCBITaxon_353145 #SARS coronavirus ZJ02
+http://purl.obolibrary.org/obo/NCBITaxon_385683 #SARS coronavirus CS21
+http://purl.obolibrary.org/obo/NCBITaxon_385684 #SARS coronavirus CS24
+http://purl.obolibrary.org/obo/NCBITaxon_385685 #SARS coronavirus ES191
+http://purl.obolibrary.org/obo/NCBITaxon_385686 #SARS coronavirus ES260
+http://purl.obolibrary.org/obo/NCBITaxon_385687 #SARS coronavirus WF188
+http://purl.obolibrary.org/obo/NCBITaxon_388737 #SARS coronavirus GDH-BJH01
+http://purl.obolibrary.org/obo/NCBITaxon_389166 #Bat CoV 273/2005
+http://purl.obolibrary.org/obo/NCBITaxon_389167 #Bat CoV 279/2005
+http://purl.obolibrary.org/obo/NCBITaxon_391355 #SARS coronavirus Frankfurt1-v01
+http://purl.obolibrary.org/obo/NCBITaxon_421444 #SARS coronavirus TJ01
+http://purl.obolibrary.org/obo/NCBITaxon_442736 #Bat SARS coronavirus HKU3
+http://purl.obolibrary.org/obo/NCBITaxon_511429 #SARS coronavirus BJ182-12
+http://purl.obolibrary.org/obo/NCBITaxon_511430 #SARS coronavirus BJ182-4
+http://purl.obolibrary.org/obo/NCBITaxon_511431 #SARS coronavirus BJ182-8
+http://purl.obolibrary.org/obo/NCBITaxon_511432 #SARS coronavirus BJ182a
+http://purl.obolibrary.org/obo/NCBITaxon_511433 #SARS coronavirus BJ182b
+http://purl.obolibrary.org/obo/NCBITaxon_627440 #SARS coronavirus ExoN1
+http://purl.obolibrary.org/obo/NCBITaxon_627442 #SARS coronavirus P2
+http://purl.obolibrary.org/obo/NCBITaxon_633137 #SARS coronavirus MA15
+http://purl.obolibrary.org/obo/NCBITaxon_633140 #SARS coronavirus MA15 ExoN1
+http://purl.obolibrary.org/obo/NCBITaxon_694009 #Severe acute respiratory syndrome-related coronavirus
+http://purl.obolibrary.org/obo/NCBITaxon_698398 #recombinant SARSr-CoV
+http://purl.obolibrary.org/obo/NCBITaxon_698419 #SARS coronavirus wtic-MB
+http://purl.obolibrary.org/obo/NCBITaxon_722424 #SARS coronavirus Rs_672/2006
+http://purl.obolibrary.org/obo/NCBITaxon_741997 #Bat SARS coronavirus HKU3-10
+http://purl.obolibrary.org/obo/NCBITaxon_741998 #Bat SARS coronavirus HKU3-11
+http://purl.obolibrary.org/obo/NCBITaxon_741999 #Bat SARS coronavirus HKU3-12
+http://purl.obolibrary.org/obo/NCBITaxon_742000 #Bat SARS coronavirus HKU3-13
+http://purl.obolibrary.org/obo/NCBITaxon_742001 #Bat SARS coronavirus HKU3-4
+http://purl.obolibrary.org/obo/NCBITaxon_742002 #Bat SARS coronavirus HKU3-5
+http://purl.obolibrary.org/obo/NCBITaxon_742003 #Bat SARS coronavirus HKU3-6
+http://purl.obolibrary.org/obo/NCBITaxon_742004 #Bat SARS coronavirus HKU3-7
+http://purl.obolibrary.org/obo/NCBITaxon_742005 #Bat SARS coronavirus HKU3-8
+http://purl.obolibrary.org/obo/NCBITaxon_742006 #Bat SARS coronavirus HKU3-9
+http://purl.obolibrary.org/obo/NCBITaxon_9397 #Chiroptera
+http://purl.obolibrary.org/obo/NCBITaxon_49442 #Rhinolophus
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapiens
+http://purl.obolibrary.org/obo/NCBITaxon_79446 #Pholidota <monocots>
+http://purl.obolibrary.org/obo/NCBITaxon_8570 #Serpentes
+http://purl.obolibrary.org/obo/NCBITaxon_358128 #Manis tricuspis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_1 #root
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

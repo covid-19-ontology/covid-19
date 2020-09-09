@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/TRANS_import.owl
+
+[Source ontology]
+TRANS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/TRANS_0000007 #contact
+http://purl.obolibrary.org/obo/TRANS_0000008 #droplet spread
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/TRANS_0000000 #transmission process
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

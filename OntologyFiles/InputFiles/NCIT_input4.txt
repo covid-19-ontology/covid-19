@@ -1,0 +1,28 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/NCIT_module4.owl.
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C85447 #Recombinant Human Angiotensin Converting Enzyme 2 APN01
+http://purl.obolibrary.org/obo/NCIT_C16389 #Cathepsin
+http://purl.obolibrary.org/obo/NCIT_C118505 #Presatovir
+http://purl.obolibrary.org/obo/NCIT_C82254 #Maribavir
+http://purl.obolibrary.org/obo/NCIT_C97364 #Tideglusib
+http://purl.obolibrary.org/obo/NCIT_C90808 #Apilimod
+http://purl.obolibrary.org/obo/NCIT_C1429 #Vapreotide
+http://purl.obolibrary.org/obo/NCIT_C82255 #Rupintrivir
+http://purl.obolibrary.org/obo/NCIT_C114983 #Beclabuvir
+http://purl.obolibrary.org/obo/NCIT_C142924 #Angiotensin II Acetate
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

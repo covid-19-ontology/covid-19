@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000775 #neutrophil
+http://purl.obolibrary.org/obo/CL_0000623 #natural killer cell
+http://purl.obolibrary.org/obo/CL_0000322 #pneumocyte
+http://purl.obolibrary.org/obo/CL_0000235 #macrophage
+http://purl.obolibrary.org/obo/CL_0000084 #T cell
+http://purl.obolibrary.org/obo/CL_0002038 #T follicular helper cell
+http://purl.obolibrary.org/obo/CL_0000236 #B cell
+http://purl.obolibrary.org/obo/CL_0000647 #multinucleated giant cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+subClassOf
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

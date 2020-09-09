@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/2jwx2upv.owl#"
+     xml:base="http://ontofox.hegroup.org/2jwx2upv.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/2jwx2upv.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+        <obo:IAO_0000115>A phenotypic abnormality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <oboInOwl:hasDbXref>UMLS:C4021819</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Organ abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>HP:0000118</oboInOwl:id>
+        <rdfs:comment>This is the root of the phenotypic abnormality subontology of the HPO.</rdfs:comment>
+        <rdfs:label>Phenotypic abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001871 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>An abnormality of the hematopoietic system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <oboInOwl:hasAlternativeId>HP:0003135</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>MSH:D006402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:191124002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:34093004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018939</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0850715</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C4020864</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormality of blood and blood-forming tissues</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormality of the hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hematological abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Abnormality of the haematopoietic system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hematologic disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>HP:0001871</oboInOwl:id>
+        <rdfs:comment>The hematopoietic system comprises the organs that are involved in the production of blood, primarily the bone marrow, spleen, tonsils, and lymph nodes.</rdfs:comment>
+        <rdfs:label>Abnormality of blood and blood-forming tissues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001928 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <obo:IAO_0000115>An abnormality of the process of blood coagulation. That is, altered ability or inability of the blood to clot.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <oboInOwl:hasDbXref>MSH:D001778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MSH:D006474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:362970003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:64779008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005779</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0019087</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1846821</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormal blood coagulation studies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Coagulation abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Coagulation abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Haemorrhagic disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Blood coagulation disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>HP:0001928</oboInOwl:id>
+        <rdfs:label>Abnormality of coagulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040224 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001928"/>
+        <obo:IAO_0000115>Clincial phenotype characterized by delayed bleeding accelerated break down of blood clot (fibrinolysis)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <oboInOwl:hasDbXref>UMLS:C4280719</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormality of the fibrinolytic system</oboInOwl:hasExactSynonym>
+        <rdfs:comment>requested and created by members of the BRIDGE consortium</rdfs:comment>
+        <rdfs:label>Abnormality of fibrinolysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040236 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040224"/>
+        <obo:IAO_0000115>Increased degradation of fibrin, associated with clot instability and bleeding</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <oboInOwl:hasDbXref>UMLS:C3805089</oboInOwl:hasDbXref>
+        <rdfs:comment>This term has been requested and created by members of the BRIDGE consortium</rdfs:comment>
+        <rdfs:label>Hyperfibrinolysis</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C71164 #Animal Model
+http://purl.obolibrary.org/obo/NCIT_C80519 #Biological Model
+http://purl.obolibrary.org/obo/NCIT_C160587 #Executive Function Disorder
+http://purl.obolibrary.org/obo/NCIT_C88419 #Executive Function
+http://purl.obolibrary.org/obo/NCIT_C17456 #Experimental Model
+http://purl.obolibrary.org/obo/NCIT_C19146 #In Vitro Model
+http://purl.obolibrary.org/obo/NCIT_C19148 #In Vivo Model
+http://purl.obolibrary.org/obo/NCIT_C19332 #Personal Attribute
+http://purl.obolibrary.org/obo/NCIT_C17103 #Risk Factor
+http://purl.obolibrary.org/obo/NCIT_C19272 #Transgenic Model
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_1 #root
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

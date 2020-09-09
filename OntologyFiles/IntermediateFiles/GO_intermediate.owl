@@ -1,0 +1,1366 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/GO_module1_import.owl.#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/GO_module1_import.owl."
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/GO_module1_import.owl."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <oboInOwl:hasDbXref>IAO:0000233</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>term_tracker_item</oboInOwl:id>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>term_tracker_item</oboInOwl:shorthand>
+        <rdfs:label>term tracker item</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromNCBIBook"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromSciBite"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>Combining with a virus component and mediating entry of the virus into the cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>viral receptor activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0001618</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <rdfs:label>virus receptor activity</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32201080"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>The process of syncytia-forming cell-cell fusion, caused by a virus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>induction by virus of cell-cell fusion in host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral-induced cell-cell fusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral-induced host cell-cell fusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>viral-induced membrane fusion</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006948</oboInOwl:id>
+        <rdfs:comment>Where syncytium formation results in the spread of virus in the host, also consider annotating to the term &apos;spread of virus in multicellular host ; GO:0046739&apos;.</rdfs:comment>
+        <rdfs:label>induction by virus of host cell-cell fusion</rdfs:label>
+        <rdfs:seeAlso>https://www.nature.com/articles/s41422-020-0305-x</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016032">
+        <obo:IAO_0000115>A multi-organism process in which a virus is a participant. The other participant is the host. Includes infection of a host cell, replication of the viral genome, and assembly of progeny virus particles. In some cases the viral genetic material may integrate into the host genome and only subsequently, under particular circumstances, &apos;complete&apos; its life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <oboInOwl:hasAlternativeId>GO:0022415</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Viral_life_cycle</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>virus process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral infection</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>virulence</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0016032</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:comment>See also the biological process terms &apos;viral infectious cycle ; GO:0019058&apos; and &apos;lysogeny ; GO:0030069&apos;.</rdfs:comment>
+        <rdfs:label>viral process</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19430490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019013">
+        <obo:IAO_0000115>The complete protein-nucleic acid complex that is the packaged form of the genome in a virus particle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0019014</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>core</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>nucleocapsid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019013</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <rdfs:label>viral nucleocapsid</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32218151"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019028">
+        <obo:IAO_0000115>The protein coat that surrounds the infective nucleic acid in some virus particles. It comprises numerous regularly arranged subunits, or capsomeres.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0046728</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Capsid</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019028</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <rdfs:label>viral capsid</rdfs:label>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019028"/>
+        <obo:IAO_0000115>The protein coat that surrounds the infective nucleic acid in some virus particles; the subunits are arranged to form a protein helix with the genetic material contained within. Tobacco mosaic virus has such a capsid structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019029</oboInOwl:id>
+        <rdfs:label>helical viral capsid</rdfs:label>
+        <rdfs:seeAlso>https://geneticeducation.co.in/novel-coronavirus-covid-19-structure-genome-and-testing/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0036338"/>
+        <obo:IAO_0000115>The lipid bilayer of a virion that surrounds the protein capsid. May also contain glycoproteins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Viral_envelope</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>viral outside membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral glycoprotein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019031</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <rdfs:label>viral envelope</rdfs:label>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The process by which, after initial infection, a virus lies dormant within a cell and viral production ceases. The process ends when the virus switches from latency and starts to replicate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0030069</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0075710</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>latent virus infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phage lysogeny</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral dormancy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019042</oboInOwl:id>
+        <rdfs:label>viral latency</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32234466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The process by which a virus begins to replicate following a latency replication decision (switch).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0075717</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019046</oboInOwl:id>
+        <rdfs:label>release from viral latency</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32275181"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The process in which a virus effects a change in the structure or processes of its host organism.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/18605</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/18719</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>janelomax</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-08-01T13:41:00Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0044661</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0044792</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>virus-host interaction</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VZ:886</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>host-virus interaction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>modulation by virus of host anatomy or process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral interaction with host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral-host process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus-host process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>disruption by virus of host cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>modulation by virus of host anatomical structure or process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>modulation by virus of host morphology or physiology</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019048</oboInOwl:id>
+        <rdfs:label>modulation by virus of host process</rdfs:label>
+        <rdfs:seeAlso>https://www.researchsquare.com/article/rs-17218/v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039526"/>
+        <obo:IAO_0000115>The set of viral processes that induce an apoptotic process in infected host cells, facilitating release and spread of progeny virions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>activation by virus of host apoptosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>activation by virus of host apoptotic programmed cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>activation of apoptosis in host by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>induction by virus of host apoptotic programmed cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>induction of apoptosis in host by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>induction by virus of host apoptosis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019051</oboInOwl:id>
+        <rdfs:label>induction by virus of host apoptotic process</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32226295"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <obo:IAO_0000115>The process in which a virus effects a change in the processes and activities of its host organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>modulation by virus of host process</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>modification by virus of host cellular process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation by virus of host cellular process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of cellular process in host by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of host cellular process by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral host cell process manipulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>modulation of cellular process in host by virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019054</oboInOwl:id>
+        <rdfs:label>modulation by virus of host cellular process</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>A set of processes which all viruses follow to ensure survival; includes attachment and entry of the virus particle, decoding of genome information, translation of viral mRNA by host ribosomes, genome replication, and assembly and release of viral particles containing the genome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0019067</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>viral assembly, maturation, egress, and release</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>lytic viral life cycle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>viral infectious cycle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>viral replication</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019058</oboInOwl:id>
+        <rdfs:label>viral life cycle</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32257431"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The process by which an incoming virus is disassembled in the host cell to release a replication-competent viral genome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>viral uncoating</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019061</oboInOwl:id>
+        <rdfs:label>uncoating of virus</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32265180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The process by which a virion protein binds to molecules on the host cellular surface or host cell surface projection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>VZ:956</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>viral absorption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>virion attachment to host cell surface receptor</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral attachment to host cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019062</oboInOwl:id>
+        <rdfs:label>virion attachment to host cell</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32265180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>Fusion of a viral membrane with the host cell membrane during viral entry. Results in release of the virion contents into the cytoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0075706</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>viral envelope fusion</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>viral penetration via membrane fusion</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VZ:987</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>viral envelope fusion with host cell membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral envelope fusion with host membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral envelope fusion with host plasma membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral entry into host cell via membrane fusion with the plasma membrane</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>viral-cell fusion molecule activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019064</oboInOwl:id>
+        <rdfs:label>fusion of virus membrane with host plasma membrane</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencedaily.com/releases/2020/04/200407150816.htm</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>Any receptor-mediated endocytosis that is involved in the uptake of a virus into a host cell; successive instances of virus endocytosis result in the accumulation of virus particles within the cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>receptor mediated endocytosis by host of virus particle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>receptor mediated endocytosis of virus by host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>receptor mediated endocytosis of virus particle by host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>receptor-mediated endocytosis of virus by host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral receptor mediated endocytosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus receptor-mediated endocytosis by host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral entry into host cell via receptor-mediated endocytosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0019065</oboInOwl:id>
+        <rdfs:label>receptor-mediated endocytosis of virus by host cell</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/18227861"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>A late phase of the viral life cycle during which all the components necessary for the formation of a mature virion collect at a particular site in the cell and the basic structure of the virus particle is formed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0042963</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>viral assembly</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral particle assembly</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virion assembly and maintenance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virion organization</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus assembly</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus particle assembly</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>bacteriophage assembly</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>phage assembly</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019068</oboInOwl:id>
+        <rdfs:label>virion assembly</rdfs:label>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The encapsulation of the viral genome within the capsid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019072</oboInOwl:id>
+        <rdfs:label>viral genome packaging</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32282268"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019072"/>
+        <obo:IAO_0000115>The packaging of viral RNA (single-stranded or double-stranded) into a nucleocapsid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019074</oboInOwl:id>
+        <rdfs:label>viral RNA genome packaging</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32282268"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The refolding and structural rearrangements of virion parts to transition from the intermediate virion to the more mature virion. Maturation usually involves proteolysis events and changes in the folding of the virion proteins. Can occur inside the host cell or after release.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>viral maturation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>bacteriophage maturation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019075</oboInOwl:id>
+        <rdfs:label>virus maturation</rdfs:label>
+        <rdfs:seeAlso>https://prosite.expasy.org/sars-cov-2.html</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The dissemination of mature viral particles from the host cell, e.g. by cell lysis or the budding of virus particles from the cell membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>VZ:1076</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>release of virus from host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral exit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral release</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral shedding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus exit from host cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019076</oboInOwl:id>
+        <rdfs:label>viral release from host cell</rdfs:label>
+        <rdfs:seeAlso>https://www.antibodies-online.com/resources/18/5410/sars-cov-2-life-cycle-stages-and-inhibition-targets/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>Any process involved directly in viral genome replication, including viral nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>viral replication</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasNarrowSynonym>sigma virus replication</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019079</oboInOwl:id>
+        <rdfs:label>viral genome replication</rdfs:label>
+        <rdfs:seeAlso>https://www.antibodies-online.com/resources/18/5410/sars-cov-2-life-cycle-stages-and-inhibition-targets/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>A process by which a viral gene is converted into a mature gene product or products (proteins or RNA). This includes viral transcription, processing to produce a mature RNA product, and viral translation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>viral genome expression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019080</oboInOwl:id>
+        <rdfs:label>viral gene expression</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32221306"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>A process by which viral mRNA is translated into viral protein, using the host cellular machinery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>viral protein anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral protein biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral protein biosynthetic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral protein formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral protein synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019081</oboInOwl:id>
+        <rdfs:label>viral translation</rdfs:label>
+        <rdfs:seeAlso>https://www.antibodies-online.com/resources/18/5410/sars-cov-2-life-cycle-stages-and-inhibition-targets/</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a viral protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019082</oboInOwl:id>
+        <rdfs:label>viral protein processing</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.02.19.956581v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>The process by which a viral genome, or part of a viral genome, is transcribed within the host cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019083</oboInOwl:id>
+        <rdfs:label>viral transcription</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32265180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <obo:IAO_0000115>A process by which a virus avoids the effects of the host organism&apos;s immune response. The host is defined as the larger of the organisms involved in a symbiotic interaction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0019052</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0019053</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>inhibition of extracellular antiviral response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mitigation by virus of host immune response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation by virus of extracellular antiviral response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation by virus of intracellular antiviral response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation of host extracellular antiviral response by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation of host intracellular antiviral response by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host extracellular antiviral response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host intracellular antiviral response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression of host extracellular antiviral response by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression of host intracellular antiviral response by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral inhibition of intracellular antiviral response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>evasion by virus of host immune response</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>suppression by virus of host immune response</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>evasion or tolerance by virus of host immune response</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0030683</oboInOwl:id>
+        <rdfs:label>mitigation of host immune response by virus</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145538/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0036338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036338">
+        <obo:IAO_0000115>The lipid bilayer of a virion, a complete fully infectious extracellular virus particle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-09-07T13:28:21Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0036338</oboInOwl:id>
+        <rdfs:label>viral membrane</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32265180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any viral process that results in the inhibition of host cell type I interferon production. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-05-11T03:53:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:875</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>negative regulation by virus of host type I interferon production</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host interferon type I production</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host type I IFN production</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039501</oboInOwl:id>
+        <rdfs:label>suppression by virus of host type I interferon production</rdfs:label>
+        <rdfs:seeAlso>https://jvi.asm.org/content/91/8/e02143-16</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030683"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the frequency, rate or extent of the innate immune response of the host organism, the host&apos;s first line of defense.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-05-11T04:31:17Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>inhibition of host innate immune response by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation by virus of host innate immune response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation by virus of host innate immunity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host innate immunity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039503</oboInOwl:id>
+        <rdfs:label>suppression by virus of host innate immune response</rdfs:label>
+        <covid:fromNCBIBook>true</covid:fromNCBIBook>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/books/NBK554776/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <obo:IAO_0000115>The process in which a virus effects a change in host enzyme activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-16T02:59:35Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>modulation of catalytic activity of host by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation by virus of host catalytic activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of host catalytic activity by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039516</oboInOwl:id>
+        <rdfs:label>modulation by virus of host catalytic activity</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/19052324"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039516"/>
+        <obo:IAO_0000115>The process in which a virus effects a change in host protein serine/threonine phosphatase activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-16T03:04:14Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>modulation by virus of protein serine/threonine phosphatase activity in host</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation by virus of host protein serine/threonine phosphatase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039517</oboInOwl:id>
+        <rdfs:label>modulation by virus of host protein serine/threonine phosphatase activity</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.04.01.020941v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any process in which a virus effect a change in the frequency, rate or extent of autophagy in the host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T04:19:19Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>regulation by virus of host autophagy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039519</oboInOwl:id>
+        <rdfs:label>modulation by virus of host autophagy</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32228226"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039519"/>
+        <obo:IAO_0000115>Any process in which a virus activates or increases the frequency, rate or extent of autophagy in the host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T04:24:47Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>positive regulation by virus of host autophagy</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VZ:846</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>activation of host autophagy by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039520</oboInOwl:id>
+        <rdfs:label>induction by virus of host autophagy</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7098027/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the frequency, rate or extent of movement of mRNA from the nucleus to the cytoplasm in the host organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T04:34:14Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>negative regulation by virus of host mRNA nuclear export</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VZ:902</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>inhibition by virus of host mRNA nuclear export</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inhibition of host mRNA nuclear export by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression of host mRNA nuclear export by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039522</oboInOwl:id>
+        <rdfs:label>suppression by virus of host mRNA export from nucleus</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the frequency, rate or extent of mRNA processing in the host cell. mRNA processing is the conversion of a primary mRNA transcript into one or more mature mRNA(s) prior to translation into polypeptide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T04:51:55Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>negative regulation by virus of host mRNA processing</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VZ:903</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>inhibition by virus of host mRNA processing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inhibition of host mRNA processing by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inhibition of host pre-mRNA processing by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039524</oboInOwl:id>
+        <rdfs:label>suppression by virus of host mRNA processing</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any process in which a virus effects a change in the organization of chromatin in the host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T05:11:13Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>modulation by virus of host chromatin organisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>modulation of host chromatin by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>modulation of host chromatin structure by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>regulation by virus of host chromatin organization</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0039525</oboInOwl:id>
+        <rdfs:label>modulation by virus of host chromatin organization</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32228226"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any process in which a virus modulates the frequency, rate or extent of apoptosis of infected host cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T05:22:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:1581</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>modulation by virus of host apoptosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>modulation of host cell apoptosis by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation by virus of host apoptosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039526</oboInOwl:id>
+        <rdfs:label>modulation by virus of host apoptotic process</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32228226"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039503"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the activity of MAVS (mitochondrial antiviral signaling protein), a signal transducer that lies downstream of the viral RNA receptors MDA-5 and RIG-I to coordinate host innate immune responses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-01-19T02:37:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:704</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>inhibition of host MAVS by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host mitochondrial antiviral-signaling protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039545</oboInOwl:id>
+        <rdfs:comment>This term is for annotation of viral proteins that counteract the host anti-viral innate immune response.</rdfs:comment>
+        <rdfs:label>suppression by virus of host MAVS activity</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/25135833"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039503"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the activity of host IRF3 (interferon regulatory factor-3), a transcription factor in the RIG-I/MDA-5 signaling pathway. Viral infection triggers phosphorylation of cytoplasmic IRF3, which allows IRF3 to form a homodimer, migrate to the nucleus, and activate transcription of IFN-alpha and IFN-beta genes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-01-19T04:04:26Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>Inhibition of IRF3-dependent antiviral response</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VZ:757</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>inhibition of host IRF3 by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host interferon regulatory factor 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039548</oboInOwl:id>
+        <rdfs:comment>This term is for annotation of viral proteins that counteract the host anti-viral innate immune response.</rdfs:comment>
+        <rdfs:label>suppression by virus of host IRF3 activity</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4272517/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039503"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the activity of MDA-5 (also known as IFIH1). The cytoplasmic pattern recognition receptor MDA-5 detects dsRNA synthesized during active viral replication and triggers a signaling pathway to protect the host against viral infection, for example by inducing the expression of antiviral cytokines.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-03-09T03:03:49Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:603</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Inhibition of host MDA5 by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>inhibition of host IFIH1/MDA5 by virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0039554</oboInOwl:id>
+        <rdfs:label>suppression by virus of host MDA-5 activity</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24509444"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039503"/>
+        <obo:IAO_0000115>Any process in which a virus stops, prevents, or reduces the activity of host IRF7 (interferon regulatory factor-7), a transcription factor in the RIG-I/MDA-5 signaling pathway. Viral infection triggers phosphorylation of cytoplasmic IRF7, which allows IRF7 to form a homodimer, migrate to the nucleus, and activate transcription of IFN-alpha and IFN-beta genes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-03-09T04:17:46Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:653</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>inhibition of host IRF7 by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inhibition of host interferon regulatory factor-7 by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suppression by virus of host interferon regulatory factor 7 activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039557</oboInOwl:id>
+        <rdfs:comment>This term is for annotation of viral proteins that counteract the host anti-viral innate immune response.</rdfs:comment>
+        <rdfs:label>suppression by virus of host IRF7 activity</rdfs:label>
+        <rdfs:seeAlso>https://www.preprints.org/manuscript/202003.0206/v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any viral process which decreases the rate or extent of a host cell leaving M phase of the cell cycle. M phase is the part of the mitotic cell cycle during which mitosis and cytokinesis take place.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-06-25T02:21:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:877</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>inhibition of host mitotic exit by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039593</oboInOwl:id>
+        <rdfs:label>suppression by virus of host exit from mitosis</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/17413032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>The process in which a virus increases the frequency, rate or extent of the breakdown of host messenger RNA (mRNA).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-07-04T03:14:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:901</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>induction by virus of host mRNA catabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>induction of host mRNA decay</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>promotion of host mRNA degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral induction of host mRNA decay</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus-mediated mRNA decay</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039595</oboInOwl:id>
+        <rdfs:label>induction by virus of catabolism of host mRNA</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32292689"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <obo:IAO_0000115>Any process in which a host pre-mRNA or mRNA molecule is cleaved at specific sites or in a regulated manner by a viral endoribonuclease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-07-04T05:09:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>host mRNA cleavage by viral endoribonuclease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral endoribonuclease activity involved in degradation of host mRNA</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0039599</oboInOwl:id>
+        <rdfs:label>cleavage by virus of host mRNA</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/27712623"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any process in which a virus prevents or reduces the frequency, rate or extent of translation of host mRNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-07-05T04:25:22Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:1579</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>host translation shutoff by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral inhibition of cellular protein synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral shutoff of host protein synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039604</oboInOwl:id>
+        <rdfs:label>suppression by virus of host translation</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any viral process that modulates the frequency, rate or extent of phosphorylation of viral or host proteins in a host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-07-06T11:13:59Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039612</oboInOwl:id>
+        <rdfs:label>modulation by virus of host protein phosphorylation</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039612"/>
+        <obo:IAO_0000115>Any process in which a virus activates or increases the frequency, rate or extent of phosphorylation of viral or host proteins in a host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-07-06T11:15:56Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039614</oboInOwl:id>
+        <rdfs:label>induction by virus of host protein phosphorylation</rdfs:label>
+        <rdfs:seeAlso>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016032"/>
+        <obo:IAO_0000115>Any process mediated by a virus that results in the death of a cell in the host organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-08-10T14:44:40Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>killing by virus of host cells</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>killing by phage of host cells</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039633</oboInOwl:id>
+        <rdfs:label>killing by virus of host cell</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32311318"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0039633"/>
+        <obo:IAO_0000115>The viral-killing of a host cell by a pre-existing virus in response to a subsequent infection of the host cell by second virus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-08-10T14:46:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>killing by virus of host cells during superinfection exclusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>killing by virus of host cells involved in superinfection exclusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>Rex exclusion</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039634</oboInOwl:id>
+        <rdfs:label>killing by virus of host cell during superinfection exclusion</rdfs:label>
+        <rdfs:seeAlso>https://www.preprints.org/manuscript/202003.0310/v1</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019062"/>
+        <obo:IAO_0000115>The process by which a virion attaches to a host cell by binding to a lipopolysaccharide (LPS) on the host cell surface.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-08-17T10:13:06Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>LPS binding involved in viral attachment to host cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lipopolysaccharide binding involved in viral attachment to host cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virion attachment, binding to host lipopolysaccharide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039638</oboInOwl:id>
+        <rdfs:label>lipopolysaccharide-mediated virion attachment to host cell</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32167747"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039642">
+        <obo:IAO_0000115>The region of a virion in which the nucleic acid is confined.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-09-07T14:14:52Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039642</oboInOwl:id>
+        <rdfs:label>virion nucleoid</rdfs:label>
+        <rdfs:seeAlso>http://ircmj.com/articles/102812.html</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <covid:fromSciBite>true</covid:fromSciBite>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0039646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0039646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
+        <obo:IAO_0000115>Any viral process that modulates the frequency, rate or extent of the host cell G0/G1 transition checkpoint.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>rfoulger</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-10-09T15:11:22Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>VZ:881</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>G0/G1 host cell cycle checkpoint dysregulation by virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0039646</oboInOwl:id>
+        <rdfs:label>modulation by virus of host G0/G1 transition checkpoint</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <covid:fromSciBite>true</covid:fromSciBite>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/16303160"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

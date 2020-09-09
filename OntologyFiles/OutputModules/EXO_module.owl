@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/k7mefxet.owl#"
+     xml:base="http://ontofox.hegroup.org/k7mefxet.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/k7mefxet.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/creation_date"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/def -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/def"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ExO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000064">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/exo.owl"/>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cmattin</obo:created_by>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-01-11T01:22:29Z</obo:creation_date>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process with the objective to produce information about some evaluant.</obo:def>
+        <obo:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay</obo:namespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExO:0000064</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ExO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ExO_0000064"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/exo.owl"/>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cmattin</obo:created_by>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-01-11T01:26:51Z</obo:creation_date>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A representation.</obo:def>
+        <obo:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay</obo:namespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExO:0000072</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ExO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ExO_0000072"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/exo.owl"/>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cmattin</obo:created_by>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-01-11T01:27:47Z</obo:creation_date>
+        <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A representation of a particular system or subject matter that is computer-derived.</obo:def>
+        <obo:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay</obo:namespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExO:0000075</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computational</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

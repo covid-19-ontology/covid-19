@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0000458 #Anosmia
+http://purl.obolibrary.org/obo/HP_0031695 #Severe parainfluenza infection
+http://purl.obolibrary.org/obo/HP_0025180 #Centrilobular ground-glass opacification on pulmonary HRCT
+http://purl.obolibrary.org/obo/HP_0011227 #Elevated C-reactive protein level
+http://purl.obolibrary.org/obo/HP_0032177 #Parenchymal consolidation
+http://purl.obolibrary.org/obo/HP_0030879 #Interlobular septal thickening on pulmonary HRCT
+http://purl.obolibrary.org/obo/HP_0011112 #Abnormality of serum cytokine level
+http://purl.obolibrary.org/obo/HP_0003281 #Increased serum ferritin
+http://purl.obolibrary.org/obo/HP_0002098 #Respiratory distress
+http://purl.obolibrary.org/obo/HP_0001945 #Fever
+http://purl.obolibrary.org/obo/HP_0002958 #Immune dysregulation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

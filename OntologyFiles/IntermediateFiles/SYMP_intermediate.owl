@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/3ipcv2km.owl#"
+     xml:base="http://ontofox.hegroup.org/3ipcv2km.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:covid="https://bio.scai.fraunhofer.de/ontology/covid#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/3ipcv2km.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromArticle -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromArticle"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#fromPubMed"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDbXRef"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>seizure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000124</oboInOwl:id>
+        <rdfs:label>seizure</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl1:hasDefinition>Sudden, involuntary skeletal muscular contractions of cerebral or brain stem origin.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Sudden, involuntary skeletal muscular contractions of cerebral or brain stem origin.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C2962</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000128</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:label>conjunctivitis</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl1:hasDefinition>Conjunctivitis is an inflammation or swelling of the conjunctiva.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000128"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Conjunctivitis is an inflammation or swelling of the conjunctiva.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.aoa.org/patients-and-public/eye-and-vision-problems/glossary-of-eye-and-vision-conditions/conjunctivitis</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>fecal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000146</oboInOwl:id>
+        <rdfs:label>feces and droppings symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000597"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000387</oboInOwl:id>
+        <rdfs:label>head symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:787</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:5330</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284224</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000459</oboInOwl:id>
+        <rdfs:label>digestive system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
+        <obo:IAO_0000115>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>SyOID:14974</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000462</oboInOwl:id>
+        <rdfs:label>symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:90</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284131</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000480</oboInOwl:id>
+        <rdfs:label>nervous system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:5868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0476271</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284200</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000514</oboInOwl:id>
+        <rdfs:label>respiratory system and chest symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115>Hemoptysis is a respiratory system and chest symptom characterized by an expectoration of blood from some part of the respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:15073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0019079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0067232</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>coughing up of blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>expectoration of blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>expectoration of blood-stained sputum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>haemoptysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000517</oboInOwl:id>
+        <rdfs:label>hemoptysis</rdfs:label>
+        <covid:fromPubMed>true</covid:fromPubMed>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/?term=32113704"/>
+        <oboInOwl1:hasExactSynonym>haemoptysis</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159028</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284119</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000567</oboInOwl:id>
+        <rdfs:label>general symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
+        <obo:IAO_0000115>Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:787.91</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:3517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0011991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0048148</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bacterial gastroenteritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diarrhoea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fecal incontinence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>incontinence of feces</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>loose bowel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>loose bowels</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>the runs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000570</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:label>diarrhea</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl1:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32278065"/>
+        <oboInOwl1:hasExactSynonym>diarrhoea</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:784</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SyOID:7123</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0476247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284173</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000597</oboInOwl:id>
+        <rdfs:label>head and neck symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000692</oboInOwl:id>
+        <rdfs:label>low blood pressure</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl1:hasDefinition>A blood pressure reading lower than 90 millimeters of mercury (mm Hg) for the top number (systolic) or 60 mm Hg for the bottom number (diastolic) is generally considered low blood pressure.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym>plummeting blood pressure</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000692"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>A blood pressure reading lower than 90 millimeters of mercury (mm Hg) for the top number (systolic) or 60 mm Hg for the bottom number (diastolic) is generally considered low blood pressure.</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.mayoclinic.org/diseases-conditions/low-blood-pressure/symptoms-causes/syc-20355465</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115>Stroke is a nervous system symptom characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasExactSynonym>apoplexy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>brain attack</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebral accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cerebrovascular accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000734</oboInOwl:id>
+        <rdfs:label>stroke</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0017795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0017795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0017795</oboInOwl:id>
+        <rdfs:label>hemic and immune system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0017795"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019138</oboInOwl:id>
+        <rdfs:label>immune system symptom</rdfs:label>
+        <rdfs:seeAlso>https://www.sciencemag.org/news/2020/04/how-does-coronavirus-kill-clinicians-trace-ferocious-rampage-through-body-brain-toes</rdfs:seeAlso>
+        <covid:fromArticle>true</covid:fromArticle>
+        <oboInOwl1:hasDefinition>Symptoms of Immune System Problems</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym>immune system in overdrive</oboInOwl1:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019138"/>
+        <owl:annotatedProperty rdf:resource="https://bio.scai.fraunhofer.de/ontology/covid#oboInOwl:hasDefinition"/>
+        <owl:annotatedTarget>Symptoms of Immune System Problems</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.webmd.com/cold-and-flu/immune-system-disorders</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000387"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019163</oboInOwl:id>
+        <rdfs:label>eye symptom</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NBO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NBO_0000607 #cognitive behavior
+http://purl.obolibrary.org/obo/NBO_0001845 #consumption behavior
+http://purl.obolibrary.org/obo/NBO_0000003 #emotional behavior
+http://purl.obolibrary.org/obo/NBO_0000119 #impulsive behavior
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NBO_0000313 #behavior process
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]

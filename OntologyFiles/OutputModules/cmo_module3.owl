@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/CMO_import3.owl#"
+     xml:base="http://purl.obolibrary.org/obo/CMO_import3.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/CMO_import3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/creation_date"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/def -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/def"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOWL#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOWL#hasRelatedSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000000 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000000">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def>A quantitative or qualitative value which is the result of an act of assessing a morphological or physiological state or property in a single individual or sample or a group of individuals or samples, based on direct observation or experimental manipulation.</obo:def>
+        <rdfs:label>clinical measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000001 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def>Any value resulting from the quantification of a morphological or physiological parameter pertaining to the heart and/or blood vessels.</obo:def>
+        <rdfs:label>cardiovascular measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000023 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000035"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def>A quantification of a parameter of the chemical composition of blood.</obo:def>
+        <oboInOWL:hasRelatedSynonym>blood molecular composition measurement</oboInOWL:hasRelatedSynonym>
+        <rdfs:label>blood chemistry measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000035 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def>A measurement of the blood, it&apos;s contents, cells or other factors contained within the blood.</obo:def>
+        <rdfs:label>blood measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000036 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:def>A value resulting from the quantification of a morphological or physiological parameter of blood cells, i.e. cells native to the circulation, including those of erythroid, lymphoid, myeloid and monocytic lineages. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning.</obo:def>
+        <rdfs:label>blood cell measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000227 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:created_by>mshimoyama</obo:created_by>
+        <obo:creation_date>2010-06-17T10:30:36Z</obo:creation_date>
+        <obo:def>Any quantification of a morphological or physiological parameter of one or more cells.  A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning.</obo:def>
+        <rdfs:label>cell measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000294 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <obo:created_by>mshimoyama</obo:created_by>
+        <obo:creation_date>2010-08-04T10:37:40Z</obo:creation_date>
+        <obo:def>The count of the rhythmic contractions and expansions of an artery due to the surge of blood from the beat of the heart.</obo:def>
+        <rdfs:label>pulse</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.4) https://github.com/owlcs/owlapi/ -->
+
+

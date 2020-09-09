@@ -1,0 +1,24 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0001312 #imaging technique
+http://purl.obolibrary.org/obo/ERO_0000833 #molecular assay
+http://purl.obolibrary.org/obo/ERO_0001285 #organismal assay
+http://purl.obolibrary.org/obo/ERO_0001292 #physiological assay
+http://purl.obolibrary.org/obo/ERO_0000606 #psychological and behavioral intervention
+http://purl.obolibrary.org/obo/ERO_0000007 #technique
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+
+
+[Source annotation URIs to be excluded]
