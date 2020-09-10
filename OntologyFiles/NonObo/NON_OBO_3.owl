@@ -188,7 +188,7 @@
 	<covid:CommentonDefinition>Modified definition</covid:CommentonDefinition>
 	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
 	<covid:fromPubMed>true</covid:fromPubMed>
-	<oboInOwl:hasDbXRef rdf:resource=" https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
 	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32166607"/>
 	<oboInOwl:hasDefinition>Coughing by symptomatic patients.</oboInOwl:hasDefinition>
 </rdf:Description>
@@ -303,7 +303,7 @@
 	<rdfs:label>sneezing by symptomatic patient</rdfs:label>
 	<covid:CommentonHierarchy>behaviour process</covid:CommentonHierarchy>
 	<covid:fromPubMed>true</covid:fromPubMed>
-	<oboInOwl:hasDbXRef rdf:resource=" https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
+	<oboInOwl:hasDbXRef rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/32105090"/>
 	<oboInOwl:hasDefinition>Sneezing by symptomatic patients.</oboInOwl:hasDefinition>
 </rdf:Description>
 
